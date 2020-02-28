@@ -13,23 +13,15 @@ Assume that football player with success rate 0.4 shot 10 times on goal. Let $X$
 
 ## Solutions in R
 
-Solution 1
-
 ```{r}
+## Solution to 1
 data.frame(trials = 0:10, p = dbinom(x = 0:10, size = 10, prob = 0.4))
-```
 
+## Solution to 2
 
-Solution 2
-
-```{r}
 dbinom(x = 4, size = 10, prob = 0.4)
-```
 
-
-Solution 3
-
-```{r}
+## Solution to 3
 1 - pbinom(q = 6, size = 10, prob = 0.4)
 ```
 
