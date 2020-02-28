@@ -1,0 +1,76 @@
+---
+title: "Excercises"
+output: html_notebook
+---
+
+# Exercise 1
+
+Assume that football player with success rate 0.4 shot 10 times on goal. Let $X$ be a random variable denoting number of successful scores.  Please find:
+
+1. Distribution of $X$
+2. Probability that football player score exactly 4 times ($P(X=4)$)
+3. Probability that football player score at least 7 times ($P(X>=7) = 1- P(X <= 6)$)
+
+## Solutions in R
+
+Solution 1
+
+```{r}
+data.frame(trials = 0:10, p = dbinom(x = 0:10, size = 10, prob = 0.4))
+```
+
+
+Solution 2
+
+```{r}
+dbinom(x = 4, size = 10, prob = 0.4)
+```
+
+
+Solution 3
+
+```{r}
+1 - pbinom(q = 6, size = 10, prob = 0.4)
+```
+
+## Solutions in Python
+
+```{python, engine.path = "/usr/local/anaconda3/bin/python"}
+#import numpy as np ## numerical 
+#import scipy as sp ## scientific 
+import scipy.stats as stats
+import pandas as pd ## data processing
+
+## Solution to 1
+x = range(0,11)
+p = [stats.binom.pmf(i, 10, 0.4) for i in x]
+pd.DataFrame(data = {"x": x, "p": p})
+
+## Solution to 2
+stats.binom.pmf(4,10,0.4)
+
+## Solution to 3
+1 - stats.binom.cdf(6,10,0.4)
+```
+
+
+## Solutions in Julia
+
+```{julia, engine.path = "/Applications/Julia-1.3.app/Contents/Resources/julia/bin/"}
+using Distributions ## for distributions
+using DataFrames
+
+## Solution  to 1
+hcat(0:10, [pdf(Binomial(10,0.4), i) for i in 0:10])
+
+## Solution to 2
+pdf(Binomial(10,0.4), 4)
+
+## Solution to 3
+1- cdf(Binomial(10,0.4), 6)
+```
+```
+
+
+
+
