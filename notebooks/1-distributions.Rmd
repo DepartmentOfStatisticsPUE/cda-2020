@@ -3,6 +3,13 @@ title: "Excercises"
 output: html_notebook
 ---
 
+```{r, echo = FALSE, include = FALSE}
+knitr::opts_chunk$set(engine.path = list(
+  python = "/usr/local/anaconda3/bin/python",
+  julia = "/Applications/Julia-1.3.app/Contents/Resources/julia/bin/"
+))
+```
+
 # Exercise 1
 
 Assume that football player with success rate 0.4 shot 10 times on goal. Let $X$ be a random variable denoting number of successful scores.  Please find:
@@ -27,7 +34,7 @@ dbinom(x = 4, size = 10, prob = 0.4)
 
 ## Solutions in Python
 
-```{python, engine.path = "/usr/local/anaconda3/bin/python"}
+```{python}
 #import numpy as np ## numerical 
 #import scipy as sp ## scientific 
 import scipy.stats as stats
@@ -48,7 +55,7 @@ stats.binom.pmf(4,10,0.4)
 
 ## Solutions in Julia
 
-```{julia, engine.path = "/Applications/Julia-1.3.app/Contents/Resources/julia/bin/"}
+```{julia}
 using Distributions ## for distributions
 using DataFrames
 
@@ -59,10 +66,30 @@ hcat(0:10, [pdf(Binomial(10,0.4), i) for i in 0:10])
 pdf(Binomial(10,0.4), 4)
 
 ## Solution to 3
-1- cdf(Binomial(10,0.4), 6)
-```
+1 - cdf(Binomial(10,0.4), 6)
 ```
 
+# Exercise 2
+
+Number of car accidents in one day in some city follows Poisson distribution with expected value $\lambda=2$. Find the probability that at most 4 car accidents happen.
+
+## Solution in R 
+
+```{r}
+ppois(q = 4, lambda = 2)
+```
+
+## Solution in Python
+
+```{python}
+stats.poisson.cdf(4, 2)
+```
+
+## Solution in Julia
+
+```{julia}
+cdf(Poisson(2), 4)
+```
 
 
 
