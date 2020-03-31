@@ -1,0 +1,63 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+install.packages("ca")
+library(ca)
+```
+
+Data for the lecture
+
+```{r}
+data_vec <- c(1933, 1175, 1186, 646, 579, 671, 707, 780, 767, 768, 962, 1126)
+data_mat <- matrix(data = data_vec, nrow = 4, ncol = 3, byrow = T)
+rownames(data_mat) <- c("Rural", "city 20k", "city 20k-100k", "city 100k+")
+colnames(data_mat) <- c("Realised","Refusals","Errors")
+data_mat
+```
+
+In order to verify whether the correspondence analysis may be applied one should follow the steps:
+
+1. verify relationship (using $\chi^2$ test)
+2. verify correlation (using Cramers' V statistic)
+3. proceed with correspondence analysis
+
+```{r}
+chisq.test(data_mat)
+```
+
+To conduct the correspondence analysis in R we can use function `ca` from the package `ca`.
+
+```{r}
+result <- ca(data_mat)
+plot(result)
+```
+
+```{r}
+result
+```
+
+Follow the example about ages and tv stations
+
+```{r}
+vec <- c(26, 10, 40, 44, 18, 14, 15, 12, 21)
+tab <- matrix(data = vec, nrow = 3, byrow = T)
+colnames(tab) <- c("tvp1", "polsat", "tvn")
+rownames(tab) <- c("<20","20-35", "35+")
+chisq.test(tab)
+```
+```{r}
+sum(tab)
+```
+
+```{r}
+result_tv <- ca(tab)
+result_tv
+```
+
+```{r}
+plot(result_tv)
+```
+
