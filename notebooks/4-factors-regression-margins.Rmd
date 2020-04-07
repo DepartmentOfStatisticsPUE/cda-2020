@@ -1,0 +1,142 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+install.packages("margins")
+library(margins)
+```
+
+```{r}
+mtcars
+```
+
+Let's assume that we would like to build a model where 
+
+            mpg ~ gear 
+
+and we assume that gear is categorical
+
+$$
+mpg = \beta_0 + \beta_1 \times gear
+$$
+
+```{r}
+m1 <- lm(formula = mpg ~ gear, data = mtcars)
+summary(m1)
+```
+
+```{r}
+table(mtcars$gear)
+```
+
+To inform R that gear is categorical variable we need to use function factor 
+
+```{r}
+mtcars$gear_f <- factor(mtcars$gear)
+mtcars
+```
+
+Now, we will include gear_f into the model
+
+$$
+mpg = \beta_0 + \beta_1 \times (gear = 4) + \beta_2 \times (gear = 5)
+$$
+
+```{r}
+m2 <- lm(formula = mpg ~ gear_f, data = mtcars)
+summary(m2)
+```
+
+```{r}
+aggregate(mpg ~ gear, data = mtcars, FUN = mean)
+```
+
+How to change the contrast
+
+```{r}
+m3 <- lm(mpg ~ gear_f, data  = mtcars, contrast = list(gear_f = "contr.SAS"))
+summary(m3)
+```
+
+In order to change the reference level we can use function relevel (reference level).
+
+```{r}
+m4 <- lm(formula = mpg ~ relevel(x = gear_f, ref = "4"), data = mtcars)
+summary(m4)
+```
+
+How to check what is the reference level 
+
+```{r}
+levels(mtcars$gear_f)
+```
+
+```{r}
+mtcars$gear_f2 <- relevel(mtcars$gear_f, ref = "4")
+levels(mtcars$gear_f2)
+```
+
+Now, we will use contr.sum to compare to overall mean
+
+```{r}
+m5 <- lm(formula = mpg ~ gear_f, data = mtcars, contrast = list(gear_f = "contr.sum"))
+summary(m5)
+```
+
+```{r}
+result <- aggregate(mpg ~ gear, data = mtcars, FUN = mean)[, "mpg"]
+result
+mean(result)
+```
+
+Margial effects
+
+x1*x2 = x1 + x2 + x1:x2
+
+```{r}
+m6_1 <- lm(mpg ~ wt + gear_f + am, data = mtcars)
+m6_2 <- lm(mpg ~ wt + I(wt^2) + gear_f + am, data = mtcars)
+m6_3 <- lm(mpg ~ wt + I(wt^2) + gear_f*am, data = mtcars)
+
+summary(m6_2)
+```
+
+Calculate **Average marginal effects** for model m6_1
+
+```{r}
+margins(m6_1)
+summary(margins(m6_2))
+```
+
+Average marginal effect for model 
+
+$$
+Y = \beta_0 + \beta_1X_1 + \beta_2X_2 + \beta_3 X_1X_2
+$$
+
+$$
+\frac{\partial Y}{\partial X_1} = \beta_1 + \beta_3 X_2
+$$
+
+$$
+\frac{\partial Y_i}{\partial X_{i1}} = \beta_1 + \beta_3 X_{i2}
+$$
+
+and then we calculate Average Marginal Effects as follows
+
+$$
+AME = \frac{\sum_{i} \hat{\beta}_1+ \hat{\beta}_3X_{i2}}{n}
+$$
+
+Marginal effects at means (MEMs) as
+
+$$
+MEMs = \hat{\beta}_1 + \hat{\beta}_3 \bar{X}_{2}
+$$
+
+
+
+
+
