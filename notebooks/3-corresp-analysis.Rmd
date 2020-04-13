@@ -1,7 +1,23 @@
 ---
-title: "R Notebook"
+author: "Maciej Beręsewicz"
+title: "Correspondence Analysis"
 output: html_notebook
 ---
+
+# Setting for notebook
+
+```{r}
+library(reticulate)
+use_python("/usr/local/anaconda3/bin/python")
+knitr::opts_chunk$set(engine.path = list(
+  #python = "/usr/local/anaconda3/bin/python",
+  julia = "/Applications/Julia-1.3.app/Contents/Resources/julia/bin/"
+))
+```
+
+# Correspondence analysis
+
+## Correspondence analysis in R
 
 ```{r}
 install.packages("ca")
@@ -60,4 +76,21 @@ result_tv
 ```{r}
 plot(result_tv)
 ```
+
+## Correspondence analysis in Python
+
+To conduct correspondence analysis we need to install module `prince` (https://github.com/MaxHalford/prince) or we may implement the correspondence analysis by ourselves
+
+```{python}
+import prince
+import pandas as pd
+```
+
+```{r}
+
+```
+
+## Correspondence analysis in Julia
+
+We need to implement correspondence analysis by ourselves
 
