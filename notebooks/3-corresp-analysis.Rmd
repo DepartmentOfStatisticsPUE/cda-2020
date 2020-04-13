@@ -148,5 +148,63 @@ ca.plot_coordinates(X = X).get_figure()
 
 ## Correspondence analysis in Julia
 
-We need to implement correspondence analysis by ourselves
+We need to implement correspondence analysis by ourselves.
+
+
+We start with loading library for Linear Algebra and define our own functions resembling R `rowSums` and `colSums`.
+
+```{julia}
+using LinearAlgebra
+using Plots
+gr()
+using DataFrames
+rowSums(x) = sum(x, dims = 2);
+colSums(x) = sum(x, dims = 1);
+```
+
+Nest, we impelement step by step correspondence analysis using SVD algorithm
+
+```{julia}
+function ca(m)
+    P = m/sum(m);
+    r = rowSums(P); ## rowsums
+    c = colSums(P); ## colsums
+    Dr = Diagonal(r[:]); ## diagm(0 => r[:]); dense matrix
+    Dc  = Diagonal(c[:]); ## diagm(0 => c[:]); dense matrix
+    A = Dr^(-0.5)*(P - r*c)*Dc^(-0.5)
+    U,Γ,V=svd(A);
+    X = Dr^(-1/2) * U * Diagonal(Γ) 
+    Y = Dc^(-1/2) * V * Diagonal(Γ)
+    return(X, Y)
+end
+```
+
+```{julia}
+m = [1933 1175 1186;
+     646 579 671;
+     707 780 767;
+     768 962 1126]
+```
+
+
+```{julia}
+X,Y=ca(m);
+print("---------- row coords ----------")
+X[:,1:2]
+print("---------- col coords ----------")
+Y[:,1:2]
+```
+
+Plot the results
+
+```{julia}
+res = DataFrame(vcat(X[:,1:2], Y[:,1:2]));
+res.label = ["Rural", "city 20k", "city 20k-100k", "city 100k+", "Realised","Refusals","Errors"];
+res.color = ["red", "red", "red", "red", "blue","blue","blue"];
+res
+```
+
+```{julia}
+scatter(res.x1, res.x2, text = res.label, color = res.color)
+```
 
