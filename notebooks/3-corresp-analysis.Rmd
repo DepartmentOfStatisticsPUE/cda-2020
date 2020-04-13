@@ -9,8 +9,11 @@ output: html_notebook
 ```{r}
 library(reticulate)
 use_python("/usr/local/anaconda3/bin/python")
+```
+
+```{r}
 knitr::opts_chunk$set(engine.path = list(
-  #python = "/usr/local/anaconda3/bin/python",
+  python = "/usr/local/anaconda3/bin/python",
   julia = "/Applications/Julia-1.3.app/Contents/Resources/julia/bin/"
 ))
 ```
@@ -86,9 +89,62 @@ import prince
 import pandas as pd
 ```
 
-```{r}
+Take the data
 
+```{python}
+X = pd.DataFrame(
+    data=[
+        [1933, 1175, 1186],
+        [646, 579, 671],
+        [707, 780, 767],
+        [768, 962, 1126]
+    ],
+    columns=pd.Series(["Realised","Refusals","Errors"]),
+    index=pd.Series(["Rural", "city 20k", "city 20k-100k", "city 100k+"])
+)
+X
 ```
+
+Define settings for correspondence analysis
+
+```{python}
+ca = prince.CA(n_components=2, n_iter=100, copy=True,check_input=True,engine='auto',random_state=42)
+ca = ca.fit(X)
+ca
+```
+
+```{python}
+dir(ca)
+```
+
+The main important elements
+
+col_masses_
+row_masses_
+column_coordinates
+row_coordinates
+eigenvalues_
+explained_inertia_
+total_inertia_
+
+```{python}
+print("---------- row coords ----------")
+ca.row_coordinates(X)
+print("---------- col coords ----------")
+ca.column_coordinates(X)
+print("---------- col masses ----------")
+ca.col_masses_
+print("---------- row masses ----------")
+ca.row_masses_
+print("---------- % of intertia explained ----------")
+ca.explained_inertia_
+```
+
+
+```{python}
+ca.plot_coordinates(X = X).get_figure()
+```
+
 
 ## Correspondence analysis in Julia
 
