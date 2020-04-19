@@ -25,6 +25,7 @@ knitr::opts_chunk$set(engine.path = list(
 ```{r}
 install.packages("ca")
 library(ca)
+library(vcd)
 ```
 
 Data for the lecture
@@ -45,6 +46,15 @@ In order to verify whether the correspondence analysis may be applied one should
 
 ```{r}
 chisq.test(data_mat)
+chisq.test(data_mat, correct = T) ## Yates' correction
+```
+
+```{r}
+assocstats(data_mat)
+```
+
+```{r}
+prop.table(data_mat, 1)
 ```
 
 To conduct the correspondence analysis in R we can use function `ca` from the package `ca`.
@@ -57,6 +67,46 @@ plot(result)
 ```{r}
 result
 ```
+
+```{r}
+summary(result)
+```
+
+Read the data about shops and factors that drove respondents to select these shops
+
+
+```{r}
+shops <- readRDS("../data/data_ca_lecture.rds")
+shops
+```
+
+```{r}
+shops_tab <- xtabs(~ Sklep + Powod, data = shops)
+shops_tab
+```
+
+```{r}
+chisq.test(shops_tab, correct = T)
+```
+
+```{r}
+assocstats(shops_tab)
+```
+
+1. why there is dependence in the data?
+2. what factors correspond with which shops?
+3. are there cluster of shops?
+4. what are the main factors that drove respondents to select given shop?
+
+```{r}
+shops_ca <- ca(shops_tab)
+plot(shops_ca)
+```
+
+```{r}
+summary(shops_ca)
+```
+
 
 Follow the example about ages and tv stations
 
