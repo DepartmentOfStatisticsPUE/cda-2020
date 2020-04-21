@@ -72,10 +72,6 @@ summary(m2)
 ```
 
 ```{r}
-levels(mtcars$gear_f)
-```
-
-```{r}
 aggregate(mpg ~ gear, data = mtcars, FUN = mean)
 ```
 
