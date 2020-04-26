@@ -105,6 +105,7 @@ summary(m2)
 
 ```{r}
 sqrt(6.812277) 
+sigma(m1) ## błąd standardowy regresji liniowej
 ```
 
 

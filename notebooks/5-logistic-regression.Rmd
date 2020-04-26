@@ -6,17 +6,102 @@ output: html_notebook
 Load the packages
 
 ```{r}
-library(margins)
-library(ggeffects)
+library(tidyverse)
 ```
 
-Load the data
+load the data
 
 ```{r}
-df <- readRDS("../data-raw/data_for_lecture.rds") 
+df <- readRDS("../data/data_for_lecture.rds") 
 df$locality <- as_factor(df$locality)
 df$woj <- as_factor(df$woj)
 df$gender <- as_factor(df$gender)
+df
+
+table(as_factor(df$status))
+```
+
+We build a model only with gender
+
+```{r}
+m1 <- glm(formula = status ~ gender, data = df, family = binomial(link = "logit"))
+summary(m1)
+```
+
+$$
+P( \text{status} = 1 | \text{gender} ) = \frac{\exp(-0.65479 + 0.12165 \cdot \text{Kobieta})}{1 + \exp(-0.65479 + 0.12165 \cdot \text{Kobieta})}
+$$
+
+Calculate odds ratio
+
+```{r}
+round(exp(coef(m1)),2)
+```
+
+We calculate 95% confidence interval 
+
+```{r}
+round(exp(confint(m1)),2)
+```
+
+Let's add age to our model
+
+```{r}
+m2 <- glm(formula = status ~ gender + age, data = df, family = binomial(link = "logit"))
+summary(m2)
+```
+```{r}
+round(coef(m2),2)
+```
+
+$$
+P( \text{status} = 1 | \text{gender} ) = 
+\frac{\exp(-1.01 + 0.13 \cdot \text{Kobieta} + 0.01 \cdot \text{age})}
+{1 + \exp(-1.01 + 0.13 \cdot \text{Kobieta}  + 0.01 \cdot \text{age})}
+$$
+
+We calculate odds ratio to compare 20s with 50s
+
+```{r}
+exp(0.006496348*(50-20))
+exp(0.006496348*(70-20))
+```
+
+Compare two models based on AIC
+
+```{r}
+AIC(m1, m2)
+```
+
+$$
+\text{AIC} = -2 \cdot LL + 2 \cdot k
+$$
+
+Add to the model locality -- odds ratio, AIC
+
+```{r}
+m3 <- update(m2, . ~ . + locality)
+AIC(m1, m2, m3)
+```
+
+```{r}
+summary(m3)
+```
+
+```{r}
+exp(coef(m3))
+```
+
+Compare two models
+
+```{r}
+anova(m1, m2, m3, test = "LRT")
+```
+
+Calculate McFadden's pseudo R2 -- pseudoR2 (pakiet -- `BaylorEdPsych`)
+
+```{r}
+1 - 14437/14751
 ```
 
 
@@ -27,7 +112,6 @@ m1 <- glm(formula = status ~ gender + age + locality + woj,
           data = df, 
           family = binomial(link = "logit")) ## or family = "binomial"
 summary(m1)
-car::Anova(m1)
 ```
 
 ```{r}
