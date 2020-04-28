@@ -1,4 +1,5 @@
 ---
+author: "Maciej Beręsewicz"
 title: "R Notebook"
 output: html_notebook
 ---
@@ -7,6 +8,8 @@ Load the packages
 
 ```{r}
 library(tidyverse)
+#install.packages("speedglm")
+library(speedglm)
 ```
 
 load the data
@@ -19,9 +22,11 @@ df$gender <- as_factor(df$gender)
 df
 
 table(as_factor(df$status))
+
+df 
 ```
 
-We build a model only with gender
+We build a model only with gender (glm or speedglm)
 
 ```{r}
 m1 <- glm(formula = status ~ gender, data = df, family = binomial(link = "logit"))
@@ -67,21 +72,40 @@ exp(0.006496348*(50-20))
 exp(0.006496348*(70-20))
 ```
 
-Compare two models based on AIC
+```{r}
+plot(20:70, exp(0.006496348*(20:70-20)), xlab = "Age", ylab = "Odds Ratios")
+```
+
 
 ```{r}
-AIC(m1, m2)
+m3 <- speedglm(formula = status ~ gender + age, data = df, family = binomial(link = "logit"))
+summary(m3)
 ```
+
+Compare two models based on AIC, BIC -- the lower the better
 
 $$
 \text{AIC} = -2 \cdot LL + 2 \cdot k
 $$
+
+$$
+\text{BIC} = -2 \cdot LL + k \cdot \log(n)
+$$
+
+
+```{r}
+AIC(m1, m2)
+BIC(m1, m2)
+```
+
+
 
 Add to the model locality -- odds ratio, AIC
 
 ```{r}
 m3 <- update(m2, . ~ . + locality)
 AIC(m1, m2, m3)
+BIC(m1, m2, m3)
 ```
 
 ```{r}
