@@ -7,9 +7,13 @@ output: html_notebook
 Load the packages
 
 ```{r}
-library(tidyverse)
 #install.packages("speedglm")
-library(speedglm)
+#install.packages(c("mfx", "BaylorEdPsych", "ROCR"))
+library(tidyverse)
+library(speedglm) ## high-performance GLM models
+library(mfx) ## marginal effects for GLM models
+library(BaylorEdPsych) ## pseudoR2 measures for GLM
+library(ROCR) ## for prediction
 ```
 
 load the data
@@ -128,24 +132,124 @@ Calculate McFadden's pseudo R2 -- pseudoR2 (pakiet -- `BaylorEdPsych`)
 1 - 14437/14751
 ```
 
-
-Build a model
+Create new model
 
 ```{r}
-m1 <- glm(formula = status ~ gender + age + locality + woj, 
+m4 <- glm(formula = status ~ gender + age + locality + woj, 
           data = df, 
           family = binomial(link = "logit")) ## or family = "binomial"
-summary(m1)
+summary(m4)
+```
+
+Calculate Pseudo R2 measures using BaylorEdPsych package
+
+```{r}
+measures <- PseudoR2(m4)
+measures[1:4]
+```
+
+How good is the model on predicting our Y variable
+
+```{r}
+pred_m4 <- predict(m4, newdata = df) ## by default predict function returns eta
+head(pred_m4)
+pred_m4 <- predict(m4, newdata = df, type = "response") ## probability
+head(pred_m4)
+hist(pred_m4, breaks = "scott")
+```
+
+In order to predict the class (Y = 1 or Y = 0) we need to apply some threshold, by default we can use 0.5.
+
+Confusion Matrix -- in rows we have observed values of Y and in columns we have predictions
+
+```{r}
+conftab1 <- table(df$status == 1, pred_m4 >= 0.5)
+conftab1
+```
+
+- TP = 485, TN = 6817, FP = 429, FN = 3569
+- Accuracy: (TP+TN)/Total
+
+```{r}
+(485+6817) / sum(conftab1)*100
+```
+
+- Misclassification Rate: (FP+FN)/Total
+
+```{r}
+(429+3569)/sum(conftab1)*100
+```
+
+- True Positive Rate - TP/ actual yes
+
+```{r}
+485/(485+3569)
+```
+
+- False Positive Rate - FP/actual no
+
+```{r}
+429/(429+6817)
+```
+
+- Specificity -- TN/actual no
+
+```{r}
+6817/(6817 + 429)
+```
+
+- Precision -- TP/predicted yes
+
+```{r}
+485/(485 + 429)
+```
+
+1. problem is our sample -- it is not balanced (not 50/50)
+2. if our sample is unbalanced then using threshold 0.5 is meaningless -- we should use value that is closer to share of Ys==1 in our data.
+3. there is a room for optimization -- select threshold to maximize selected measures
+
+```{r}
+conftab1 <- table(df$status == 1, pred_m4 >= 0.50)
+conftab2 <- table(df$status == 1, pred_m4 >= 0.35)
+
+prop.table(conftab1, margin = 1)
+prop.table(conftab2, margin = 1)
+```
+
+Now proceed to ROCR package
+
+```{r}
+pred <- prediction(predictions = pred_m4, labels = as.numeric(df$status))
+pred
+perf <- performance(prediction.obj = pred,"tpr","fpr")
+perf
+plot(perf)
+```
+
+## Calculate marginal effects
+
+```{r}
+mf_model1 <- mfx::logitmfx(formula = status ~ age + gender + locality, data = df)
+mf_model1
 ```
 
 ```{r}
-m1_marg <- margins(m1)
-plot(m1_marg)
+mf_model2 <- mfx::logitor(formula = status ~ age + gender + locality, data = df)
+mf_model2
 ```
 
+
 ```{r}
-plot(ggeffect(m1))
+ods_model2 <- glm(formula = status ~ age + gender + locality, data = df, family = binomial)
+exp(coef(ods_model2))
 ```
+
+-- LASSO -- glmnet -- when Xs are correlated, when # variables > # cases, for prediction
+-- logistf -- perfect separation in logistic regression
+-- rms package -- regression modelling strategies
+
+
+
 
 
 
