@@ -5,75 +5,118 @@ output: html_notebook
 
 
 ```{r}
-library(haven)
-library(MASS)
-library(vcd)
 install.packages("countreg", repos="http://R-Forge.R-project.org")
-library(countreg)
-library(AER)
-library(maxLik)
-df <- read_sas("data-raw/baza2005.sas7bdat")
+library(haven) ## for reading sas files
+library(MASS) ## for glm.nb -- negative binomial
+library(vcd) ## for testing goodnes of fit for poisson and negative binomial
+library(countreg) ## for modelling count data
+library(AER) ## bunch of useful functions
+library(maxLik) ## to estimate models by ourselvs
 
+df <- read_sas("../data/baza2005.sas7bdat")
+head(df)
 ```
+
+1. start with visualisation
+
+```{r}
+barplot(table(df$LOS_LT14), xlab = "Number of children under 14", 
+        ylab = "Number of households")
+```
+
+2. Is it a Poisson distribution?
+
+```{r}
+mean(df$LOS_LT14) ## expected value E(Y) = lambda
+var(df$LOS_LT14) ## variance of Y Var(Y) > E(Y) -> overdispersion
+
+var(df$LOS_LT14)/mean(df$LOS_LT14)
+```
+
+
+3. We may do the tests before modeling 
 
 ```{r}
 plot(goodfit(df$LOS_LT14, type = "poisson"))
-plot(goodfit(df$LOS_LT14, type = "nbinomial", par = list(size = 0.8)))
+plot(goodfit(df$LOS_LT14, type = "nbinomial", par = list(size = 10)))
 ```
 
-```{r}
-mean(df$LOS_LT14)
-var(df$LOS_LT14)
-```
+4. Now, we will create three model:
+
++ poisson  (use glm function)
++ quasi-poisson  (use glm function)
++ negative binomial (using MASS::glm.nb function)
+
+
 
 ```{r}
-m1 <- lm(LOS_LT14 ~ factor(KLM) + I(DOCH/1000) + factor(WOJ), 
-         data = df)
+m1 <- glm(LOS_LT14 ~ I(DOCH/1000) + factor(KLM) + factor(WOJ), 
+         data = df,
+         family = poisson())
 summary(m1)
 ```
 
 ```{r}
-m2 <- glm(LOS_LT14 ~ factor(KLM) + I(DOCH/1000) + factor(WOJ), 
+m2 <- glm(LOS_LT14 ~ I(DOCH/1000) + factor(KLM) + factor(WOJ), 
          data = df,
-         family = poisson())
+         family = quasipoisson())
 summary(m2)
 ```
 
+To interpret the parameters from the glm model we just need to use the exp transformation (because by default in Poisson and quasi-Poisson we use log link)
+
 ```{r}
-m3 <- glm(LOS_LT14 ~ factor(KLM) + I(DOCH/1000) + factor(WOJ), 
-         data = df,
-         family = quasipoisson())
+exp(coef(m1)) 
+```
+
+We use dispersion test to verify if dispersion is actually the problem
+
+
+$$
+\begin{cases}
+trafo(\mu) = \mu, & \text{if quasi-poisson,} \\ 
+trafo(\mu) = \mu^2, & \text{if negative binomial,}
+\end{cases}
+$$
+
+$$
+\begin{cases}
+Var[y] = \mu + \alpha \cdot \mu, & \text{if quasi-poisson,} \\ 
+Var[y] = \mu + \alpha \cdot \mu^2, & \text{if negative binomial,}
+\end{cases}
+$$
+
+```{r}
+dispersiontest(m1, trafo = 1) ## quasipoisson / negative-binom1
+dispersiontest(m1, trafo = 2) ## negative-binom 
+```
+
+Negative-binomial model
+
+```{r}
+m3 <- glm.nb(formula = LOS_LT14 ~ I(DOCH/1000) + factor(KLM) + factor(WOJ), 
+             data = df)
 summary(m3)
 ```
 
+```{r}
+data.frame(poisson = exp(coef(m1)), negbin = exp(coef(m3)))
+```
+
+Compare which model is better -- Poisson or Negative-Binomial
 
 ```{r}
-m4 <- glm(LOS_LT14 ~ factor(KLM) + I(DOCH/1000) + factor(WOJ), 
-          data = df,
-          family = negative.binomial(0.8))
-summary(m4)
-
-
+AIC(m1,m3)
+BIC(m1,m3)
 ```
 
 ```{r}
-dispersiontest(m2, trafo = 1) ## quasipoisson / negative-binom1
-dispersiontest(m2, trafo = 2) ## negative-binom 
+countreg::rootogram(m1, main = "Poisson")
+countreg::rootogram(m3, main = "Negative-Binomial")
 ```
 
-```{r}
-countreg::rootogram(m2, max = 10)
-countreg::rootogram(m4, max = 10)
-```
-
-```{r}
-lrtest(m2, m4)
-```
-
-
-
-```{r}
-coeftest(m2)
-coeftest(m4)
-```
+1. visualsie
+2. calculate the models
+3. assess the models
+4. select the "right" model (according to some measures)
 
