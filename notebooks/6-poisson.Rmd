@@ -6,12 +6,12 @@ output: html_notebook
 
 ```{r}
 install.packages("countreg", repos="http://R-Forge.R-project.org")
+install.packages("AER")
 library(haven) ## for reading sas files
 library(MASS) ## for glm.nb -- negative binomial
 library(vcd) ## for testing goodnes of fit for poisson and negative binomial
 library(countreg) ## for modelling count data
 library(AER) ## bunch of useful functions
-library(maxLik) ## to estimate models by ourselvs
 
 df <- read_sas("../data/baza2005.sas7bdat")
 head(df)
@@ -48,12 +48,26 @@ plot(goodfit(df$LOS_LT14, type = "nbinomial", par = list(size = 10)))
 + negative binomial (using MASS::glm.nb function)
 
 
+$$
+\text{LOS_LT14}  = \exp(\beta_1 + \beta_2 \text{DOCH} + ...)
+$$
+
+$$
+\log(\text{LOS_LT14}) = \beta_1 + \beta_2 \text{DOCH} + ...
+$$
+
 
 ```{r}
-m1 <- glm(LOS_LT14 ~ I(DOCH/1000) + factor(KLM) + factor(WOJ), 
-         data = df,
-         family = poisson())
+m1 <- glm(formula = LOS_LT14 ~ I(DOCH / 1000) + factor(KLM) + factor(WOJ),
+          data = df,
+          family = poisson())
 summary(m1)
+```
+
+Używamy transformacji odwrotnej do logarytmu naturalnego czyli funkcję e
+
+```{r}
+exp(coef(m1))
 ```
 
 ```{r}
@@ -87,8 +101,8 @@ Var[y] = \mu + \alpha \cdot \mu^2, & \text{if negative binomial,}
 $$
 
 ```{r}
-dispersiontest(m1, trafo = 1) ## quasipoisson / negative-binom1
-dispersiontest(m1, trafo = 2) ## negative-binom 
+dispersiontest(m1, trafo = 1) ## quasipoisson / negative binomial type 1
+dispersiontest(m1, trafo = 2) ## negative binomial type 2
 ```
 
 Negative-binomial model
@@ -98,6 +112,8 @@ m3 <- glm.nb(formula = LOS_LT14 ~ I(DOCH/1000) + factor(KLM) + factor(WOJ),
              data = df)
 summary(m3)
 ```
+
+Jak porównać te dwa modele -- poisson i negative binomial
 
 ```{r}
 data.frame(poisson = exp(coef(m1)), negbin = exp(coef(m3)))
@@ -115,8 +131,8 @@ countreg::rootogram(m1, main = "Poisson")
 countreg::rootogram(m3, main = "Negative-Binomial")
 ```
 
-1. visualsie
-2. calculate the models
+1. visualize
+2. calculate the models (poisson, quasipo, negbin, ...)
 3. assess the models
 4. select the "right" model (according to some measures)
 

@@ -1,0 +1,113 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+Load packages
+
+```{r}
+#install.packages(c("geepack", "MuMIn"))
+library(geepack) ## to estimate GEE models
+library(MuMIn) ## selection of GEE models -- we need to choose which R matrix to apply
+library(readxl) ## read excel files library 
+library(lubridate)
+library(tidyverse)
+```
+
+Read the data from excel file and sort data by id (customer) i data (date of transaction)
+
+```{r}
+piwa <- read_excel("../data/piwa.xlsx") %>%
+  mutate(weekd = wday(ymd(data),week_start = 1)) %>%
+  arrange(id, data) %>%
+  add_count(id, name = "times")  %>%
+  filter(times > 2, times <= 10)
+
+head(piwa)
+
+piwa %>%
+  group_by(id) %>%
+  summarise(numer_of_pur = n(),
+            beers_sum = sum(sztuki),
+            beers_mean = mean(sztuki),
+            beers_sd = sd(sztuki))
+```
+
+```{r}
+piwa %>%
+  count(data = ymd(data), wt = sztuki) %>%
+  ggplot(data = ., aes(x = data, y = n)) +
+  #geom_point() +
+  geom_line()
+```
+
+Wizualizacja liczby zakupionych piw
+
+```{r}
+barplot(table(piwa$sztuki))
+```
+
+```{r}
+m0 <- glm(formula = sztuki ~ wielkosc_gosp + factor(weekd) + klm + factor(miesiac) + 
+            sklepy + wyksztalcenie + wojewodztwo,  
+          data = piwa,
+          family  = quasipoisson())
+
+summary(m0)
+```
+
+
+```{r}
+m1 <- geeglm(formula = sztuki ~ wielkosc_gosp + factor(weekd)+ klm + factor(miesiac) + 
+               sklepy + wyksztalcenie  + wojewodztwo, 
+             data = piwa,
+             family  = poisson(), 
+             corstr = "independence",
+             id = id, ## we need to sort data according to (id and) time!!!!
+             scale.fix = FALSE)
+
+summary(m1)
+```
+
+Oszacujemy model, który zakłada, że nasze dane są skorelowanie i określimy R
+
+Parametry modelu:
+
+corstr -- określenie struktury macierzy R  "independence"', '"exchangeable"', '"ar1"', '"unstructured"', '"userdefined"'
+id  -- identyfikator jednostki
+scale.fix -- parametr phi = 1
+ 
+
+```{r}
+m3 <- geeglm(formula = sztuki ~ wielkosc_gosp + factor(weekd) + klm + 
+               factor(miesiac) + sklepy + wyksztalcenie + wojewodztwo, 
+             data = piwa,
+             family  = poisson(), ## quasipoisson
+             corstr = "exchangeable", ## only one alpha
+             id = id,
+             scale.fix = FALSE)
+
+m5 <- geeglm(formula = sztuki ~ wielkosc_gosp + factor(weekd) + klm + 
+               factor(miesiac) + sklepy + wyksztalcenie + wojewodztwo, 
+             data = piwa,
+             family  = poisson(),
+             corstr = "ar1", ## autocorrelation level 1
+             id = id,
+             scale.fix = FALSE)
+
+summary(m3)
+```
+
+
+Porównamy model m0 z modelem m2
+
+```{r}
+model.sel(m1, m3, m5, rank = "QIC")
+```
+
+```{r}
+data.frame(m1 = coef(m1), m3 = coef(m3))
+```
+
+
+
