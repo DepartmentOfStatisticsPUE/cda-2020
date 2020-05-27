@@ -4,60 +4,68 @@ output: html_notebook
 ---
 
 ```{r}
+install.packages(c("arules", "arulesViz"))
+
 library(arules)
 library(arulesViz)
 library(tidyverse)
 library(haven)
+library(data.table)
+```
+
+
+## the BKL study
+
+Technical, Mathematical, Artistic, Computer, Cognitive, Managerial, Interpersonal, Self-organization, Physical, Availability, Office
+
+Link to description of the study (in English) -- https://arxiv.org/abs/1908.06731
+
+```{r}
+bkl <- readRDS("../data/data-bkl.rds")
+```
+
+
+1. Convert data.frame to matrix / sparse Matrix (e.g. Matrix package)
+2. Then use `as()` function
+```{r}
+dane_arules_m <- as.matrix(bkl)
+skills <- as(dane_arules_m, "transactions")
+skills
+```
+
+
+```{r}
+summary(skills)
+```
+
+
+3. apriori algorithm
+
+```{r}
+result <- apriori(skills)
+```
+
+4. inspect
+
+```{r}
+inspect(result)
+```
+
+5. Visualise results
+
+```{r}
+arulesViz::ruleExplorer(result)
 ```
 
 ```{r}
-bkl_oferty <- readRDS("/Users/maciej/git/nauka/job-offers-bkl/data/bkl-oferty-imputed.rds")
+arulesViz::inspectDT(result)
 ```
 
-```{r}
-bkl_oferty %>%
-  filter(zrodlo == 1) %>%
-  filter(rok == 2014) %>%
-  select(komp_zawodowe:komp_biurowe) %>%
-  na.omit(komp_zawodowe) %>%
-  rename_all(funs(gsub("komp_","",.))) -> dane_arules
-```
+
+How to specify your own defaults
 
 ```{r}
-saveRDS(dane_arules, file = "data-raw/data-bkl.rds")
-```
-
-```{r}
-dane_arules_m <- as.matrix(dane_arules)
-n <- as(dane_arules_m, "transactions")
-
-res <- apriori(n)
-
-summary(res)
-inspect(res)
-arulesViz::ruleExplorer(res)
-```
-
-```{r}
-dane <- read_spss("~/Downloads/BKL_lud_2017_-_180628_publ.sav")
-```
-
-```{r}
-sjPlot::view_df(dane, show.values = FALSE)
-```
-
-```{r}
-dane %>%
-  select(s3_01:s3_09) %>%
-  na.omit()  %>%
-  set_names(c("odpowiadanie", "internet", "wlasne", "bezp_kont", "rodzina_znaj", "urzad","targi","agencja","uczelnia")) %>%
-  as.matrix() %>%
-  as(., "transactions") -> poszuk
-```
-
-```{r}
-res <- apriori(poszuk)
-
-inspect(res)
+rules_custom <- apriori(data = skills, parameter = list(support = 0.2, confidence  = 0.7))
+inspect(rules_custom)
 ```
 
