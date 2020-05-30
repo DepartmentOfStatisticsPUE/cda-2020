@@ -5,41 +5,40 @@ output: html_notebook
 
 
 ```{r}
+install.packages(c("sampleSelection", "GJRM"))
 library(data.table)
 library(tidyverse)
-library(sampleSelection)
-library(SemiParSampleSel)
 library(haven)
-library(lmtest)
-library(sandwich)
+library(sampleSelection)
+library(GJRM)
 library(maxLik)
 ```
 
 ### women wages
 
 ```{r}
-women <- read_stata("../data-raw/womenwk.dta") 
+women <- read_stata("../data/womenwk.dta")
 women$selection <- !is.na(women$wage)
-summary(women)
+head(women)
 ```
 
 
 ```{r}
-m0 <- glm(wage ~  education + age, 
-             data = women,
-           subset = selection)
+m0 <- glm(wage ~ education + age,  data = women, subset = selection)
 summary(m0)
 ```
 
+sampleSelection package
+
 ```{r}
-m1 <- heckit(selection ~ married + children+ education +age,
+m1 <- heckit(selection ~ married + children + education + age,
              wage ~  education + age, 
              data = women)
 summary(m1)
 ```
 
 ```{r}
-m2 <- heckit(selection ~ married + children+ education +age,
+m2 <- heckit(selection ~ married + children + education + age,
              wage ~  education + age, 
              data = women,
              method = "ml")
@@ -47,10 +46,11 @@ summary(m2)
 ```
 
 ```{r}
-m3 <- SemiParSampleSel(
+m3 <- gjrm(
   formula = list(selection ~ married + children+ education +age,
-             wage ~  education + age),
+                 wage ~  education + age),
   data = women,
+  Model = "BSS",
   margin = c("probit", "N")
 )
 summary(m3)

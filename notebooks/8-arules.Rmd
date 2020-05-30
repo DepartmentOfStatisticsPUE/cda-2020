@@ -22,11 +22,13 @@ Link to description of the study (in English) -- https://arxiv.org/abs/1908.0673
 
 ```{r}
 bkl <- readRDS("../data/data-bkl.rds")
+bkl
 ```
 
 
 1. Convert data.frame to matrix / sparse Matrix (e.g. Matrix package)
 2. Then use `as()` function
+
 ```{r}
 dane_arules_m <- as.matrix(bkl)
 skills <- as(dane_arules_m, "transactions")
@@ -48,7 +50,8 @@ result <- apriori(skills)
 4. inspect
 
 ```{r}
-inspect(result)
+df <- inspect(result)
+df %>% rename(zal=2) %>% arrange(-lift)
 ```
 
 5. Visualise results
