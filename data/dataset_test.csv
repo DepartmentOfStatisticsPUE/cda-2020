@@ -1,0 +1,1817 @@
+cust_id,time,hh_size,hh_place,hh_education,hh_woj,shops,trans
+001210,1,3 Persons,Village,Primary,Kujawsko-Pomorskie,Hypermarkets,2
+001210,2,3 Persons,Village,Primary,Kujawsko-Pomorskie,Hypermarkets,6
+001210,4,3 Persons,Village,Primary,Kujawsko-Pomorskie,Hypermarkets,3
+001210,5,3 Persons,Village,Primary,Kujawsko-Pomorskie,Dyskont,1
+001210,5,3 Persons,Village,Primary,Kujawsko-Pomorskie,Hypermarkets,3
+001210,6,3 Persons,Village,Primary,Kujawsko-Pomorskie,Hypermarkets,2
+001210,7,3 Persons,Village,Primary,Kujawsko-Pomorskie,Hypermarkets,1
+001210,8,3 Persons,Village,Primary,Kujawsko-Pomorskie,Hypermarkets,2
+013263,1,2 Persons,City -19.999 Inhabitants,Profession Or Secondary,Lubelskie,Sieci Detal,1
+013263,1,2 Persons,City -19.999 Inhabitants,Profession Or Secondary,Lubelskie,Supermarkets,1
+013263,2,2 Persons,City -19.999 Inhabitants,Profession Or Secondary,Lubelskie,Dyskont,2
+013263,3,2 Persons,City -19.999 Inhabitants,Profession Or Secondary,Lubelskie,Supermarkets,2
+013263,4,2 Persons,City -19.999 Inhabitants,Profession Or Secondary,Lubelskie,Supermarkets,2
+013263,6,2 Persons,City -19.999 Inhabitants,Profession Or Secondary,Lubelskie,Dyskont,1
+013263,7,2 Persons,City -19.999 Inhabitants,Profession Or Secondary,Lubelskie,Supermarkets,4
+013263,8,2 Persons,City -19.999 Inhabitants,Profession Or Secondary,Lubelskie,Supermarkets,1
+013515,1,5 Persons,Village,Profession Or Secondary,Mazowieckie,Dyskont,1
+013515,1,5 Persons,Village,Profession Or Secondary,Mazowieckie,Hypermarkets,1
+013515,3,5 Persons,Village,Profession Or Secondary,Mazowieckie,Hypermarkets,1
+013515,3,5 Persons,Village,Profession Or Secondary,Mazowieckie,Sklepy Spozywcze,1
+013515,4,5 Persons,Village,Profession Or Secondary,Mazowieckie,Hypermarkets,2
+013515,5,5 Persons,Village,Profession Or Secondary,Mazowieckie,Hypermarkets,1
+013515,6,5 Persons,Village,Profession Or Secondary,Mazowieckie,Hypermarkets,2
+013515,7,5 Persons,Village,Profession Or Secondary,Mazowieckie,Hypermarkets,3
+013876,2,4 Persons,Village,Secondary School Finished,Małopolskie,Dyskont,1
+013876,2,4 Persons,Village,Secondary School Finished,Małopolskie,Hypermarkets,1
+013876,4,4 Persons,Village,Secondary School Finished,Małopolskie,Hypermarkets,1
+013876,5,4 Persons,Village,Secondary School Finished,Małopolskie,Dyskont,1
+013876,5,4 Persons,Village,Secondary School Finished,Małopolskie,Hurt,1
+013876,6,4 Persons,Village,Secondary School Finished,Małopolskie,Dyskont,1
+013876,6,4 Persons,Village,Secondary School Finished,Małopolskie,Hurt,1
+013876,7,4 Persons,Village,Secondary School Finished,Małopolskie,Dyskont,1
+020155,1,6 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Dolnośląskie,Hurt,1
+020155,1,6 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Dolnośląskie,Hypermarkets,2
+020155,2,6 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Dolnośląskie,Hypermarkets,3
+020155,3,6 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Dolnośląskie,Hurt,2
+020155,4,6 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Dolnośląskie,Hypermarkets,2
+020155,6,6 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Dolnośląskie,Hypermarkets,2
+020155,8,6 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Dolnośląskie,Hurt,1
+020155,8,6 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Dolnośląskie,Hypermarkets,3
+020245,1,3 Persons,Village,Primary,Warmińsko-Mazurskie,Hurt,1
+020245,2,3 Persons,Village,Primary,Warmińsko-Mazurskie,inne,1
+020245,2,3 Persons,Village,Primary,Warmińsko-Mazurskie,Sklepy Spozywcze,1
+020245,3,3 Persons,Village,Primary,Warmińsko-Mazurskie,Hurt,1
+020245,4,3 Persons,Village,Primary,Warmińsko-Mazurskie,Hurt,1
+020245,6,3 Persons,Village,Primary,Warmińsko-Mazurskie,Hypermarkets,1
+020245,7,3 Persons,Village,Primary,Warmińsko-Mazurskie,Sklepy Spozywcze,1
+020245,8,3 Persons,Village,Primary,Warmińsko-Mazurskie,Hurt,1
+020372,1,4 Persons,Village,Secondary School Finished,Opolskie,Hypermarkets,1
+020372,2,4 Persons,Village,Secondary School Finished,Opolskie,Supermarkets,1
+020372,3,4 Persons,Village,Secondary School Finished,Opolskie,Supermarkets,1
+020372,4,4 Persons,Village,Secondary School Finished,Opolskie,Dyskont,1
+020372,6,4 Persons,Village,Secondary School Finished,Opolskie,Dyskont,1
+020372,7,4 Persons,Village,Secondary School Finished,Opolskie,Dyskont,2
+020372,7,4 Persons,Village,Secondary School Finished,Opolskie,Hypermarkets,2
+020372,8,4 Persons,Village,Secondary School Finished,Opolskie,Sklepy Spozywcze,1
+021325,1,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Łódzkie,Sklepy Spozywcze,1
+021325,2,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Łódzkie,Sklepy Spozywcze,1
+021325,3,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Łódzkie,Sklepy Spozywcze,1
+021325,5,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Łódzkie,Sklepy Spozywcze,4
+021325,6,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Łódzkie,Hurt,1
+021325,6,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Łódzkie,Sklepy Spozywcze,2
+021325,7,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Łódzkie,Sklepy Spozywcze,2
+021325,8,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Łódzkie,Sklepy Spozywcze,1
+030372,1,2 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Śląskie,Dyskont,4
+030372,1,2 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Śląskie,Hypermarkets,1
+030372,2,2 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Śląskie,Dyskont,1
+030372,3,2 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Śląskie,Dyskont,2
+030372,4,2 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Śląskie,Dyskont,1
+030372,6,2 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Śląskie,Dyskont,1
+030372,7,2 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Śląskie,Supermarkets,1
+030372,8,2 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Śląskie,Dyskont,1
+031540,1,3 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Łódzkie,Sieci Detal,1
+031540,2,3 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Łódzkie,Sieci Detal,1
+031540,3,3 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Łódzkie,Dyskont,2
+031540,5,3 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Łódzkie,Dyskont,1
+031540,5,3 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Łódzkie,Supermarkets,1
+031540,6,3 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Łódzkie,Dyskont,1
+031540,7,3 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Łódzkie,Dyskont,1
+031540,8,3 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Łódzkie,Dyskont,1
+033029,1,3 Persons,Village,Profession Or Secondary,Wielkopolskie,Sklepy Spozywcze,2
+033029,2,3 Persons,Village,Profession Or Secondary,Wielkopolskie,Sklepy Spozywcze,1
+033029,3,3 Persons,Village,Profession Or Secondary,Wielkopolskie,Sklepy Spozywcze,3
+033029,4,3 Persons,Village,Profession Or Secondary,Wielkopolskie,Sklepy Spozywcze,2
+033029,5,3 Persons,Village,Profession Or Secondary,Wielkopolskie,Sklepy Spozywcze,6
+033029,6,3 Persons,Village,Profession Or Secondary,Wielkopolskie,Sklepy Spozywcze,4
+033029,7,3 Persons,Village,Profession Or Secondary,Wielkopolskie,Sklepy Spozywcze,1
+033029,8,3 Persons,Village,Profession Or Secondary,Wielkopolskie,Sklepy Spozywcze,1
+033093,1,3 Persons,Village,Secondary School Finished,Śląskie,Dyskont,2
+033093,1,3 Persons,Village,Secondary School Finished,Śląskie,Hypermarkets,1
+033093,2,3 Persons,Village,Secondary School Finished,Śląskie,Dyskont,2
+033093,2,3 Persons,Village,Secondary School Finished,Śląskie,Hypermarkets,1
+033093,2,3 Persons,Village,Secondary School Finished,Śląskie,Sieci Detal,2
+033093,4,3 Persons,Village,Secondary School Finished,Śląskie,Dyskont,2
+033093,4,3 Persons,Village,Secondary School Finished,Śląskie,Hypermarkets,1
+033093,7,3 Persons,Village,Secondary School Finished,Śląskie,Hypermarkets,2
+033133,1,1 Person,020.000 - 49.999 Inhabitants,Secondary School Finished,Dolnośląskie,Sklepy Spozywcze,1
+033133,4,1 Person,020.000 - 49.999 Inhabitants,Secondary School Finished,Dolnośląskie,Dyskont,2
+033133,4,1 Person,020.000 - 49.999 Inhabitants,Secondary School Finished,Dolnośląskie,Hypermarkets,1
+033133,5,1 Person,020.000 - 49.999 Inhabitants,Secondary School Finished,Dolnośląskie,Dyskont,1
+033133,5,1 Person,020.000 - 49.999 Inhabitants,Secondary School Finished,Dolnośląskie,inne,1
+033133,6,1 Person,020.000 - 49.999 Inhabitants,Secondary School Finished,Dolnośląskie,Dyskont,1
+033133,6,1 Person,020.000 - 49.999 Inhabitants,Secondary School Finished,Dolnośląskie,Sklepy Spozywcze,1
+033133,7,1 Person,020.000 - 49.999 Inhabitants,Secondary School Finished,Dolnośląskie,Dyskont,1
+033503,1,4 Persons,500.000 And More Inhabitants,Secondary School Finished,Małopolskie,Hurt,2
+033503,1,4 Persons,500.000 And More Inhabitants,Secondary School Finished,Małopolskie,inne,1
+033503,2,4 Persons,500.000 And More Inhabitants,Secondary School Finished,Małopolskie,Hurt,3
+033503,2,4 Persons,500.000 And More Inhabitants,Secondary School Finished,Małopolskie,Hypermarkets,1
+033503,3,4 Persons,500.000 And More Inhabitants,Secondary School Finished,Małopolskie,Hurt,4
+033503,4,4 Persons,500.000 And More Inhabitants,Secondary School Finished,Małopolskie,Hurt,2
+033503,5,4 Persons,500.000 And More Inhabitants,Secondary School Finished,Małopolskie,Hurt,1
+033503,8,4 Persons,500.000 And More Inhabitants,Secondary School Finished,Małopolskie,Hurt,1
+033720,2,4 Persons,Village,Primary,Lubelskie,Sieci Detal,1
+033720,3,4 Persons,Village,Primary,Lubelskie,Sieci Detal,1
+033720,4,4 Persons,Village,Primary,Lubelskie,inne,1
+033720,5,4 Persons,Village,Primary,Lubelskie,Sieci Detal,2
+033720,5,4 Persons,Village,Primary,Lubelskie,inne,1
+033720,6,4 Persons,Village,Primary,Lubelskie,Sieci Detal,1
+033720,7,4 Persons,Village,Primary,Lubelskie,Sklepy Spozywcze,1
+033720,8,4 Persons,Village,Primary,Lubelskie,Sieci Detal,2
+033860,1,5 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Wielkopolskie,Dyskont,1
+033860,1,5 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Wielkopolskie,Hypermarkets,1
+033860,2,5 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Wielkopolskie,Sieci Detal,1
+033860,3,5 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Wielkopolskie,Sieci Detal,1
+033860,4,5 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Wielkopolskie,Dyskont,1
+033860,5,5 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Wielkopolskie,Hypermarkets,1
+033860,6,5 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Wielkopolskie,Dyskont,2
+033860,8,5 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Wielkopolskie,Sieci Detal,1
+034258,2,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Śląskie,Sieci Detal,1
+034258,2,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Śląskie,Sklepy Spozywcze,1
+034258,5,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Śląskie,Sklepy Spozywcze,1
+034258,6,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Śląskie,Dyskont,1
+034258,6,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Śląskie,Sklepy Spozywcze,1
+034258,7,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Śląskie,Dyskont,1
+034258,7,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Śląskie,Sklepy Spozywcze,2
+034258,8,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Śląskie,Sklepy Spozywcze,1
+040253,2,6 Persons,Village,Profession Or Secondary,Wielkopolskie,Dyskont,1
+040253,2,6 Persons,Village,Profession Or Secondary,Wielkopolskie,Supermarkets,1
+040253,3,6 Persons,Village,Profession Or Secondary,Wielkopolskie,Supermarkets,1
+040253,4,6 Persons,Village,Profession Or Secondary,Wielkopolskie,Dyskont,1
+040253,5,6 Persons,Village,Profession Or Secondary,Wielkopolskie,Supermarkets,1
+040253,6,6 Persons,Village,Profession Or Secondary,Wielkopolskie,Supermarkets,1
+040253,7,6 Persons,Village,Profession Or Secondary,Wielkopolskie,Supermarkets,1
+040253,8,6 Persons,Village,Profession Or Secondary,Wielkopolskie,Supermarkets,2
+040494,1,2 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Dyskont,1
+040494,2,2 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Dyskont,2
+040494,4,2 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Dyskont,4
+040494,5,2 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Dyskont,1
+040494,5,2 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Hypermarkets,1
+040494,6,2 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Dyskont,2
+040494,7,2 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Dyskont,2
+040494,8,2 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Dyskont,1
+040835,1,3 Persons,100.000 - 199.999 Inhabitants,University,Dolnośląskie,Hurt,1
+040835,2,3 Persons,100.000 - 199.999 Inhabitants,University,Dolnośląskie,Hurt,1
+040835,3,3 Persons,100.000 - 199.999 Inhabitants,University,Dolnośląskie,Hurt,4
+040835,4,3 Persons,100.000 - 199.999 Inhabitants,University,Dolnośląskie,Hurt,2
+040835,4,3 Persons,100.000 - 199.999 Inhabitants,University,Dolnośląskie,Hypermarkets,1
+040835,5,3 Persons,100.000 - 199.999 Inhabitants,University,Dolnośląskie,Dyskont,1
+040835,5,3 Persons,100.000 - 199.999 Inhabitants,University,Dolnośląskie,Hurt,3
+040835,5,3 Persons,100.000 - 199.999 Inhabitants,University,Dolnośląskie,Hypermarkets,1
+040978,1,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Lubuskie,Sklepy Spozywcze,2
+040978,2,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Lubuskie,Dyskont,1
+040978,2,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Lubuskie,Sklepy Spozywcze,1
+040978,3,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Lubuskie,Dyskont,1
+040978,5,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Lubuskie,Sklepy Spozywcze,1
+040978,7,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Lubuskie,Sklepy Spozywcze,1
+040978,8,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Lubuskie,Dyskont,1
+040978,8,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Lubuskie,inne,1
+041067,1,5 Persons,100.000 - 199.999 Inhabitants,Profession Or Secondary,Śląskie,Hypermarkets,1
+041067,2,5 Persons,100.000 - 199.999 Inhabitants,Profession Or Secondary,Śląskie,Hypermarkets,1
+041067,3,5 Persons,100.000 - 199.999 Inhabitants,Profession Or Secondary,Śląskie,Hurt,1
+041067,4,5 Persons,100.000 - 199.999 Inhabitants,Profession Or Secondary,Śląskie,Hypermarkets,2
+041067,5,5 Persons,100.000 - 199.999 Inhabitants,Profession Or Secondary,Śląskie,Hypermarkets,1
+041067,5,5 Persons,100.000 - 199.999 Inhabitants,Profession Or Secondary,Śląskie,Supermarkets,1
+041067,7,5 Persons,100.000 - 199.999 Inhabitants,Profession Or Secondary,Śląskie,Hypermarkets,1
+041067,8,5 Persons,100.000 - 199.999 Inhabitants,Profession Or Secondary,Śląskie,Hurt,1
+041084,1,4 Persons,200.000 - 499.999 Inhabitants,Profession Or Secondary,Mazowieckie,Hypermarkets,1
+041084,1,4 Persons,200.000 - 499.999 Inhabitants,Profession Or Secondary,Mazowieckie,Sklepy Spozywcze,1
+041084,2,4 Persons,200.000 - 499.999 Inhabitants,Profession Or Secondary,Mazowieckie,Hypermarkets,2
+041084,3,4 Persons,200.000 - 499.999 Inhabitants,Profession Or Secondary,Mazowieckie,Hypermarkets,3
+041084,4,4 Persons,200.000 - 499.999 Inhabitants,Profession Or Secondary,Mazowieckie,Hypermarkets,3
+041084,5,4 Persons,200.000 - 499.999 Inhabitants,Profession Or Secondary,Mazowieckie,Hypermarkets,2
+041084,6,4 Persons,200.000 - 499.999 Inhabitants,Profession Or Secondary,Mazowieckie,Hypermarkets,1
+041084,8,4 Persons,200.000 - 499.999 Inhabitants,Profession Or Secondary,Mazowieckie,Hypermarkets,1
+041158,1,4 Persons,Village,Profession Or Secondary,Wielkopolskie,Dyskont,2
+041158,1,4 Persons,Village,Profession Or Secondary,Wielkopolskie,Supermarkets,1
+041158,3,4 Persons,Village,Profession Or Secondary,Wielkopolskie,Dyskont,1
+041158,4,4 Persons,Village,Profession Or Secondary,Wielkopolskie,Dyskont,2
+041158,5,4 Persons,Village,Profession Or Secondary,Wielkopolskie,Dyskont,2
+041158,6,4 Persons,Village,Profession Or Secondary,Wielkopolskie,Dyskont,2
+041158,7,4 Persons,Village,Profession Or Secondary,Wielkopolskie,Supermarkets,2
+041158,8,4 Persons,Village,Profession Or Secondary,Wielkopolskie,Dyskont,2
+041265,1,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Opolskie,Dyskont,1
+041265,2,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Opolskie,Dyskont,1
+041265,3,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Opolskie,Dyskont,1
+041265,3,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Opolskie,Hypermarkets,1
+041265,7,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Opolskie,Hypermarkets,1
+041265,7,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Opolskie,Supermarkets,3
+041265,8,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Opolskie,Dyskont,1
+041265,8,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Opolskie,Hurt,1
+041469,1,4 Persons,Village,Profession Or Secondary,Śląskie,Dyskont,1
+041469,2,4 Persons,Village,Profession Or Secondary,Śląskie,Dyskont,3
+041469,3,4 Persons,Village,Profession Or Secondary,Śląskie,Dyskont,1
+041469,4,4 Persons,Village,Profession Or Secondary,Śląskie,Dyskont,2
+041469,6,4 Persons,Village,Profession Or Secondary,Śląskie,Dyskont,3
+041469,6,4 Persons,Village,Profession Or Secondary,Śląskie,Sieci Detal,1
+041469,8,4 Persons,Village,Profession Or Secondary,Śląskie,Dyskont,3
+041469,8,4 Persons,Village,Profession Or Secondary,Śląskie,Sieci Detal,1
+041698,1,2 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Hurt,1
+041698,2,2 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Hurt,1
+041698,3,2 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Hurt,2
+041698,4,2 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Hurt,4
+041698,5,2 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Hurt,2
+041698,6,2 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Hurt,2
+041698,7,2 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Hurt,5
+041698,8,2 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Hurt,2
+041844,2,1 Person,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Dyskont,1
+041844,3,1 Person,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Hypermarkets,3
+041844,3,1 Person,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Sklepy Spozywcze,1
+041844,4,1 Person,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Dyskont,1
+041844,5,1 Person,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Dyskont,1
+041844,6,1 Person,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Dyskont,1
+041844,7,1 Person,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Hypermarkets,4
+041844,8,1 Person,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Hypermarkets,1
+041861,1,4 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Lubuskie,Hypermarkets,1
+041861,3,4 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Lubuskie,Hypermarkets,1
+041861,3,4 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Lubuskie,Supermarkets,1
+041861,5,4 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Lubuskie,Hypermarkets,3
+041861,6,4 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Lubuskie,Hypermarkets,3
+041861,7,4 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Lubuskie,Hypermarkets,1
+041861,7,4 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Lubuskie,Supermarkets,1
+041861,8,4 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Lubuskie,Supermarkets,2
+041924,1,2 Persons,City -19.999 Inhabitants,Profession Or Secondary,Świętokrzyskie,Dyskont,1
+041924,2,2 Persons,City -19.999 Inhabitants,Profession Or Secondary,Świętokrzyskie,Dyskont,3
+041924,2,2 Persons,City -19.999 Inhabitants,Profession Or Secondary,Świętokrzyskie,Sieci Detal,1
+041924,4,2 Persons,City -19.999 Inhabitants,Profession Or Secondary,Świętokrzyskie,Dyskont,3
+041924,4,2 Persons,City -19.999 Inhabitants,Profession Or Secondary,Świętokrzyskie,Sieci Detal,2
+041924,5,2 Persons,City -19.999 Inhabitants,Profession Or Secondary,Świętokrzyskie,Sieci Detal,3
+041924,6,2 Persons,City -19.999 Inhabitants,Profession Or Secondary,Świętokrzyskie,Dyskont,2
+041924,8,2 Persons,City -19.999 Inhabitants,Profession Or Secondary,Świętokrzyskie,Sieci Detal,1
+042098,1,3 Persons,Village,Profession Or Secondary,Kujawsko-Pomorskie,Sklepy Spozywcze,14
+042098,2,3 Persons,Village,Profession Or Secondary,Kujawsko-Pomorskie,Sklepy Spozywcze,10
+042098,3,3 Persons,Village,Profession Or Secondary,Kujawsko-Pomorskie,Sklepy Spozywcze,13
+042098,4,3 Persons,Village,Profession Or Secondary,Kujawsko-Pomorskie,Sklepy Spozywcze,8
+042098,5,3 Persons,Village,Profession Or Secondary,Kujawsko-Pomorskie,Sklepy Spozywcze,8
+042098,6,3 Persons,Village,Profession Or Secondary,Kujawsko-Pomorskie,Sklepy Spozywcze,11
+042098,7,3 Persons,Village,Profession Or Secondary,Kujawsko-Pomorskie,Sklepy Spozywcze,10
+042098,8,3 Persons,Village,Profession Or Secondary,Kujawsko-Pomorskie,Sklepy Spozywcze,8
+042099,1,4 Persons,Village,University,Kujawsko-Pomorskie,Dyskont,2
+042099,1,4 Persons,Village,University,Kujawsko-Pomorskie,Sklepy Spozywcze,2
+042099,2,4 Persons,Village,University,Kujawsko-Pomorskie,Dyskont,2
+042099,4,4 Persons,Village,University,Kujawsko-Pomorskie,Dyskont,1
+042099,6,4 Persons,Village,University,Kujawsko-Pomorskie,Dyskont,1
+042099,6,4 Persons,Village,University,Kujawsko-Pomorskie,Sklepy Spozywcze,2
+042099,7,4 Persons,Village,University,Kujawsko-Pomorskie,Dyskont,2
+042099,8,4 Persons,Village,University,Kujawsko-Pomorskie,Dyskont,1
+042138,1,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubelskie,Dyskont,2
+042138,3,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubelskie,Hurt,1
+042138,4,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubelskie,Dyskont,1
+042138,4,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubelskie,Sieci Detal,2
+042138,5,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubelskie,Hurt,1
+042138,5,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubelskie,Sieci Detal,2
+042138,6,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubelskie,Sieci Detal,3
+042138,8,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubelskie,Sieci Detal,1
+043440,1,5 Persons,Village,Secondary School Finished,Pomorskie,Sklepy Spozywcze,10
+043440,2,5 Persons,Village,Secondary School Finished,Pomorskie,Sklepy Spozywcze,4
+043440,3,5 Persons,Village,Secondary School Finished,Pomorskie,Sklepy Spozywcze,11
+043440,4,5 Persons,Village,Secondary School Finished,Pomorskie,Sklepy Spozywcze,11
+043440,5,5 Persons,Village,Secondary School Finished,Pomorskie,Sklepy Spozywcze,9
+043440,6,5 Persons,Village,Secondary School Finished,Pomorskie,Sklepy Spozywcze,4
+043440,7,5 Persons,Village,Secondary School Finished,Pomorskie,Sklepy Spozywcze,12
+043440,8,5 Persons,Village,Secondary School Finished,Pomorskie,Sklepy Spozywcze,12
+050136,2,3 Persons,100.000 - 199.999 Inhabitants,University,Lubuskie,inne,1
+050136,4,3 Persons,100.000 - 199.999 Inhabitants,University,Lubuskie,Dyskont,1
+050136,4,3 Persons,100.000 - 199.999 Inhabitants,University,Lubuskie,Hypermarkets,1
+050136,5,3 Persons,100.000 - 199.999 Inhabitants,University,Lubuskie,Dyskont,1
+050136,5,3 Persons,100.000 - 199.999 Inhabitants,University,Lubuskie,Sieci Detal,1
+050136,6,3 Persons,100.000 - 199.999 Inhabitants,University,Lubuskie,Sieci Detal,1
+050136,8,3 Persons,100.000 - 199.999 Inhabitants,University,Lubuskie,Sieci Detal,2
+050136,8,3 Persons,100.000 - 199.999 Inhabitants,University,Lubuskie,inne,1
+050229,1,5 Persons,200.000 - 499.999 Inhabitants,Profession Or Secondary,Mazowieckie,Dyskont,1
+050229,1,5 Persons,200.000 - 499.999 Inhabitants,Profession Or Secondary,Mazowieckie,Sklepy Spozywcze,2
+050229,3,5 Persons,200.000 - 499.999 Inhabitants,Profession Or Secondary,Mazowieckie,Sklepy Spozywcze,4
+050229,4,5 Persons,200.000 - 499.999 Inhabitants,Profession Or Secondary,Mazowieckie,Sklepy Spozywcze,1
+050229,5,5 Persons,200.000 - 499.999 Inhabitants,Profession Or Secondary,Mazowieckie,Sklepy Spozywcze,1
+050229,6,5 Persons,200.000 - 499.999 Inhabitants,Profession Or Secondary,Mazowieckie,Sklepy Spozywcze,3
+050229,7,5 Persons,200.000 - 499.999 Inhabitants,Profession Or Secondary,Mazowieckie,Sklepy Spozywcze,1
+050229,8,5 Persons,200.000 - 499.999 Inhabitants,Profession Or Secondary,Mazowieckie,Sklepy Spozywcze,4
+050323,1,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Dolnośląskie,Dyskont,6
+050323,2,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Dolnośląskie,Dyskont,4
+050323,3,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Dolnośląskie,Dyskont,5
+050323,4,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Dolnośląskie,Dyskont,9
+050323,5,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Dolnośląskie,Dyskont,7
+050323,6,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Dolnośląskie,Dyskont,5
+050323,7,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Dolnośląskie,Dyskont,6
+050323,8,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Dolnośląskie,Dyskont,5
+050541,1,2 Persons,Village,Secondary School Finished,Mazowieckie,Dyskont,3
+050541,2,2 Persons,Village,Secondary School Finished,Mazowieckie,Dyskont,2
+050541,4,2 Persons,Village,Secondary School Finished,Mazowieckie,Dyskont,4
+050541,5,2 Persons,Village,Secondary School Finished,Mazowieckie,Dyskont,3
+050541,5,2 Persons,Village,Secondary School Finished,Mazowieckie,Hurt,1
+050541,6,2 Persons,Village,Secondary School Finished,Mazowieckie,Dyskont,3
+050541,7,2 Persons,Village,Secondary School Finished,Mazowieckie,Dyskont,4
+050541,8,2 Persons,Village,Secondary School Finished,Mazowieckie,Dyskont,3
+050783,1,4 Persons,100.000 - 199.999 Inhabitants,Profession Or Secondary,Śląskie,Dyskont,2
+050783,2,4 Persons,100.000 - 199.999 Inhabitants,Profession Or Secondary,Śląskie,Dyskont,2
+050783,3,4 Persons,100.000 - 199.999 Inhabitants,Profession Or Secondary,Śląskie,Dyskont,3
+050783,6,4 Persons,100.000 - 199.999 Inhabitants,Profession Or Secondary,Śląskie,Hurt,1
+050783,6,4 Persons,100.000 - 199.999 Inhabitants,Profession Or Secondary,Śląskie,Sklepy Spozywcze,2
+050783,7,4 Persons,100.000 - 199.999 Inhabitants,Profession Or Secondary,Śląskie,Dyskont,1
+050783,8,4 Persons,100.000 - 199.999 Inhabitants,Profession Or Secondary,Śląskie,Dyskont,2
+050783,8,4 Persons,100.000 - 199.999 Inhabitants,Profession Or Secondary,Śląskie,Sklepy Spozywcze,1
+050854,1,6 Persons,Village,University,Świętokrzyskie,Sieci Detal,2
+050854,1,6 Persons,Village,University,Świętokrzyskie,Sklepy Spozywcze,1
+050854,2,6 Persons,Village,University,Świętokrzyskie,Sieci Detal,2
+050854,3,6 Persons,Village,University,Świętokrzyskie,Sieci Detal,2
+050854,6,6 Persons,Village,University,Świętokrzyskie,Sieci Detal,1
+050854,7,6 Persons,Village,University,Świętokrzyskie,Sieci Detal,2
+050854,8,6 Persons,Village,University,Świętokrzyskie,Sieci Detal,2
+050854,8,6 Persons,Village,University,Świętokrzyskie,Sklepy Spozywcze,1
+050873,1,3 Persons,Village,Secondary School Finished,Wielkopolskie,Dyskont,1
+050873,2,3 Persons,Village,Secondary School Finished,Wielkopolskie,Hurt,1
+050873,4,3 Persons,Village,Secondary School Finished,Wielkopolskie,Dyskont,1
+050873,4,3 Persons,Village,Secondary School Finished,Wielkopolskie,Hypermarkets,1
+050873,6,3 Persons,Village,Secondary School Finished,Wielkopolskie,Dyskont,1
+050873,6,3 Persons,Village,Secondary School Finished,Wielkopolskie,Sieci Detal,1
+050873,8,3 Persons,Village,Secondary School Finished,Wielkopolskie,Hurt,1
+050873,8,3 Persons,Village,Secondary School Finished,Wielkopolskie,Sieci Detal,3
+050874,1,3 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Wielkopolskie,Supermarkets,2
+050874,2,3 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Wielkopolskie,Supermarkets,2
+050874,3,3 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Wielkopolskie,Supermarkets,2
+050874,4,3 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Wielkopolskie,Supermarkets,1
+050874,5,3 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Wielkopolskie,Supermarkets,1
+050874,6,3 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Wielkopolskie,Supermarkets,2
+050874,7,3 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Wielkopolskie,Supermarkets,2
+050874,8,3 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Wielkopolskie,Supermarkets,2
+060301,1,4 Persons,Village,Secondary School Finished,Pomorskie,Hurt,1
+060301,2,4 Persons,Village,Secondary School Finished,Pomorskie,Hurt,1
+060301,3,4 Persons,Village,Secondary School Finished,Pomorskie,Hurt,1
+060301,3,4 Persons,Village,Secondary School Finished,Pomorskie,Sklepy Spozywcze,2
+060301,4,4 Persons,Village,Secondary School Finished,Pomorskie,Sieci Detal,1
+060301,4,4 Persons,Village,Secondary School Finished,Pomorskie,Sklepy Spozywcze,1
+060301,6,4 Persons,Village,Secondary School Finished,Pomorskie,Dyskont,1
+060301,8,4 Persons,Village,Secondary School Finished,Pomorskie,Sklepy Spozywcze,1
+060631,1,2 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Sklepy Spozywcze,1
+060631,2,2 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Sklepy Spozywcze,1
+060631,3,2 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Hurt,2
+060631,3,2 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Sklepy Spozywcze,2
+060631,4,2 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Sklepy Spozywcze,5
+060631,5,2 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Sklepy Spozywcze,2
+060631,6,2 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Sklepy Spozywcze,1
+060631,7,2 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Sklepy Spozywcze,2
+061098,1,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Opolskie,Dyskont,1
+061098,5,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Opolskie,Dyskont,1
+061098,5,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Opolskie,Hurt,1
+061098,6,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Opolskie,Hypermarkets,1
+061098,7,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Opolskie,Hurt,1
+061098,7,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Opolskie,Hypermarkets,1
+061098,8,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Opolskie,Dyskont,1
+061098,8,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Opolskie,Hypermarkets,1
+061155,1,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Małopolskie,Dyskont,1
+061155,1,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Małopolskie,Hypermarkets,1
+061155,2,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Małopolskie,Sieci Detal,1
+061155,3,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Małopolskie,Sklepy Spozywcze,1
+061155,6,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Małopolskie,Sklepy Spozywcze,1
+061155,7,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Małopolskie,Sieci Detal,1
+061155,7,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Małopolskie,Sklepy Spozywcze,1
+061155,8,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Małopolskie,Sieci Detal,1
+061696,2,3 Persons,Village,University,Świętokrzyskie,Dyskont,2
+061696,3,3 Persons,Village,University,Świętokrzyskie,Dyskont,1
+061696,4,3 Persons,Village,University,Świętokrzyskie,Dyskont,1
+061696,5,3 Persons,Village,University,Świętokrzyskie,Dyskont,1
+061696,5,3 Persons,Village,University,Świętokrzyskie,Sieci Detal,1
+061696,6,3 Persons,Village,University,Świętokrzyskie,Dyskont,2
+061696,7,3 Persons,Village,University,Świętokrzyskie,Dyskont,1
+061696,8,3 Persons,Village,University,Świętokrzyskie,Sieci Detal,1
+070017,1,4 Persons,Village,Profession Or Secondary,Małopolskie,Dyskont,1
+070017,1,4 Persons,Village,Profession Or Secondary,Małopolskie,Sieci Detal,1
+070017,1,4 Persons,Village,Profession Or Secondary,Małopolskie,Sklepy Spozywcze,3
+070017,2,4 Persons,Village,Profession Or Secondary,Małopolskie,Sieci Detal,4
+070017,2,4 Persons,Village,Profession Or Secondary,Małopolskie,Sklepy Spozywcze,2
+070017,3,4 Persons,Village,Profession Or Secondary,Małopolskie,Sieci Detal,1
+070017,8,4 Persons,Village,Profession Or Secondary,Małopolskie,Sieci Detal,1
+070017,8,4 Persons,Village,Profession Or Secondary,Małopolskie,Sklepy Spozywcze,1
+070122,1,4 Persons,Village,Secondary School Finished,Kujawsko-Pomorskie,Dyskont,1
+070122,1,4 Persons,Village,Secondary School Finished,Kujawsko-Pomorskie,Hypermarkets,2
+070122,1,4 Persons,Village,Secondary School Finished,Kujawsko-Pomorskie,Sklepy Spozywcze,1
+070122,2,4 Persons,Village,Secondary School Finished,Kujawsko-Pomorskie,Hypermarkets,1
+070122,3,4 Persons,Village,Secondary School Finished,Kujawsko-Pomorskie,Hypermarkets,1
+070122,4,4 Persons,Village,Secondary School Finished,Kujawsko-Pomorskie,Hypermarkets,1
+070122,6,4 Persons,Village,Secondary School Finished,Kujawsko-Pomorskie,Hypermarkets,1
+070122,7,4 Persons,Village,Secondary School Finished,Kujawsko-Pomorskie,Hypermarkets,1
+070463,1,1 Person,500.000 And More Inhabitants,University,Małopolskie,Sklepy Spozywcze,2
+070463,2,1 Person,500.000 And More Inhabitants,University,Małopolskie,Sklepy Spozywcze,2
+070463,3,1 Person,500.000 And More Inhabitants,University,Małopolskie,Sklepy Spozywcze,3
+070463,4,1 Person,500.000 And More Inhabitants,University,Małopolskie,Sklepy Spozywcze,1
+070463,5,1 Person,500.000 And More Inhabitants,University,Małopolskie,Sklepy Spozywcze,2
+070463,6,1 Person,500.000 And More Inhabitants,University,Małopolskie,Sklepy Spozywcze,2
+070463,7,1 Person,500.000 And More Inhabitants,University,Małopolskie,Dyskont,2
+070463,8,1 Person,500.000 And More Inhabitants,University,Małopolskie,Dyskont,1
+070845,1,2 Persons,Village,Secondary School Finished,Śląskie,Sklepy Spozywcze,1
+070845,2,2 Persons,Village,Secondary School Finished,Śląskie,Sklepy Spozywcze,2
+070845,3,2 Persons,Village,Secondary School Finished,Śląskie,Dyskont,1
+070845,3,2 Persons,Village,Secondary School Finished,Śląskie,Sklepy Spozywcze,1
+070845,5,2 Persons,Village,Secondary School Finished,Śląskie,Sklepy Spozywcze,1
+070845,6,2 Persons,Village,Secondary School Finished,Śląskie,Hypermarkets,1
+070845,6,2 Persons,Village,Secondary School Finished,Śląskie,Sklepy Spozywcze,2
+070845,8,2 Persons,Village,Secondary School Finished,Śląskie,Sklepy Spozywcze,3
+071222,4,2 Persons,100.000 - 199.999 Inhabitants,University,Dolnośląskie,Dyskont,1
+071222,5,2 Persons,100.000 - 199.999 Inhabitants,University,Dolnośląskie,Dyskont,1
+071222,5,2 Persons,100.000 - 199.999 Inhabitants,University,Dolnośląskie,Hypermarkets,1
+071222,6,2 Persons,100.000 - 199.999 Inhabitants,University,Dolnośląskie,Dyskont,1
+071222,7,2 Persons,100.000 - 199.999 Inhabitants,University,Dolnośląskie,Dyskont,3
+071222,7,2 Persons,100.000 - 199.999 Inhabitants,University,Dolnośląskie,Hypermarkets,1
+071222,8,2 Persons,100.000 - 199.999 Inhabitants,University,Dolnośląskie,Dyskont,1
+071222,8,2 Persons,100.000 - 199.999 Inhabitants,University,Dolnośląskie,Hypermarkets,2
+071761,2,3 Persons,Village,Profession Or Secondary,Pomorskie,Dyskont,1
+071761,2,3 Persons,Village,Profession Or Secondary,Pomorskie,Sieci Detal,1
+071761,4,3 Persons,Village,Profession Or Secondary,Pomorskie,Sieci Detal,1
+071761,5,3 Persons,Village,Profession Or Secondary,Pomorskie,Sieci Detal,1
+071761,6,3 Persons,Village,Profession Or Secondary,Pomorskie,Dyskont,2
+071761,7,3 Persons,Village,Profession Or Secondary,Pomorskie,Dyskont,1
+071761,8,3 Persons,Village,Profession Or Secondary,Pomorskie,Dyskont,1
+071761,8,3 Persons,Village,Profession Or Secondary,Pomorskie,Sieci Detal,1
+072019,1,2 Persons,City -19.999 Inhabitants,University,Świętokrzyskie,Dyskont,1
+072019,1,2 Persons,City -19.999 Inhabitants,University,Świętokrzyskie,Sieci Detal,1
+072019,2,2 Persons,City -19.999 Inhabitants,University,Świętokrzyskie,Dyskont,1
+072019,2,2 Persons,City -19.999 Inhabitants,University,Świętokrzyskie,Sieci Detal,3
+072019,2,2 Persons,City -19.999 Inhabitants,University,Świętokrzyskie,Supermarkets,2
+072019,5,2 Persons,City -19.999 Inhabitants,University,Świętokrzyskie,Sieci Detal,2
+072019,6,2 Persons,City -19.999 Inhabitants,University,Świętokrzyskie,Sieci Detal,2
+072019,8,2 Persons,City -19.999 Inhabitants,University,Świętokrzyskie,Supermarkets,1
+072056,1,4 Persons,Village,Profession Or Secondary,Wielkopolskie,Dyskont,5
+072056,2,4 Persons,Village,Profession Or Secondary,Wielkopolskie,Dyskont,3
+072056,3,4 Persons,Village,Profession Or Secondary,Wielkopolskie,Dyskont,4
+072056,4,4 Persons,Village,Profession Or Secondary,Wielkopolskie,Dyskont,6
+072056,5,4 Persons,Village,Profession Or Secondary,Wielkopolskie,Dyskont,4
+072056,6,4 Persons,Village,Profession Or Secondary,Wielkopolskie,Dyskont,3
+072056,7,4 Persons,Village,Profession Or Secondary,Wielkopolskie,Dyskont,4
+072056,8,4 Persons,Village,Profession Or Secondary,Wielkopolskie,Dyskont,1
+072182,3,2 Persons,020.000 - 49.999 Inhabitants,University,Mazowieckie,Dyskont,1
+072182,4,2 Persons,020.000 - 49.999 Inhabitants,University,Mazowieckie,Dyskont,1
+072182,5,2 Persons,020.000 - 49.999 Inhabitants,University,Mazowieckie,Dyskont,2
+072182,6,2 Persons,020.000 - 49.999 Inhabitants,University,Mazowieckie,Dyskont,1
+072182,6,2 Persons,020.000 - 49.999 Inhabitants,University,Mazowieckie,Sieci Detal,2
+072182,6,2 Persons,020.000 - 49.999 Inhabitants,University,Mazowieckie,Supermarkets,1
+072182,8,2 Persons,020.000 - 49.999 Inhabitants,University,Mazowieckie,Dyskont,1
+072182,8,2 Persons,020.000 - 49.999 Inhabitants,University,Mazowieckie,Hypermarkets,1
+072254,1,2 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Sieci Detal,4
+072254,2,2 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Sieci Detal,4
+072254,3,2 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Sieci Detal,5
+072254,4,2 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Sieci Detal,6
+072254,5,2 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Sieci Detal,3
+072254,6,2 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Sieci Detal,4
+072254,7,2 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Sieci Detal,4
+072254,8,2 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Sieci Detal,4
+073009,2,6 Persons,City -19.999 Inhabitants,Secondary School Finished,Zachodniopomorskie,Dyskont,5
+073009,2,6 Persons,City -19.999 Inhabitants,Secondary School Finished,Zachodniopomorskie,Sklepy Spozywcze,1
+073009,3,6 Persons,City -19.999 Inhabitants,Secondary School Finished,Zachodniopomorskie,Dyskont,2
+073009,5,6 Persons,City -19.999 Inhabitants,Secondary School Finished,Zachodniopomorskie,Dyskont,1
+073009,5,6 Persons,City -19.999 Inhabitants,Secondary School Finished,Zachodniopomorskie,Supermarkets,1
+073009,6,6 Persons,City -19.999 Inhabitants,Secondary School Finished,Zachodniopomorskie,Dyskont,5
+073009,8,6 Persons,City -19.999 Inhabitants,Secondary School Finished,Zachodniopomorskie,Dyskont,3
+073009,8,6 Persons,City -19.999 Inhabitants,Secondary School Finished,Zachodniopomorskie,Supermarkets,1
+073171,1,4 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Hypermarkets,2
+073171,2,4 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Hypermarkets,4
+073171,3,4 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Hypermarkets,1
+073171,5,4 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Hurt,1
+073171,6,4 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Hurt,1
+073171,7,4 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Dyskont,1
+073171,7,4 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Hypermarkets,1
+073171,8,4 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Dyskont,1
+073280,1,4 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Wielkopolskie,Dyskont,1
+073280,1,4 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Wielkopolskie,Sieci Detal,1
+073280,2,4 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Wielkopolskie,Dyskont,1
+073280,2,4 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Wielkopolskie,Hurt,1
+073280,4,4 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Wielkopolskie,Dyskont,1
+073280,7,4 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Wielkopolskie,Dyskont,1
+073280,8,4 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Wielkopolskie,Dyskont,2
+073280,8,4 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Wielkopolskie,Hurt,1
+074258,1,2 Persons,Village,Secondary School Finished,Podkarpackie,Sklepy Spozywcze,1
+074258,2,2 Persons,Village,Secondary School Finished,Podkarpackie,Sklepy Spozywcze,1
+074258,3,2 Persons,Village,Secondary School Finished,Podkarpackie,Dyskont,3
+074258,4,2 Persons,Village,Secondary School Finished,Podkarpackie,Dyskont,1
+074258,4,2 Persons,Village,Secondary School Finished,Podkarpackie,Sklepy Spozywcze,1
+074258,5,2 Persons,Village,Secondary School Finished,Podkarpackie,Dyskont,1
+074258,6,2 Persons,Village,Secondary School Finished,Podkarpackie,Hurt,1
+074258,7,2 Persons,Village,Secondary School Finished,Podkarpackie,Sklepy Spozywcze,1
+075144,1,1 Person,050.000 - 99.999 Inhabitants,Profession Or Secondary,Lubelskie,Hurt,1
+075144,2,1 Person,050.000 - 99.999 Inhabitants,Profession Or Secondary,Lubelskie,Hurt,2
+075144,3,1 Person,050.000 - 99.999 Inhabitants,Profession Or Secondary,Lubelskie,Hurt,2
+075144,4,1 Person,050.000 - 99.999 Inhabitants,Profession Or Secondary,Lubelskie,Hurt,2
+075144,5,1 Person,050.000 - 99.999 Inhabitants,Profession Or Secondary,Lubelskie,Hurt,1
+075144,6,1 Person,050.000 - 99.999 Inhabitants,Profession Or Secondary,Lubelskie,Hurt,3
+075144,7,1 Person,050.000 - 99.999 Inhabitants,Profession Or Secondary,Lubelskie,Hurt,4
+075144,8,1 Person,050.000 - 99.999 Inhabitants,Profession Or Secondary,Lubelskie,Hurt,2
+075813,1,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Sieci Detal,2
+075813,2,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Sieci Detal,1
+075813,3,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Sieci Detal,1
+075813,4,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Sieci Detal,1
+075813,5,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Sieci Detal,1
+075813,6,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Sklepy Spozywcze,1
+075813,8,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Sieci Detal,1
+075813,8,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Sklepy Spozywcze,1
+080132,1,6 Persons,Village,Profession Or Secondary,Małopolskie,Sieci Detal,4
+080132,2,6 Persons,Village,Profession Or Secondary,Małopolskie,Sieci Detal,3
+080132,3,6 Persons,Village,Profession Or Secondary,Małopolskie,Sieci Detal,1
+080132,4,6 Persons,Village,Profession Or Secondary,Małopolskie,Sieci Detal,2
+080132,5,6 Persons,Village,Profession Or Secondary,Małopolskie,Sieci Detal,1
+080132,6,6 Persons,Village,Profession Or Secondary,Małopolskie,Sieci Detal,1
+080132,7,6 Persons,Village,Profession Or Secondary,Małopolskie,Sieci Detal,1
+080132,8,6 Persons,Village,Profession Or Secondary,Małopolskie,Sieci Detal,5
+080258,1,3 Persons,020.000 - 49.999 Inhabitants,University,Mazowieckie,Dyskont,1
+080258,2,3 Persons,020.000 - 49.999 Inhabitants,University,Mazowieckie,Dyskont,2
+080258,2,3 Persons,020.000 - 49.999 Inhabitants,University,Mazowieckie,Hypermarkets,1
+080258,3,3 Persons,020.000 - 49.999 Inhabitants,University,Mazowieckie,Dyskont,2
+080258,4,3 Persons,020.000 - 49.999 Inhabitants,University,Mazowieckie,Dyskont,2
+080258,5,3 Persons,020.000 - 49.999 Inhabitants,University,Mazowieckie,Dyskont,1
+080258,6,3 Persons,020.000 - 49.999 Inhabitants,University,Mazowieckie,Dyskont,1
+080258,7,3 Persons,020.000 - 49.999 Inhabitants,University,Mazowieckie,Dyskont,1
+080324,3,5 Persons,Village,Profession Or Secondary,Mazowieckie,Hypermarkets,1
+080324,3,5 Persons,Village,Profession Or Secondary,Mazowieckie,Sklepy Spozywcze,1
+080324,4,5 Persons,Village,Profession Or Secondary,Mazowieckie,Hypermarkets,1
+080324,5,5 Persons,Village,Profession Or Secondary,Mazowieckie,Dyskont,1
+080324,6,5 Persons,Village,Profession Or Secondary,Mazowieckie,Dyskont,2
+080324,6,5 Persons,Village,Profession Or Secondary,Mazowieckie,Hypermarkets,1
+080324,7,5 Persons,Village,Profession Or Secondary,Mazowieckie,Dyskont,1
+080324,8,5 Persons,Village,Profession Or Secondary,Mazowieckie,Dyskont,1
+080804,1,3 Persons,City -19.999 Inhabitants,University,Lubuskie,Dyskont,1
+080804,2,3 Persons,City -19.999 Inhabitants,University,Lubuskie,Hypermarkets,1
+080804,4,3 Persons,City -19.999 Inhabitants,University,Lubuskie,Dyskont,2
+080804,5,3 Persons,City -19.999 Inhabitants,University,Lubuskie,Dyskont,2
+080804,6,3 Persons,City -19.999 Inhabitants,University,Lubuskie,Dyskont,1
+080804,7,3 Persons,City -19.999 Inhabitants,University,Lubuskie,Hurt,1
+080804,8,3 Persons,City -19.999 Inhabitants,University,Lubuskie,Hurt,1
+080804,8,3 Persons,City -19.999 Inhabitants,University,Lubuskie,Hypermarkets,1
+081062,2,5 Persons,020.000 - 49.999 Inhabitants,University,Lubuskie,Supermarkets,1
+081062,3,5 Persons,020.000 - 49.999 Inhabitants,University,Lubuskie,Dyskont,2
+081062,3,5 Persons,020.000 - 49.999 Inhabitants,University,Lubuskie,Hurt,2
+081062,4,5 Persons,020.000 - 49.999 Inhabitants,University,Lubuskie,Sklepy Spozywcze,1
+081062,5,5 Persons,020.000 - 49.999 Inhabitants,University,Lubuskie,Hurt,4
+081062,5,5 Persons,020.000 - 49.999 Inhabitants,University,Lubuskie,Supermarkets,1
+081062,6,5 Persons,020.000 - 49.999 Inhabitants,University,Lubuskie,Hurt,2
+081062,7,5 Persons,020.000 - 49.999 Inhabitants,University,Lubuskie,Hurt,3
+081478,3,3 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Dolnośląskie,Hurt,1
+081478,4,3 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Dolnośląskie,inne,1
+081478,6,3 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Dolnośląskie,Dyskont,1
+081478,6,3 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Dolnośląskie,Hurt,2
+081478,6,3 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Dolnośląskie,inne,1
+081478,7,3 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Dolnośląskie,Hurt,1
+081478,8,3 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Dolnośląskie,Dyskont,1
+081478,8,3 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Dolnośląskie,Hurt,1
+081732,1,5 Persons,Village,Profession Or Secondary,Kujawsko-Pomorskie,Sklepy Spozywcze,1
+081732,4,5 Persons,Village,Profession Or Secondary,Kujawsko-Pomorskie,Sklepy Spozywcze,2
+081732,5,5 Persons,Village,Profession Or Secondary,Kujawsko-Pomorskie,Dyskont,3
+081732,5,5 Persons,Village,Profession Or Secondary,Kujawsko-Pomorskie,Sklepy Spozywcze,2
+081732,6,5 Persons,Village,Profession Or Secondary,Kujawsko-Pomorskie,Hypermarkets,1
+081732,6,5 Persons,Village,Profession Or Secondary,Kujawsko-Pomorskie,Sklepy Spozywcze,1
+081732,7,5 Persons,Village,Profession Or Secondary,Kujawsko-Pomorskie,Hypermarkets,1
+081732,8,5 Persons,Village,Profession Or Secondary,Kujawsko-Pomorskie,Dyskont,1
+081886,1,5 Persons,020.000 - 49.999 Inhabitants,University,Wielkopolskie,Supermarkets,4
+081886,2,5 Persons,020.000 - 49.999 Inhabitants,University,Wielkopolskie,Supermarkets,3
+081886,3,5 Persons,020.000 - 49.999 Inhabitants,University,Wielkopolskie,Supermarkets,1
+081886,4,5 Persons,020.000 - 49.999 Inhabitants,University,Wielkopolskie,Supermarkets,1
+081886,5,5 Persons,020.000 - 49.999 Inhabitants,University,Wielkopolskie,Supermarkets,3
+081886,6,5 Persons,020.000 - 49.999 Inhabitants,University,Wielkopolskie,Supermarkets,3
+081886,7,5 Persons,020.000 - 49.999 Inhabitants,University,Wielkopolskie,Supermarkets,1
+081886,8,5 Persons,020.000 - 49.999 Inhabitants,University,Wielkopolskie,Supermarkets,2
+081962,1,4 Persons,Village,Secondary School Finished,Lubelskie,Supermarkets,3
+081962,2,4 Persons,Village,Secondary School Finished,Lubelskie,Hurt,1
+081962,5,4 Persons,Village,Secondary School Finished,Lubelskie,Sklepy Spozywcze,1
+081962,5,4 Persons,Village,Secondary School Finished,Lubelskie,Supermarkets,1
+081962,6,4 Persons,Village,Secondary School Finished,Lubelskie,Sklepy Spozywcze,1
+081962,7,4 Persons,Village,Secondary School Finished,Lubelskie,Hypermarkets,1
+081962,8,4 Persons,Village,Secondary School Finished,Lubelskie,Sklepy Spozywcze,4
+081962,8,4 Persons,Village,Secondary School Finished,Lubelskie,Supermarkets,1
+082230,1,5 Persons,Village,Profession Or Secondary,Podlaskie,Dyskont,5
+082230,1,5 Persons,Village,Profession Or Secondary,Podlaskie,Hypermarkets,1
+082230,2,5 Persons,Village,Profession Or Secondary,Podlaskie,Dyskont,4
+082230,5,5 Persons,Village,Profession Or Secondary,Podlaskie,Dyskont,5
+082230,5,5 Persons,Village,Profession Or Secondary,Podlaskie,Sklepy Spozywcze,1
+082230,6,5 Persons,Village,Profession Or Secondary,Podlaskie,Dyskont,2
+082230,7,5 Persons,Village,Profession Or Secondary,Podlaskie,Dyskont,2
+082230,8,5 Persons,Village,Profession Or Secondary,Podlaskie,Dyskont,1
+082416,1,2 Persons,500.000 And More Inhabitants,Primary,Wielkopolskie,Dyskont,1
+082416,3,2 Persons,500.000 And More Inhabitants,Primary,Wielkopolskie,Dyskont,2
+082416,4,2 Persons,500.000 And More Inhabitants,Primary,Wielkopolskie,Dyskont,5
+082416,5,2 Persons,500.000 And More Inhabitants,Primary,Wielkopolskie,Dyskont,1
+082416,6,2 Persons,500.000 And More Inhabitants,Primary,Wielkopolskie,Dyskont,6
+082416,7,2 Persons,500.000 And More Inhabitants,Primary,Wielkopolskie,Dyskont,7
+082416,7,2 Persons,500.000 And More Inhabitants,Primary,Wielkopolskie,Sieci Detal,1
+082416,8,2 Persons,500.000 And More Inhabitants,Primary,Wielkopolskie,Dyskont,5
+082486,1,2 Persons,100.000 - 199.999 Inhabitants,University,Warmińsko-Mazurskie,Hypermarkets,1
+082486,1,2 Persons,100.000 - 199.999 Inhabitants,University,Warmińsko-Mazurskie,Sklepy Spozywcze,1
+082486,2,2 Persons,100.000 - 199.999 Inhabitants,University,Warmińsko-Mazurskie,Dyskont,2
+082486,2,2 Persons,100.000 - 199.999 Inhabitants,University,Warmińsko-Mazurskie,Sklepy Spozywcze,1
+082486,3,2 Persons,100.000 - 199.999 Inhabitants,University,Warmińsko-Mazurskie,Dyskont,1
+082486,4,2 Persons,100.000 - 199.999 Inhabitants,University,Warmińsko-Mazurskie,Hurt,1
+082486,4,2 Persons,100.000 - 199.999 Inhabitants,University,Warmińsko-Mazurskie,Hypermarkets,1
+082486,7,2 Persons,100.000 - 199.999 Inhabitants,University,Warmińsko-Mazurskie,Hurt,1
+082716,1,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Warmińsko-Mazurskie,Dyskont,1
+082716,1,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Warmińsko-Mazurskie,Sklepy Spozywcze,1
+082716,2,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Warmińsko-Mazurskie,Dyskont,3
+082716,3,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Warmińsko-Mazurskie,Sklepy Spozywcze,1
+082716,5,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Warmińsko-Mazurskie,Hurt,1
+082716,6,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Warmińsko-Mazurskie,Dyskont,2
+082716,6,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Warmińsko-Mazurskie,Sklepy Spozywcze,1
+082716,7,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Warmińsko-Mazurskie,Supermarkets,1
+082735,1,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Hypermarkets,1
+082735,2,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Hurt,1
+082735,3,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Dyskont,1
+082735,3,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Hurt,1
+082735,3,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Supermarkets,1
+082735,4,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Hypermarkets,2
+082735,6,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Hypermarkets,1
+082735,8,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Hypermarkets,2
+082784,1,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Lubuskie,Sieci Detal,1
+082784,2,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Lubuskie,Sieci Detal,1
+082784,4,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Lubuskie,Hypermarkets,1
+082784,4,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Lubuskie,Sieci Detal,1
+082784,4,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Lubuskie,Sklepy Spozywcze,1
+082784,6,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Lubuskie,Sklepy Spozywcze,1
+082784,6,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Lubuskie,Supermarkets,1
+082784,7,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Lubuskie,Supermarkets,1
+082964,2,2 Persons,Village,Secondary School Finished,Łódzkie,Hurt,3
+082964,3,2 Persons,Village,Secondary School Finished,Łódzkie,Dyskont,1
+082964,3,2 Persons,Village,Secondary School Finished,Łódzkie,Hurt,1
+082964,4,2 Persons,Village,Secondary School Finished,Łódzkie,Hurt,1
+082964,4,2 Persons,Village,Secondary School Finished,Łódzkie,Supermarkets,1
+082964,5,2 Persons,Village,Secondary School Finished,Łódzkie,Hurt,1
+082964,6,2 Persons,Village,Secondary School Finished,Łódzkie,Dyskont,1
+082964,7,2 Persons,Village,Secondary School Finished,Łódzkie,Dyskont,2
+082972,2,1 Person,Village,University,Dolnośląskie,Dyskont,1
+082972,3,1 Person,Village,University,Dolnośląskie,Sklepy Spozywcze,1
+082972,4,1 Person,Village,University,Dolnośląskie,Sklepy Spozywcze,1
+082972,5,1 Person,Village,University,Dolnośląskie,Sklepy Spozywcze,2
+082972,6,1 Person,Village,University,Dolnośląskie,Dyskont,1
+082972,6,1 Person,Village,University,Dolnośląskie,Sklepy Spozywcze,2
+082972,7,1 Person,Village,University,Dolnośląskie,Sklepy Spozywcze,2
+082972,8,1 Person,Village,University,Dolnośląskie,Sklepy Spozywcze,2
+083095,1,3 Persons,City -19.999 Inhabitants,University,Dolnośląskie,Hurt,2
+083095,2,3 Persons,City -19.999 Inhabitants,University,Dolnośląskie,Hurt,4
+083095,2,3 Persons,City -19.999 Inhabitants,University,Dolnośląskie,Hypermarkets,1
+083095,3,3 Persons,City -19.999 Inhabitants,University,Dolnośląskie,Hurt,3
+083095,4,3 Persons,City -19.999 Inhabitants,University,Dolnośląskie,Hurt,4
+083095,5,3 Persons,City -19.999 Inhabitants,University,Dolnośląskie,Hurt,2
+083095,6,3 Persons,City -19.999 Inhabitants,University,Dolnośląskie,Hurt,3
+083095,7,3 Persons,City -19.999 Inhabitants,University,Dolnośląskie,Hurt,2
+083133,1,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Hypermarkets,3
+083133,2,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Hypermarkets,4
+083133,3,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Hypermarkets,4
+083133,4,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Hypermarkets,4
+083133,5,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Hypermarkets,4
+083133,6,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Hypermarkets,4
+083133,7,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Hypermarkets,2
+083133,8,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Hypermarkets,5
+083237,1,4 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Śląskie,Dyskont,1
+083237,1,4 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Śląskie,Hypermarkets,1
+083237,3,4 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Śląskie,Dyskont,1
+083237,4,4 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Śląskie,Dyskont,2
+083237,4,4 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Śląskie,Supermarkets,1
+083237,7,4 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Śląskie,Hypermarkets,1
+083237,8,4 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Śląskie,Hypermarkets,2
+083237,8,4 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Śląskie,Sieci Detal,2
+083298,2,4 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Śląskie,Dyskont,1
+083298,2,4 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Śląskie,Hypermarkets,1
+083298,3,4 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Śląskie,Dyskont,2
+083298,4,4 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Śląskie,Dyskont,2
+083298,4,4 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Śląskie,Sklepy Spozywcze,1
+083298,6,4 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Śląskie,Hypermarkets,1
+083298,7,4 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Śląskie,Hurt,1
+083298,8,4 Persons,050.000 - 99.999 Inhabitants,Profession Or Secondary,Śląskie,Hurt,1
+084100,4,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Śląskie,Dyskont,1
+084100,4,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Śląskie,Hurt,1
+084100,5,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Śląskie,Dyskont,2
+084100,5,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Śląskie,Hurt,2
+084100,6,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Śląskie,Dyskont,2
+084100,6,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Śląskie,Hurt,1
+084100,6,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Śląskie,Hypermarkets,1
+084100,8,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Śląskie,Dyskont,2
+084780,1,5 Persons,Village,Secondary School Finished,Pomorskie,Sklepy Spozywcze,7
+084780,2,5 Persons,Village,Secondary School Finished,Pomorskie,Sklepy Spozywcze,13
+084780,3,5 Persons,Village,Secondary School Finished,Pomorskie,Sklepy Spozywcze,10
+084780,4,5 Persons,Village,Secondary School Finished,Pomorskie,Sklepy Spozywcze,7
+084780,5,5 Persons,Village,Secondary School Finished,Pomorskie,Sklepy Spozywcze,3
+084780,6,5 Persons,Village,Secondary School Finished,Pomorskie,Sklepy Spozywcze,1
+084780,7,5 Persons,Village,Secondary School Finished,Pomorskie,Sklepy Spozywcze,1
+084780,8,5 Persons,Village,Secondary School Finished,Pomorskie,Sklepy Spozywcze,6
+084871,1,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Śląskie,Dyskont,1
+084871,2,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Śląskie,Hurt,3
+084871,3,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Śląskie,Hurt,3
+084871,4,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Śląskie,Hurt,3
+084871,5,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Śląskie,Hurt,2
+084871,6,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Śląskie,Hurt,3
+084871,7,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Śląskie,Hurt,2
+084871,8,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Śląskie,Hurt,2
+088461,2,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Świętokrzyskie,Dyskont,1
+088461,2,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Świętokrzyskie,Hurt,2
+088461,4,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Świętokrzyskie,Dyskont,1
+088461,4,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Świętokrzyskie,Hurt,2
+088461,5,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Świętokrzyskie,Hurt,1
+088461,6,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Świętokrzyskie,Hurt,1
+088461,7,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Świętokrzyskie,Hurt,1
+088461,8,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Świętokrzyskie,Hurt,1
+088619,2,2 Persons,City -19.999 Inhabitants,University,Lubelskie,Hypermarkets,1
+088619,2,2 Persons,City -19.999 Inhabitants,University,Lubelskie,Sklepy Spozywcze,1
+088619,2,2 Persons,City -19.999 Inhabitants,University,Lubelskie,Supermarkets,1
+088619,3,2 Persons,City -19.999 Inhabitants,University,Lubelskie,Sieci Detal,1
+088619,3,2 Persons,City -19.999 Inhabitants,University,Lubelskie,Sklepy Spozywcze,1
+088619,4,2 Persons,City -19.999 Inhabitants,University,Lubelskie,Hypermarkets,2
+088619,5,2 Persons,City -19.999 Inhabitants,University,Lubelskie,Hypermarkets,1
+088619,7,2 Persons,City -19.999 Inhabitants,University,Lubelskie,Supermarkets,1
+088754,1,4 Persons,City -19.999 Inhabitants,University,Lubelskie,Dyskont,1
+088754,2,4 Persons,City -19.999 Inhabitants,University,Lubelskie,Dyskont,2
+088754,3,4 Persons,City -19.999 Inhabitants,University,Lubelskie,Dyskont,3
+088754,4,4 Persons,City -19.999 Inhabitants,University,Lubelskie,Dyskont,2
+088754,5,4 Persons,City -19.999 Inhabitants,University,Lubelskie,Dyskont,3
+088754,6,4 Persons,City -19.999 Inhabitants,University,Lubelskie,Dyskont,2
+088754,7,4 Persons,City -19.999 Inhabitants,University,Lubelskie,Dyskont,2
+088754,8,4 Persons,City -19.999 Inhabitants,University,Lubelskie,Dyskont,2
+088948,2,1 Person,500.000 And More Inhabitants,University,Małopolskie,Hypermarkets,1
+088948,2,1 Person,500.000 And More Inhabitants,University,Małopolskie,Sieci Detal,1
+088948,3,1 Person,500.000 And More Inhabitants,University,Małopolskie,Hypermarkets,1
+088948,4,1 Person,500.000 And More Inhabitants,University,Małopolskie,Sklepy Spozywcze,1
+088948,5,1 Person,500.000 And More Inhabitants,University,Małopolskie,Hypermarkets,2
+088948,5,1 Person,500.000 And More Inhabitants,University,Małopolskie,Sieci Detal,1
+088948,6,1 Person,500.000 And More Inhabitants,University,Małopolskie,Hypermarkets,2
+088948,8,1 Person,500.000 And More Inhabitants,University,Małopolskie,Hypermarkets,1
+088967,1,7 and more,500.000 And More Inhabitants,University,Mazowieckie,Dyskont,1
+088967,2,7 and more,500.000 And More Inhabitants,University,Mazowieckie,Hurt,3
+088967,2,7 and more,500.000 And More Inhabitants,University,Mazowieckie,Hypermarkets,1
+088967,3,7 and more,500.000 And More Inhabitants,University,Mazowieckie,Sklepy Spozywcze,2
+088967,4,7 and more,500.000 And More Inhabitants,University,Mazowieckie,Dyskont,3
+088967,5,7 and more,500.000 And More Inhabitants,University,Mazowieckie,Dyskont,1
+088967,8,7 and more,500.000 And More Inhabitants,University,Mazowieckie,Hurt,2
+088967,8,7 and more,500.000 And More Inhabitants,University,Mazowieckie,inne,2
+089366,3,4 Persons,Village,Profession Or Secondary,Lubelskie,Dyskont,3
+089366,3,4 Persons,Village,Profession Or Secondary,Lubelskie,Sklepy Spozywcze,1
+089366,4,4 Persons,Village,Profession Or Secondary,Lubelskie,Dyskont,1
+089366,5,4 Persons,Village,Profession Or Secondary,Lubelskie,Dyskont,5
+089366,6,4 Persons,Village,Profession Or Secondary,Lubelskie,Sklepy Spozywcze,1
+089366,7,4 Persons,Village,Profession Or Secondary,Lubelskie,Dyskont,2
+089366,8,4 Persons,Village,Profession Or Secondary,Lubelskie,Dyskont,2
+089366,8,4 Persons,Village,Profession Or Secondary,Lubelskie,Sklepy Spozywcze,1
+090181,1,3 Persons,500.000 And More Inhabitants,University,Dolnośląskie,Supermarkets,4
+090181,2,3 Persons,500.000 And More Inhabitants,University,Dolnośląskie,Supermarkets,3
+090181,3,3 Persons,500.000 And More Inhabitants,University,Dolnośląskie,Supermarkets,1
+090181,4,3 Persons,500.000 And More Inhabitants,University,Dolnośląskie,Supermarkets,2
+090181,5,3 Persons,500.000 And More Inhabitants,University,Dolnośląskie,Supermarkets,6
+090181,6,3 Persons,500.000 And More Inhabitants,University,Dolnośląskie,Supermarkets,5
+090181,7,3 Persons,500.000 And More Inhabitants,University,Dolnośląskie,Supermarkets,2
+090181,8,3 Persons,500.000 And More Inhabitants,University,Dolnośląskie,Sieci Detal,1
+090210,2,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Hypermarkets,1
+090210,2,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Sklepy Spozywcze,1
+090210,3,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Hypermarkets,1
+090210,4,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Sklepy Spozywcze,3
+090210,5,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Dyskont,1
+090210,5,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Sklepy Spozywcze,1
+090210,6,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Dyskont,1
+090210,7,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Sklepy Spozywcze,1
+090589,1,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Hypermarkets,4
+090589,2,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Hypermarkets,3
+090589,3,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Hypermarkets,1
+090589,4,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Hypermarkets,2
+090589,5,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Hypermarkets,3
+090589,6,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Hypermarkets,6
+090589,7,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Hypermarkets,3
+090589,8,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Hypermarkets,6
+090626,1,5 Persons,Village,Primary,Łódzkie,Sklepy Spozywcze,2
+090626,3,5 Persons,Village,Primary,Łódzkie,Hurt,1
+090626,4,5 Persons,Village,Primary,Łódzkie,Sklepy Spozywcze,1
+090626,5,5 Persons,Village,Primary,Łódzkie,Sklepy Spozywcze,1
+090626,6,5 Persons,Village,Primary,Łódzkie,Sklepy Spozywcze,2
+090626,7,5 Persons,Village,Primary,Łódzkie,Hurt,1
+090626,7,5 Persons,Village,Primary,Łódzkie,Sklepy Spozywcze,2
+090626,8,5 Persons,Village,Primary,Łódzkie,Sklepy Spozywcze,1
+090628,1,3 Persons,100.000 - 199.999 Inhabitants,University,Śląskie,Dyskont,1
+090628,2,3 Persons,100.000 - 199.999 Inhabitants,University,Śląskie,Dyskont,2
+090628,2,3 Persons,100.000 - 199.999 Inhabitants,University,Śląskie,Sklepy Spozywcze,1
+090628,3,3 Persons,100.000 - 199.999 Inhabitants,University,Śląskie,Dyskont,2
+090628,4,3 Persons,100.000 - 199.999 Inhabitants,University,Śląskie,Dyskont,4
+090628,5,3 Persons,100.000 - 199.999 Inhabitants,University,Śląskie,Dyskont,1
+090628,6,3 Persons,100.000 - 199.999 Inhabitants,University,Śląskie,Dyskont,2
+090628,7,3 Persons,100.000 - 199.999 Inhabitants,University,Śląskie,Dyskont,1
+090908,1,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Wielkopolskie,Hurt,1
+090908,2,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Wielkopolskie,Hurt,1
+090908,2,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Wielkopolskie,Supermarkets,1
+090908,3,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Wielkopolskie,Hurt,1
+090908,3,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Wielkopolskie,Supermarkets,1
+090908,4,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Wielkopolskie,Dyskont,1
+090908,5,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Wielkopolskie,Dyskont,1
+090908,6,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Wielkopolskie,Supermarkets,2
+090926,1,4 Persons,Village,Profession Or Secondary,Lubuskie,Sklepy Spozywcze,2
+090926,2,4 Persons,Village,Profession Or Secondary,Lubuskie,Sklepy Spozywcze,3
+090926,3,4 Persons,Village,Profession Or Secondary,Lubuskie,Sklepy Spozywcze,3
+090926,4,4 Persons,Village,Profession Or Secondary,Lubuskie,Sklepy Spozywcze,2
+090926,5,4 Persons,Village,Profession Or Secondary,Lubuskie,Sklepy Spozywcze,4
+090926,6,4 Persons,Village,Profession Or Secondary,Lubuskie,Sklepy Spozywcze,1
+090926,7,4 Persons,Village,Profession Or Secondary,Lubuskie,Sklepy Spozywcze,2
+090926,8,4 Persons,Village,Profession Or Secondary,Lubuskie,Sklepy Spozywcze,2
+090949,1,2 Persons,020.000 - 49.999 Inhabitants,University,Podlaskie,Sieci Detal,1
+090949,2,2 Persons,020.000 - 49.999 Inhabitants,University,Podlaskie,Sieci Detal,1
+090949,3,2 Persons,020.000 - 49.999 Inhabitants,University,Podlaskie,Dyskont,1
+090949,3,2 Persons,020.000 - 49.999 Inhabitants,University,Podlaskie,Sieci Detal,2
+090949,5,2 Persons,020.000 - 49.999 Inhabitants,University,Podlaskie,Sieci Detal,2
+090949,6,2 Persons,020.000 - 49.999 Inhabitants,University,Podlaskie,Sieci Detal,5
+090949,7,2 Persons,020.000 - 49.999 Inhabitants,University,Podlaskie,Sieci Detal,1
+090949,8,2 Persons,020.000 - 49.999 Inhabitants,University,Podlaskie,Sieci Detal,3
+090976,1,5 Persons,Village,Secondary School Finished,Podlaskie,Sklepy Spozywcze,1
+090976,4,5 Persons,Village,Secondary School Finished,Podlaskie,Sklepy Spozywcze,1
+090976,6,5 Persons,Village,Secondary School Finished,Podlaskie,Hurt,1
+090976,6,5 Persons,Village,Secondary School Finished,Podlaskie,Sklepy Spozywcze,1
+090976,7,5 Persons,Village,Secondary School Finished,Podlaskie,Hurt,2
+090976,7,5 Persons,Village,Secondary School Finished,Podlaskie,Sklepy Spozywcze,1
+090976,8,5 Persons,Village,Secondary School Finished,Podlaskie,Hurt,1
+090976,8,5 Persons,Village,Secondary School Finished,Podlaskie,Sklepy Spozywcze,3
+091017,2,3 Persons,500.000 And More Inhabitants,University,Małopolskie,Supermarkets,1
+091017,3,3 Persons,500.000 And More Inhabitants,University,Małopolskie,Supermarkets,1
+091017,4,3 Persons,500.000 And More Inhabitants,University,Małopolskie,Sieci Detal,1
+091017,4,3 Persons,500.000 And More Inhabitants,University,Małopolskie,Supermarkets,1
+091017,5,3 Persons,500.000 And More Inhabitants,University,Małopolskie,Hypermarkets,1
+091017,6,3 Persons,500.000 And More Inhabitants,University,Małopolskie,Hurt,1
+091017,6,3 Persons,500.000 And More Inhabitants,University,Małopolskie,Hypermarkets,2
+091017,7,3 Persons,500.000 And More Inhabitants,University,Małopolskie,Hypermarkets,1
+091070,3,5 Persons,Village,Profession Or Secondary,Mazowieckie,Dyskont,1
+091070,3,5 Persons,Village,Profession Or Secondary,Mazowieckie,Sieci Detal,1
+091070,5,5 Persons,Village,Profession Or Secondary,Mazowieckie,Hypermarkets,2
+091070,6,5 Persons,Village,Profession Or Secondary,Mazowieckie,Dyskont,1
+091070,6,5 Persons,Village,Profession Or Secondary,Mazowieckie,Sieci Detal,1
+091070,7,5 Persons,Village,Profession Or Secondary,Mazowieckie,Hypermarkets,1
+091070,8,5 Persons,Village,Profession Or Secondary,Mazowieckie,Dyskont,1
+091070,8,5 Persons,Village,Profession Or Secondary,Mazowieckie,Hypermarkets,2
+091212,1,1 Person,Village,University,Małopolskie,Sieci Detal,1
+091212,1,1 Person,Village,University,Małopolskie,Sklepy Spozywcze,1
+091212,2,1 Person,Village,University,Małopolskie,Sieci Detal,3
+091212,3,1 Person,Village,University,Małopolskie,Sieci Detal,1
+091212,3,1 Person,Village,University,Małopolskie,Sklepy Spozywcze,1
+091212,6,1 Person,Village,University,Małopolskie,Sieci Detal,1
+091212,7,1 Person,Village,University,Małopolskie,Sklepy Spozywcze,1
+091212,8,1 Person,Village,University,Małopolskie,Sklepy Spozywcze,1
+091229,1,4 Persons,Village,Secondary School Finished,Kujawsko-Pomorskie,Sieci Detal,1
+091229,2,4 Persons,Village,Secondary School Finished,Kujawsko-Pomorskie,Hypermarkets,1
+091229,2,4 Persons,Village,Secondary School Finished,Kujawsko-Pomorskie,Sieci Detal,1
+091229,3,4 Persons,Village,Secondary School Finished,Kujawsko-Pomorskie,Sieci Detal,1
+091229,4,4 Persons,Village,Secondary School Finished,Kujawsko-Pomorskie,Sieci Detal,2
+091229,6,4 Persons,Village,Secondary School Finished,Kujawsko-Pomorskie,Sieci Detal,1
+091229,7,4 Persons,Village,Secondary School Finished,Kujawsko-Pomorskie,Sieci Detal,1
+091229,8,4 Persons,Village,Secondary School Finished,Kujawsko-Pomorskie,Sieci Detal,1
+091268,1,3 Persons,Village,Secondary School Finished,Podlaskie,Dyskont,1
+091268,2,3 Persons,Village,Secondary School Finished,Podlaskie,Dyskont,3
+091268,3,3 Persons,Village,Secondary School Finished,Podlaskie,Dyskont,3
+091268,3,3 Persons,Village,Secondary School Finished,Podlaskie,Sklepy Spozywcze,1
+091268,4,3 Persons,Village,Secondary School Finished,Podlaskie,Dyskont,2
+091268,5,3 Persons,Village,Secondary School Finished,Podlaskie,Dyskont,2
+091268,5,3 Persons,Village,Secondary School Finished,Podlaskie,Sklepy Spozywcze,2
+091268,7,3 Persons,Village,Secondary School Finished,Podlaskie,Dyskont,3
+091434,1,3 Persons,200.000 - 499.999 Inhabitants,University,Lubelskie,Sklepy Spozywcze,14
+091434,2,3 Persons,200.000 - 499.999 Inhabitants,University,Lubelskie,Sklepy Spozywcze,19
+091434,3,3 Persons,200.000 - 499.999 Inhabitants,University,Lubelskie,Sklepy Spozywcze,19
+091434,4,3 Persons,200.000 - 499.999 Inhabitants,University,Lubelskie,Sklepy Spozywcze,18
+091434,5,3 Persons,200.000 - 499.999 Inhabitants,University,Lubelskie,Sklepy Spozywcze,20
+091434,6,3 Persons,200.000 - 499.999 Inhabitants,University,Lubelskie,Sklepy Spozywcze,22
+091434,7,3 Persons,200.000 - 499.999 Inhabitants,University,Lubelskie,Sklepy Spozywcze,24
+091434,8,3 Persons,200.000 - 499.999 Inhabitants,University,Lubelskie,Sklepy Spozywcze,24
+091707,1,4 Persons,050.000 - 99.999 Inhabitants,University,Opolskie,Dyskont,2
+091707,1,4 Persons,050.000 - 99.999 Inhabitants,University,Opolskie,Hypermarkets,3
+091707,3,4 Persons,050.000 - 99.999 Inhabitants,University,Opolskie,Dyskont,2
+091707,3,4 Persons,050.000 - 99.999 Inhabitants,University,Opolskie,Sieci Detal,2
+091707,4,4 Persons,050.000 - 99.999 Inhabitants,University,Opolskie,Dyskont,2
+091707,4,4 Persons,050.000 - 99.999 Inhabitants,University,Opolskie,Hypermarkets,1
+091707,5,4 Persons,050.000 - 99.999 Inhabitants,University,Opolskie,Dyskont,1
+091707,8,4 Persons,050.000 - 99.999 Inhabitants,University,Opolskie,Dyskont,1
+091823,2,4 Persons,Village,Secondary School Finished,Lubelskie,Sieci Detal,4
+091823,3,4 Persons,Village,Secondary School Finished,Lubelskie,Dyskont,1
+091823,3,4 Persons,Village,Secondary School Finished,Lubelskie,Sieci Detal,1
+091823,4,4 Persons,Village,Secondary School Finished,Lubelskie,Dyskont,1
+091823,6,4 Persons,Village,Secondary School Finished,Lubelskie,Sieci Detal,2
+091823,7,4 Persons,Village,Secondary School Finished,Lubelskie,Dyskont,1
+091823,7,4 Persons,Village,Secondary School Finished,Lubelskie,Sieci Detal,2
+091823,8,4 Persons,Village,Secondary School Finished,Lubelskie,Sieci Detal,1
+092088,1,4 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubelskie,Dyskont,4
+092088,2,4 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubelskie,Dyskont,1
+092088,3,4 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubelskie,Dyskont,1
+092088,4,4 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubelskie,Dyskont,1
+092088,5,4 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubelskie,Dyskont,2
+092088,6,4 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubelskie,Dyskont,7
+092088,7,4 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubelskie,Dyskont,1
+092088,8,4 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubelskie,Dyskont,1
+092414,1,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Sklepy Spozywcze,1
+092414,2,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Sklepy Spozywcze,1
+092414,3,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Hypermarkets,1
+092414,4,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Hypermarkets,1
+092414,7,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Sklepy Spozywcze,2
+092414,8,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Hurt,1
+092414,8,2 Persons,500.000 And More Inhabitants,University,Łódzkie,inne,1
+092414,8,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Sklepy Spozywcze,1
+092482,1,3 Persons,100.000 - 199.999 Inhabitants,University,Śląskie,Dyskont,2
+092482,2,3 Persons,100.000 - 199.999 Inhabitants,University,Śląskie,Dyskont,2
+092482,3,3 Persons,100.000 - 199.999 Inhabitants,University,Śląskie,Dyskont,3
+092482,4,3 Persons,100.000 - 199.999 Inhabitants,University,Śląskie,Dyskont,1
+092482,5,3 Persons,100.000 - 199.999 Inhabitants,University,Śląskie,Hypermarkets,1
+092482,6,3 Persons,100.000 - 199.999 Inhabitants,University,Śląskie,Dyskont,2
+092482,7,3 Persons,100.000 - 199.999 Inhabitants,University,Śląskie,Dyskont,2
+092482,8,3 Persons,100.000 - 199.999 Inhabitants,University,Śląskie,Hypermarkets,1
+092515,1,2 Persons,Village,Profession Or Secondary,Łódzkie,Sklepy Spozywcze,4
+092515,2,2 Persons,Village,Profession Or Secondary,Łódzkie,Sklepy Spozywcze,2
+092515,3,2 Persons,Village,Profession Or Secondary,Łódzkie,Sklepy Spozywcze,1
+092515,4,2 Persons,Village,Profession Or Secondary,Łódzkie,Sklepy Spozywcze,4
+092515,5,2 Persons,Village,Profession Or Secondary,Łódzkie,Sklepy Spozywcze,1
+092515,6,2 Persons,Village,Profession Or Secondary,Łódzkie,Sklepy Spozywcze,2
+092515,7,2 Persons,Village,Profession Or Secondary,Łódzkie,Sklepy Spozywcze,3
+092515,8,2 Persons,Village,Profession Or Secondary,Łódzkie,Sklepy Spozywcze,1
+092803,1,2 Persons,050.000 - 99.999 Inhabitants,University,Łódzkie,Supermarkets,3
+092803,2,2 Persons,050.000 - 99.999 Inhabitants,University,Łódzkie,Supermarkets,3
+092803,3,2 Persons,050.000 - 99.999 Inhabitants,University,Łódzkie,Dyskont,1
+092803,3,2 Persons,050.000 - 99.999 Inhabitants,University,Łódzkie,Hurt,1
+092803,3,2 Persons,050.000 - 99.999 Inhabitants,University,Łódzkie,Supermarkets,2
+092803,4,2 Persons,050.000 - 99.999 Inhabitants,University,Łódzkie,Hypermarkets,1
+092803,4,2 Persons,050.000 - 99.999 Inhabitants,University,Łódzkie,Supermarkets,1
+092803,5,2 Persons,050.000 - 99.999 Inhabitants,University,Łódzkie,Hypermarkets,1
+093017,1,3 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Pomorskie,Sklepy Spozywcze,2
+093017,3,3 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Pomorskie,Sklepy Spozywcze,1
+093017,4,3 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Pomorskie,Sklepy Spozywcze,1
+093017,5,3 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Pomorskie,Sklepy Spozywcze,2
+093017,6,3 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Pomorskie,Sklepy Spozywcze,1
+093017,7,3 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Pomorskie,Hurt,2
+093017,7,3 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Pomorskie,Sklepy Spozywcze,1
+093017,8,3 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Pomorskie,Sklepy Spozywcze,1
+093108,1,4 Persons,020.000 - 49.999 Inhabitants,University,Wielkopolskie,Hypermarkets,2
+093108,2,4 Persons,020.000 - 49.999 Inhabitants,University,Wielkopolskie,Hypermarkets,3
+093108,3,4 Persons,020.000 - 49.999 Inhabitants,University,Wielkopolskie,Hypermarkets,3
+093108,4,4 Persons,020.000 - 49.999 Inhabitants,University,Wielkopolskie,Hypermarkets,5
+093108,5,4 Persons,020.000 - 49.999 Inhabitants,University,Wielkopolskie,Hypermarkets,9
+093108,6,4 Persons,020.000 - 49.999 Inhabitants,University,Wielkopolskie,Hypermarkets,7
+093108,7,4 Persons,020.000 - 49.999 Inhabitants,University,Wielkopolskie,Hypermarkets,6
+093108,8,4 Persons,020.000 - 49.999 Inhabitants,University,Wielkopolskie,Hypermarkets,3
+093140,1,2 Persons,Village,University,Łódzkie,Dyskont,1
+093140,1,2 Persons,Village,University,Łódzkie,Sklepy Spozywcze,1
+093140,2,2 Persons,Village,University,Łódzkie,Dyskont,1
+093140,3,2 Persons,Village,University,Łódzkie,Sklepy Spozywcze,1
+093140,4,2 Persons,Village,University,Łódzkie,Sklepy Spozywcze,1
+093140,5,2 Persons,Village,University,Łódzkie,Sklepy Spozywcze,2
+093140,6,2 Persons,Village,University,Łódzkie,Sklepy Spozywcze,1
+093140,7,2 Persons,Village,University,Łódzkie,Dyskont,2
+093228,1,3 Persons,500.000 And More Inhabitants,University,Małopolskie,Dyskont,4
+093228,1,3 Persons,500.000 And More Inhabitants,University,Małopolskie,Sieci Detal,1
+093228,1,3 Persons,500.000 And More Inhabitants,University,Małopolskie,Sklepy Spozywcze,2
+093228,5,3 Persons,500.000 And More Inhabitants,University,Małopolskie,Dyskont,2
+093228,5,3 Persons,500.000 And More Inhabitants,University,Małopolskie,Sieci Detal,1
+093228,5,3 Persons,500.000 And More Inhabitants,University,Małopolskie,Sklepy Spozywcze,1
+093228,7,3 Persons,500.000 And More Inhabitants,University,Małopolskie,Sklepy Spozywcze,4
+093228,8,3 Persons,500.000 And More Inhabitants,University,Małopolskie,Sklepy Spozywcze,2
+093371,1,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubuskie,Sieci Detal,17
+093371,2,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubuskie,Sieci Detal,14
+093371,3,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubuskie,Sieci Detal,23
+093371,4,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubuskie,Sieci Detal,17
+093371,5,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubuskie,Sieci Detal,12
+093371,6,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubuskie,Sieci Detal,13
+093371,7,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubuskie,Sieci Detal,13
+093371,8,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubuskie,Sieci Detal,14
+093833,1,3 Persons,500.000 And More Inhabitants,University,Mazowieckie,Hypermarkets,2
+093833,1,3 Persons,500.000 And More Inhabitants,University,Mazowieckie,Sieci Detal,1
+093833,3,3 Persons,500.000 And More Inhabitants,University,Mazowieckie,Hypermarkets,1
+093833,6,3 Persons,500.000 And More Inhabitants,University,Mazowieckie,Hypermarkets,1
+093833,7,3 Persons,500.000 And More Inhabitants,University,Mazowieckie,Sieci Detal,1
+093833,8,3 Persons,500.000 And More Inhabitants,University,Mazowieckie,Hypermarkets,1
+093833,8,3 Persons,500.000 And More Inhabitants,University,Mazowieckie,Sieci Detal,1
+093833,8,3 Persons,500.000 And More Inhabitants,University,Mazowieckie,Supermarkets,1
+093896,1,3 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Warmińsko-Mazurskie,Hurt,1
+093896,1,3 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Warmińsko-Mazurskie,Hypermarkets,1
+093896,2,3 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Warmińsko-Mazurskie,Hypermarkets,4
+093896,3,3 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Warmińsko-Mazurskie,Hypermarkets,2
+093896,4,3 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Warmińsko-Mazurskie,Hypermarkets,3
+093896,4,3 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Warmińsko-Mazurskie,Sieci Detal,1
+093896,5,3 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Warmińsko-Mazurskie,Dyskont,1
+093896,5,3 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Warmińsko-Mazurskie,Hypermarkets,1
+093945,3,4 Persons,Village,Secondary School Finished,Podkarpackie,Sieci Detal,1
+093945,3,4 Persons,Village,Secondary School Finished,Podkarpackie,Supermarkets,1
+093945,4,4 Persons,Village,Secondary School Finished,Podkarpackie,Sieci Detal,1
+093945,5,4 Persons,Village,Secondary School Finished,Podkarpackie,Sieci Detal,1
+093945,6,4 Persons,Village,Secondary School Finished,Podkarpackie,Sieci Detal,1
+093945,6,4 Persons,Village,Secondary School Finished,Podkarpackie,Supermarkets,1
+093945,8,4 Persons,Village,Secondary School Finished,Podkarpackie,Sieci Detal,1
+093945,8,4 Persons,Village,Secondary School Finished,Podkarpackie,Supermarkets,1
+094006,1,4 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Dyskont,1
+094006,1,4 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Hypermarkets,1
+094006,3,4 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Hypermarkets,1
+094006,4,4 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Dyskont,2
+094006,5,4 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Dyskont,1
+094006,6,4 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Dyskont,1
+094006,7,4 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Sieci Detal,1
+094006,8,4 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Dyskont,2
+094051,1,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Opolskie,Dyskont,1
+094051,1,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Opolskie,Hypermarkets,1
+094051,2,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Opolskie,Hypermarkets,1
+094051,3,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Opolskie,Hypermarkets,2
+094051,4,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Opolskie,Hypermarkets,1
+094051,6,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Opolskie,Hypermarkets,1
+094051,7,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Opolskie,Hypermarkets,3
+094051,8,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Opolskie,Hypermarkets,2
+094061,2,4 Persons,City -19.999 Inhabitants,Profession Or Secondary,Zachodniopomorskie,Dyskont,1
+094061,4,4 Persons,City -19.999 Inhabitants,Profession Or Secondary,Zachodniopomorskie,Dyskont,1
+094061,4,4 Persons,City -19.999 Inhabitants,Profession Or Secondary,Zachodniopomorskie,Hurt,2
+094061,5,4 Persons,City -19.999 Inhabitants,Profession Or Secondary,Zachodniopomorskie,Dyskont,1
+094061,5,4 Persons,City -19.999 Inhabitants,Profession Or Secondary,Zachodniopomorskie,Hurt,1
+094061,5,4 Persons,City -19.999 Inhabitants,Profession Or Secondary,Zachodniopomorskie,Supermarkets,1
+094061,7,4 Persons,City -19.999 Inhabitants,Profession Or Secondary,Zachodniopomorskie,Dyskont,1
+094061,8,4 Persons,City -19.999 Inhabitants,Profession Or Secondary,Zachodniopomorskie,Sieci Detal,2
+094231,1,4 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Mazowieckie,Supermarkets,1
+094231,2,4 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Mazowieckie,Sieci Detal,1
+094231,2,4 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Mazowieckie,Supermarkets,1
+094231,5,4 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Mazowieckie,Dyskont,1
+094231,5,4 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Mazowieckie,Supermarkets,2
+094231,6,4 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Mazowieckie,Supermarkets,3
+094231,7,4 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Mazowieckie,Supermarkets,3
+094231,8,4 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Mazowieckie,Supermarkets,1
+094285,1,4 Persons,200.000 - 499.999 Inhabitants,University,Świętokrzyskie,Hypermarkets,1
+094285,1,4 Persons,200.000 - 499.999 Inhabitants,University,Świętokrzyskie,inne,2
+094285,4,4 Persons,200.000 - 499.999 Inhabitants,University,Świętokrzyskie,Hypermarkets,1
+094285,5,4 Persons,200.000 - 499.999 Inhabitants,University,Świętokrzyskie,Hypermarkets,1
+094285,5,4 Persons,200.000 - 499.999 Inhabitants,University,Świętokrzyskie,inne,1
+094285,7,4 Persons,200.000 - 499.999 Inhabitants,University,Świętokrzyskie,inne,1
+094285,8,4 Persons,200.000 - 499.999 Inhabitants,University,Świętokrzyskie,Hypermarkets,1
+094285,8,4 Persons,200.000 - 499.999 Inhabitants,University,Świętokrzyskie,inne,1
+094632,1,3 Persons,Village,Primary,Wielkopolskie,Dyskont,2
+094632,2,3 Persons,Village,Primary,Wielkopolskie,Dyskont,1
+094632,3,3 Persons,Village,Primary,Wielkopolskie,Hypermarkets,1
+094632,5,3 Persons,Village,Primary,Wielkopolskie,Sieci Detal,1
+094632,5,3 Persons,Village,Primary,Wielkopolskie,Supermarkets,1
+094632,6,3 Persons,Village,Primary,Wielkopolskie,Dyskont,1
+094632,7,3 Persons,Village,Primary,Wielkopolskie,Hurt,2
+094632,8,3 Persons,Village,Primary,Wielkopolskie,Dyskont,2
+094755,3,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Mazowieckie,Sieci Detal,1
+094755,4,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Mazowieckie,Sieci Detal,3
+094755,5,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Mazowieckie,Sieci Detal,1
+094755,6,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Mazowieckie,Sieci Detal,1
+094755,6,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Mazowieckie,Sklepy Spozywcze,1
+094755,7,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Mazowieckie,Sieci Detal,2
+094755,8,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Mazowieckie,Dyskont,1
+094755,8,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Mazowieckie,Sklepy Spozywcze,1
+094788,1,2 Persons,050.000 - 99.999 Inhabitants,University,Opolskie,Hypermarkets,1
+094788,4,2 Persons,050.000 - 99.999 Inhabitants,University,Opolskie,Hurt,1
+094788,4,2 Persons,050.000 - 99.999 Inhabitants,University,Opolskie,Hypermarkets,1
+094788,5,2 Persons,050.000 - 99.999 Inhabitants,University,Opolskie,Hypermarkets,1
+094788,6,2 Persons,050.000 - 99.999 Inhabitants,University,Opolskie,Supermarkets,1
+094788,8,2 Persons,050.000 - 99.999 Inhabitants,University,Opolskie,Hurt,1
+094788,8,2 Persons,050.000 - 99.999 Inhabitants,University,Opolskie,Hypermarkets,1
+094788,8,2 Persons,050.000 - 99.999 Inhabitants,University,Opolskie,Supermarkets,1
+094807,1,4 Persons,Village,Secondary School Finished,Mazowieckie,Hypermarkets,1
+094807,2,4 Persons,Village,Secondary School Finished,Mazowieckie,Hurt,1
+094807,2,4 Persons,Village,Secondary School Finished,Mazowieckie,Hypermarkets,3
+094807,4,4 Persons,Village,Secondary School Finished,Mazowieckie,Hurt,1
+094807,5,4 Persons,Village,Secondary School Finished,Mazowieckie,Hurt,1
+094807,5,4 Persons,Village,Secondary School Finished,Mazowieckie,Hypermarkets,2
+094807,7,4 Persons,Village,Secondary School Finished,Mazowieckie,Hurt,1
+094807,8,4 Persons,Village,Secondary School Finished,Mazowieckie,Hurt,1
+094817,1,3 Persons,Village,Secondary School Finished,Wielkopolskie,Hypermarkets,4
+094817,2,3 Persons,Village,Secondary School Finished,Wielkopolskie,Hypermarkets,4
+094817,3,3 Persons,Village,Secondary School Finished,Wielkopolskie,Hypermarkets,4
+094817,4,3 Persons,Village,Secondary School Finished,Wielkopolskie,Hypermarkets,5
+094817,5,3 Persons,Village,Secondary School Finished,Wielkopolskie,Hypermarkets,4
+094817,6,3 Persons,Village,Secondary School Finished,Wielkopolskie,Hypermarkets,1
+094817,7,3 Persons,Village,Secondary School Finished,Wielkopolskie,Hypermarkets,2
+094817,8,3 Persons,Village,Secondary School Finished,Wielkopolskie,Hypermarkets,3
+095008,1,3 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Śląskie,Hurt,1
+095008,2,3 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Śląskie,Hurt,1
+095008,2,3 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Śląskie,Hypermarkets,1
+095008,3,3 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Śląskie,Dyskont,1
+095008,3,3 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Śląskie,Hypermarkets,1
+095008,4,3 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Śląskie,Hypermarkets,5
+095008,5,3 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Śląskie,Hurt,1
+095008,5,3 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Śląskie,Hypermarkets,1
+095074,2,2 Persons,City -19.999 Inhabitants,University,Mazowieckie,Hypermarkets,1
+095074,2,2 Persons,City -19.999 Inhabitants,University,Mazowieckie,Sieci Detal,1
+095074,2,2 Persons,City -19.999 Inhabitants,University,Mazowieckie,Supermarkets,1
+095074,7,2 Persons,City -19.999 Inhabitants,University,Mazowieckie,Sklepy Spozywcze,1
+095074,8,2 Persons,City -19.999 Inhabitants,University,Mazowieckie,Sieci Detal,1
+095074,8,2 Persons,City -19.999 Inhabitants,University,Mazowieckie,Sklepy Spozywcze,1
+095074,8,2 Persons,City -19.999 Inhabitants,University,Mazowieckie,inne,2
+095074,8,2 Persons,City -19.999 Inhabitants,University,Mazowieckie,Supermarkets,3
+095100,1,3 Persons,100.000 - 199.999 Inhabitants,University,Lubuskie,Sieci Detal,1
+095100,2,3 Persons,100.000 - 199.999 Inhabitants,University,Lubuskie,Sieci Detal,1
+095100,3,3 Persons,100.000 - 199.999 Inhabitants,University,Lubuskie,Dyskont,3
+095100,6,3 Persons,100.000 - 199.999 Inhabitants,University,Lubuskie,Hypermarkets,1
+095100,6,3 Persons,100.000 - 199.999 Inhabitants,University,Lubuskie,Sieci Detal,1
+095100,7,3 Persons,100.000 - 199.999 Inhabitants,University,Lubuskie,Supermarkets,1
+095100,8,3 Persons,100.000 - 199.999 Inhabitants,University,Lubuskie,Dyskont,1
+095100,8,3 Persons,100.000 - 199.999 Inhabitants,University,Lubuskie,Sieci Detal,1
+095266,1,5 Persons,Village,Profession Or Secondary,Zachodniopomorskie,Dyskont,1
+095266,2,5 Persons,Village,Profession Or Secondary,Zachodniopomorskie,Dyskont,1
+095266,3,5 Persons,Village,Profession Or Secondary,Zachodniopomorskie,Dyskont,2
+095266,4,5 Persons,Village,Profession Or Secondary,Zachodniopomorskie,Dyskont,1
+095266,5,5 Persons,Village,Profession Or Secondary,Zachodniopomorskie,Dyskont,2
+095266,6,5 Persons,Village,Profession Or Secondary,Zachodniopomorskie,Dyskont,1
+095266,7,5 Persons,Village,Profession Or Secondary,Zachodniopomorskie,Dyskont,3
+095266,8,5 Persons,Village,Profession Or Secondary,Zachodniopomorskie,Dyskont,2
+095274,2,4 Persons,City -19.999 Inhabitants,University,Dolnośląskie,Dyskont,1
+095274,3,4 Persons,City -19.999 Inhabitants,University,Dolnośląskie,Dyskont,2
+095274,3,4 Persons,City -19.999 Inhabitants,University,Dolnośląskie,Supermarkets,1
+095274,6,4 Persons,City -19.999 Inhabitants,University,Dolnośląskie,Dyskont,1
+095274,7,4 Persons,City -19.999 Inhabitants,University,Dolnośląskie,Dyskont,1
+095274,7,4 Persons,City -19.999 Inhabitants,University,Dolnośląskie,Sieci Detal,1
+095274,7,4 Persons,City -19.999 Inhabitants,University,Dolnośląskie,Sklepy Spozywcze,1
+095274,8,4 Persons,City -19.999 Inhabitants,University,Dolnośląskie,Dyskont,1
+095398,1,4 Persons,200.000 - 499.999 Inhabitants,University,Podlaskie,Dyskont,1
+095398,2,4 Persons,200.000 - 499.999 Inhabitants,University,Podlaskie,Sklepy Spozywcze,1
+095398,3,4 Persons,200.000 - 499.999 Inhabitants,University,Podlaskie,Sklepy Spozywcze,2
+095398,4,4 Persons,200.000 - 499.999 Inhabitants,University,Podlaskie,Sklepy Spozywcze,1
+095398,5,4 Persons,200.000 - 499.999 Inhabitants,University,Podlaskie,Hypermarkets,1
+095398,5,4 Persons,200.000 - 499.999 Inhabitants,University,Podlaskie,Sklepy Spozywcze,2
+095398,7,4 Persons,200.000 - 499.999 Inhabitants,University,Podlaskie,Sklepy Spozywcze,1
+095398,8,4 Persons,200.000 - 499.999 Inhabitants,University,Podlaskie,Sklepy Spozywcze,1
+095774,2,2 Persons,Village,Profession Or Secondary,Warmińsko-Mazurskie,Dyskont,3
+095774,3,2 Persons,Village,Profession Or Secondary,Warmińsko-Mazurskie,Dyskont,2
+095774,4,2 Persons,Village,Profession Or Secondary,Warmińsko-Mazurskie,Dyskont,1
+095774,5,2 Persons,Village,Profession Or Secondary,Warmińsko-Mazurskie,Dyskont,1
+095774,5,2 Persons,Village,Profession Or Secondary,Warmińsko-Mazurskie,Sklepy Spozywcze,1
+095774,6,2 Persons,Village,Profession Or Secondary,Warmińsko-Mazurskie,Dyskont,1
+095774,7,2 Persons,Village,Profession Or Secondary,Warmińsko-Mazurskie,Dyskont,2
+095774,8,2 Persons,Village,Profession Or Secondary,Warmińsko-Mazurskie,Dyskont,2
+095856,1,2 Persons,Village,University,Zachodniopomorskie,Hurt,2
+095856,2,2 Persons,Village,University,Zachodniopomorskie,Hurt,1
+095856,4,2 Persons,Village,University,Zachodniopomorskie,Hurt,1
+095856,6,2 Persons,Village,University,Zachodniopomorskie,Hurt,1
+095856,6,2 Persons,Village,University,Zachodniopomorskie,Sklepy Spozywcze,1
+095856,7,2 Persons,Village,University,Zachodniopomorskie,Hurt,1
+095856,7,2 Persons,Village,University,Zachodniopomorskie,Hypermarkets,1
+095856,8,2 Persons,Village,University,Zachodniopomorskie,Hurt,1
+096347,1,4 Persons,050.000 - 99.999 Inhabitants,University,Wielkopolskie,Sieci Detal,2
+096347,2,4 Persons,050.000 - 99.999 Inhabitants,University,Wielkopolskie,Sieci Detal,1
+096347,4,4 Persons,050.000 - 99.999 Inhabitants,University,Wielkopolskie,Dyskont,2
+096347,5,4 Persons,050.000 - 99.999 Inhabitants,University,Wielkopolskie,Dyskont,2
+096347,5,4 Persons,050.000 - 99.999 Inhabitants,University,Wielkopolskie,Hurt,3
+096347,5,4 Persons,050.000 - 99.999 Inhabitants,University,Wielkopolskie,Sieci Detal,1
+096347,6,4 Persons,050.000 - 99.999 Inhabitants,University,Wielkopolskie,Dyskont,1
+096347,8,4 Persons,050.000 - 99.999 Inhabitants,University,Wielkopolskie,Sieci Detal,1
+096358,2,5 Persons,020.000 - 49.999 Inhabitants,University,Podlaskie,Dyskont,1
+096358,2,5 Persons,020.000 - 49.999 Inhabitants,University,Podlaskie,Sieci Detal,1
+096358,3,5 Persons,020.000 - 49.999 Inhabitants,University,Podlaskie,Sieci Detal,1
+096358,5,5 Persons,020.000 - 49.999 Inhabitants,University,Podlaskie,Sieci Detal,1
+096358,7,5 Persons,020.000 - 49.999 Inhabitants,University,Podlaskie,Sieci Detal,1
+096358,7,5 Persons,020.000 - 49.999 Inhabitants,University,Podlaskie,inne,1
+096358,8,5 Persons,020.000 - 49.999 Inhabitants,University,Podlaskie,Sklepy Spozywcze,2
+096358,8,5 Persons,020.000 - 49.999 Inhabitants,University,Podlaskie,Supermarkets,2
+096525,1,4 Persons,100.000 - 199.999 Inhabitants,University,Lubuskie,Dyskont,1
+096525,3,4 Persons,100.000 - 199.999 Inhabitants,University,Lubuskie,Dyskont,1
+096525,3,4 Persons,100.000 - 199.999 Inhabitants,University,Lubuskie,Sklepy Spozywcze,4
+096525,4,4 Persons,100.000 - 199.999 Inhabitants,University,Lubuskie,Sklepy Spozywcze,3
+096525,5,4 Persons,100.000 - 199.999 Inhabitants,University,Lubuskie,Sklepy Spozywcze,3
+096525,6,4 Persons,100.000 - 199.999 Inhabitants,University,Lubuskie,Dyskont,1
+096525,6,4 Persons,100.000 - 199.999 Inhabitants,University,Lubuskie,Sklepy Spozywcze,1
+096525,8,4 Persons,100.000 - 199.999 Inhabitants,University,Lubuskie,Sklepy Spozywcze,1
+096600,1,4 Persons,Village,Profession Or Secondary,Pomorskie,Sklepy Spozywcze,11
+096600,2,4 Persons,Village,Profession Or Secondary,Pomorskie,Dyskont,1
+096600,2,4 Persons,Village,Profession Or Secondary,Pomorskie,Sklepy Spozywcze,7
+096600,3,4 Persons,Village,Profession Or Secondary,Pomorskie,Sklepy Spozywcze,1
+096600,4,4 Persons,Village,Profession Or Secondary,Pomorskie,Sklepy Spozywcze,6
+096600,5,4 Persons,Village,Profession Or Secondary,Pomorskie,Sklepy Spozywcze,3
+096600,6,4 Persons,Village,Profession Or Secondary,Pomorskie,Sklepy Spozywcze,7
+096600,7,4 Persons,Village,Profession Or Secondary,Pomorskie,Sklepy Spozywcze,6
+097031,1,1 Person,500.000 And More Inhabitants,Secondary School Finished,Łódzkie,Sklepy Spozywcze,5
+097031,2,1 Person,500.000 And More Inhabitants,Secondary School Finished,Łódzkie,Sklepy Spozywcze,3
+097031,3,1 Person,500.000 And More Inhabitants,Secondary School Finished,Łódzkie,Sklepy Spozywcze,1
+097031,4,1 Person,500.000 And More Inhabitants,Secondary School Finished,Łódzkie,Sklepy Spozywcze,1
+097031,5,1 Person,500.000 And More Inhabitants,Secondary School Finished,Łódzkie,Sklepy Spozywcze,8
+097031,6,1 Person,500.000 And More Inhabitants,Secondary School Finished,Łódzkie,Sklepy Spozywcze,10
+097031,7,1 Person,500.000 And More Inhabitants,Secondary School Finished,Łódzkie,Sklepy Spozywcze,10
+097031,8,1 Person,500.000 And More Inhabitants,Secondary School Finished,Łódzkie,Sklepy Spozywcze,7
+097089,1,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Łódzkie,Hypermarkets,1
+097089,1,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Łódzkie,Supermarkets,1
+097089,2,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Łódzkie,Dyskont,1
+097089,4,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Łódzkie,Hurt,1
+097089,5,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Łódzkie,Hypermarkets,1
+097089,6,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Łódzkie,Dyskont,1
+097089,7,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Łódzkie,Supermarkets,1
+097089,8,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Łódzkie,Supermarkets,1
+097251,1,2 Persons,100.000 - 199.999 Inhabitants,University,Zachodniopomorskie,Dyskont,2
+097251,2,2 Persons,100.000 - 199.999 Inhabitants,University,Zachodniopomorskie,Hurt,1
+097251,3,2 Persons,100.000 - 199.999 Inhabitants,University,Zachodniopomorskie,Dyskont,3
+097251,3,2 Persons,100.000 - 199.999 Inhabitants,University,Zachodniopomorskie,Hurt,1
+097251,3,2 Persons,100.000 - 199.999 Inhabitants,University,Zachodniopomorskie,Sieci Detal,1
+097251,6,2 Persons,100.000 - 199.999 Inhabitants,University,Zachodniopomorskie,Sieci Detal,1
+097251,7,2 Persons,100.000 - 199.999 Inhabitants,University,Zachodniopomorskie,Dyskont,2
+097251,8,2 Persons,100.000 - 199.999 Inhabitants,University,Zachodniopomorskie,Dyskont,1
+097293,2,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Pomorskie,Hurt,1
+097293,5,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Pomorskie,Dyskont,1
+097293,6,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Pomorskie,Hurt,3
+097293,6,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Pomorskie,Hypermarkets,1
+097293,7,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Pomorskie,Hurt,2
+097293,7,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Pomorskie,Hypermarkets,2
+097293,8,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Pomorskie,Hurt,2
+097293,8,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Pomorskie,Sieci Detal,1
+097308,1,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Podlaskie,Sklepy Spozywcze,2
+097308,1,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Podlaskie,Supermarkets,1
+097308,6,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Podlaskie,inne,1
+097308,6,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Podlaskie,inne,1
+097308,6,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Podlaskie,Supermarkets,1
+097308,7,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Podlaskie,Sklepy Spozywcze,4
+097308,8,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Podlaskie,inne,1
+097308,8,2 Persons,City -19.999 Inhabitants,Secondary School Finished,Podlaskie,Sklepy Spozywcze,2
+097316,1,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubelskie,Dyskont,2
+097316,1,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubelskie,Sklepy Spozywcze,1
+097316,3,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubelskie,Dyskont,2
+097316,4,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubelskie,Dyskont,2
+097316,4,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubelskie,Hurt,1
+097316,6,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubelskie,Dyskont,1
+097316,6,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubelskie,Supermarkets,1
+097316,7,3 Persons,City -19.999 Inhabitants,Secondary School Finished,Lubelskie,Dyskont,1
+097526,1,5 Persons,Village,Secondary School Finished,Łódzkie,Dyskont,1
+097526,2,5 Persons,Village,Secondary School Finished,Łódzkie,Dyskont,1
+097526,2,5 Persons,Village,Secondary School Finished,Łódzkie,Sklepy Spozywcze,1
+097526,3,5 Persons,Village,Secondary School Finished,Łódzkie,Dyskont,1
+097526,4,5 Persons,Village,Secondary School Finished,Łódzkie,Dyskont,1
+097526,4,5 Persons,Village,Secondary School Finished,Łódzkie,Sklepy Spozywcze,1
+097526,5,5 Persons,Village,Secondary School Finished,Łódzkie,Dyskont,1
+097526,6,5 Persons,Village,Secondary School Finished,Łódzkie,Supermarkets,1
+097603,1,3 Persons,Village,University,Łódzkie,Hypermarkets,2
+097603,5,3 Persons,Village,University,Łódzkie,Hypermarkets,1
+097603,5,3 Persons,Village,University,Łódzkie,Sklepy Spozywcze,1
+097603,7,3 Persons,Village,University,Łódzkie,Hypermarkets,1
+097603,7,3 Persons,Village,University,Łódzkie,Sieci Detal,1
+097603,7,3 Persons,Village,University,Łódzkie,Sklepy Spozywcze,1
+097603,8,3 Persons,Village,University,Łódzkie,Sieci Detal,4
+097603,8,3 Persons,Village,University,Łódzkie,Sklepy Spozywcze,1
+097606,2,4 Persons,100.000 - 199.999 Inhabitants,University,Podkarpackie,Hurt,1
+097606,5,4 Persons,100.000 - 199.999 Inhabitants,University,Podkarpackie,Hurt,1
+097606,5,4 Persons,100.000 - 199.999 Inhabitants,University,Podkarpackie,Hypermarkets,2
+097606,6,4 Persons,100.000 - 199.999 Inhabitants,University,Podkarpackie,Hypermarkets,1
+097606,7,4 Persons,100.000 - 199.999 Inhabitants,University,Podkarpackie,Hurt,1
+097606,7,4 Persons,100.000 - 199.999 Inhabitants,University,Podkarpackie,Sieci Detal,1
+097606,8,4 Persons,100.000 - 199.999 Inhabitants,University,Podkarpackie,Hurt,1
+097606,8,4 Persons,100.000 - 199.999 Inhabitants,University,Podkarpackie,Hypermarkets,1
+097628,1,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Warmińsko-Mazurskie,Dyskont,1
+097628,2,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Warmińsko-Mazurskie,Dyskont,1
+097628,3,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Warmińsko-Mazurskie,Dyskont,1
+097628,4,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Warmińsko-Mazurskie,Dyskont,1
+097628,6,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Warmińsko-Mazurskie,Dyskont,2
+097628,6,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Warmińsko-Mazurskie,Hypermarkets,1
+097628,6,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Warmińsko-Mazurskie,Sklepy Spozywcze,2
+097628,8,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Warmińsko-Mazurskie,Dyskont,1
+097726,1,3 Persons,500.000 And More Inhabitants,Secondary School Finished,Łódzkie,Sklepy Spozywcze,1
+097726,4,3 Persons,500.000 And More Inhabitants,Secondary School Finished,Łódzkie,Sklepy Spozywcze,1
+097726,5,3 Persons,500.000 And More Inhabitants,Secondary School Finished,Łódzkie,Hypermarkets,1
+097726,5,3 Persons,500.000 And More Inhabitants,Secondary School Finished,Łódzkie,inne,1
+097726,5,3 Persons,500.000 And More Inhabitants,Secondary School Finished,Łódzkie,Sklepy Spozywcze,1
+097726,6,3 Persons,500.000 And More Inhabitants,Secondary School Finished,Łódzkie,Dyskont,1
+097726,7,3 Persons,500.000 And More Inhabitants,Secondary School Finished,Łódzkie,Dyskont,1
+097726,8,3 Persons,500.000 And More Inhabitants,Secondary School Finished,Łódzkie,Sklepy Spozywcze,1
+097772,2,1 Person,050.000 - 99.999 Inhabitants,Secondary School Finished,Pomorskie,Sklepy Spozywcze,1
+097772,3,1 Person,050.000 - 99.999 Inhabitants,Secondary School Finished,Pomorskie,Dyskont,1
+097772,3,1 Person,050.000 - 99.999 Inhabitants,Secondary School Finished,Pomorskie,Sklepy Spozywcze,1
+097772,4,1 Person,050.000 - 99.999 Inhabitants,Secondary School Finished,Pomorskie,Dyskont,1
+097772,4,1 Person,050.000 - 99.999 Inhabitants,Secondary School Finished,Pomorskie,Sklepy Spozywcze,1
+097772,5,1 Person,050.000 - 99.999 Inhabitants,Secondary School Finished,Pomorskie,Dyskont,1
+097772,6,1 Person,050.000 - 99.999 Inhabitants,Secondary School Finished,Pomorskie,Dyskont,1
+097772,7,1 Person,050.000 - 99.999 Inhabitants,Secondary School Finished,Pomorskie,Dyskont,1
+098005,1,7 and more,City -19.999 Inhabitants,Secondary School Finished,Opolskie,Sklepy Spozywcze,1
+098005,2,7 and more,City -19.999 Inhabitants,Secondary School Finished,Opolskie,Sklepy Spozywcze,1
+098005,3,7 and more,City -19.999 Inhabitants,Secondary School Finished,Opolskie,Sklepy Spozywcze,4
+098005,4,7 and more,City -19.999 Inhabitants,Secondary School Finished,Opolskie,Sklepy Spozywcze,3
+098005,5,7 and more,City -19.999 Inhabitants,Secondary School Finished,Opolskie,Sklepy Spozywcze,2
+098005,6,7 and more,City -19.999 Inhabitants,Secondary School Finished,Opolskie,Sklepy Spozywcze,5
+098005,7,7 and more,City -19.999 Inhabitants,Secondary School Finished,Opolskie,Sklepy Spozywcze,4
+098005,8,7 and more,City -19.999 Inhabitants,Secondary School Finished,Opolskie,Sklepy Spozywcze,5
+098414,4,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Dyskont,2
+098414,5,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Dyskont,1
+098414,6,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Dyskont,2
+098414,6,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Hypermarkets,2
+098414,8,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Dyskont,1
+098414,8,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Hurt,1
+098414,8,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Hypermarkets,1
+098414,8,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Supermarkets,2
+098530,1,5 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Śląskie,Dyskont,1
+098530,2,5 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Śląskie,Sklepy Spozywcze,1
+098530,4,5 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Śląskie,Sieci Detal,1
+098530,5,5 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Śląskie,Dyskont,1
+098530,7,5 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Śląskie,Hypermarkets,1
+098530,8,5 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Śląskie,Dyskont,1
+098530,8,5 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Śląskie,Hurt,1
+098530,8,5 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Śląskie,Hypermarkets,3
+098547,1,2 Persons,200.000 - 499.999 Inhabitants,Primary,Śląskie,Dyskont,1
+098547,3,2 Persons,200.000 - 499.999 Inhabitants,Primary,Śląskie,Supermarkets,1
+098547,4,2 Persons,200.000 - 499.999 Inhabitants,Primary,Śląskie,Dyskont,1
+098547,4,2 Persons,200.000 - 499.999 Inhabitants,Primary,Śląskie,Sklepy Spozywcze,1
+098547,5,2 Persons,200.000 - 499.999 Inhabitants,Primary,Śląskie,Dyskont,2
+098547,5,2 Persons,200.000 - 499.999 Inhabitants,Primary,Śląskie,Sieci Detal,1
+098547,8,2 Persons,200.000 - 499.999 Inhabitants,Primary,Śląskie,Sieci Detal,1
+098547,8,2 Persons,200.000 - 499.999 Inhabitants,Primary,Śląskie,Supermarkets,1
+098610,1,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Hurt,2
+098610,1,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Sieci Detal,1
+098610,3,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Sieci Detal,2
+098610,4,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Sieci Detal,5
+098610,5,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Sieci Detal,8
+098610,6,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Sieci Detal,8
+098610,7,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Sieci Detal,7
+098610,8,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Sieci Detal,8
+098657,1,2 Persons,City -19.999 Inhabitants,Primary,Dolnośląskie,Dyskont,1
+098657,2,2 Persons,City -19.999 Inhabitants,Primary,Dolnośląskie,Dyskont,1
+098657,3,2 Persons,City -19.999 Inhabitants,Primary,Dolnośląskie,Dyskont,4
+098657,3,2 Persons,City -19.999 Inhabitants,Primary,Dolnośląskie,Supermarkets,1
+098657,4,2 Persons,City -19.999 Inhabitants,Primary,Dolnośląskie,Dyskont,3
+098657,5,2 Persons,City -19.999 Inhabitants,Primary,Dolnośląskie,Dyskont,4
+098657,6,2 Persons,City -19.999 Inhabitants,Primary,Dolnośląskie,Dyskont,1
+098657,8,2 Persons,City -19.999 Inhabitants,Primary,Dolnośląskie,Dyskont,1
+098705,1,6 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Opolskie,Dyskont,10
+098705,2,6 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Opolskie,Dyskont,5
+098705,3,6 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Opolskie,Dyskont,16
+098705,4,6 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Opolskie,Dyskont,11
+098705,5,6 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Opolskie,Dyskont,7
+098705,7,6 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Opolskie,Dyskont,5
+098705,8,6 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Opolskie,Dyskont,6
+098705,8,6 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Opolskie,Hypermarkets,1
+098760,5,2 Persons,City -19.999 Inhabitants,University,Wielkopolskie,Dyskont,2
+098760,5,2 Persons,City -19.999 Inhabitants,University,Wielkopolskie,Supermarkets,1
+098760,6,2 Persons,City -19.999 Inhabitants,University,Wielkopolskie,Sklepy Spozywcze,1
+098760,6,2 Persons,City -19.999 Inhabitants,University,Wielkopolskie,Supermarkets,1
+098760,7,2 Persons,City -19.999 Inhabitants,University,Wielkopolskie,Dyskont,2
+098760,7,2 Persons,City -19.999 Inhabitants,University,Wielkopolskie,Hypermarkets,1
+098760,7,2 Persons,City -19.999 Inhabitants,University,Wielkopolskie,Supermarkets,2
+098760,8,2 Persons,City -19.999 Inhabitants,University,Wielkopolskie,Dyskont,2
+099045,2,2 Persons,020.000 - 49.999 Inhabitants,University,Wielkopolskie,Supermarkets,1
+099045,3,2 Persons,020.000 - 49.999 Inhabitants,University,Wielkopolskie,Sieci Detal,2
+099045,4,2 Persons,020.000 - 49.999 Inhabitants,University,Wielkopolskie,Supermarkets,1
+099045,5,2 Persons,020.000 - 49.999 Inhabitants,University,Wielkopolskie,Sieci Detal,1
+099045,5,2 Persons,020.000 - 49.999 Inhabitants,University,Wielkopolskie,Supermarkets,1
+099045,6,2 Persons,020.000 - 49.999 Inhabitants,University,Wielkopolskie,Sieci Detal,1
+099045,7,2 Persons,020.000 - 49.999 Inhabitants,University,Wielkopolskie,Sieci Detal,1
+099045,8,2 Persons,020.000 - 49.999 Inhabitants,University,Wielkopolskie,Sieci Detal,1
+099109,3,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Dolnośląskie,Hypermarkets,1
+099109,4,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Dolnośląskie,Sklepy Spozywcze,1
+099109,5,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Dolnośląskie,Hurt,1
+099109,5,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Dolnośląskie,Hypermarkets,2
+099109,7,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Dolnośląskie,Dyskont,1
+099109,7,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Dolnośląskie,Hypermarkets,2
+099109,8,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Dolnośląskie,Dyskont,1
+099109,8,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Dolnośląskie,Hypermarkets,5
+099147,1,5 Persons,City -19.999 Inhabitants,Secondary School Finished,Zachodniopomorskie,Dyskont,3
+099147,2,5 Persons,City -19.999 Inhabitants,Secondary School Finished,Zachodniopomorskie,Dyskont,5
+099147,3,5 Persons,City -19.999 Inhabitants,Secondary School Finished,Zachodniopomorskie,Dyskont,2
+099147,4,5 Persons,City -19.999 Inhabitants,Secondary School Finished,Zachodniopomorskie,Dyskont,7
+099147,5,5 Persons,City -19.999 Inhabitants,Secondary School Finished,Zachodniopomorskie,Dyskont,1
+099147,6,5 Persons,City -19.999 Inhabitants,Secondary School Finished,Zachodniopomorskie,Dyskont,2
+099147,7,5 Persons,City -19.999 Inhabitants,Secondary School Finished,Zachodniopomorskie,Dyskont,1
+099147,8,5 Persons,City -19.999 Inhabitants,Secondary School Finished,Zachodniopomorskie,Dyskont,1
+099563,1,2 Persons,200.000 - 499.999 Inhabitants,University,Śląskie,Sieci Detal,1
+099563,2,2 Persons,200.000 - 499.999 Inhabitants,University,Śląskie,Hypermarkets,1
+099563,3,2 Persons,200.000 - 499.999 Inhabitants,University,Śląskie,Hypermarkets,3
+099563,3,2 Persons,200.000 - 499.999 Inhabitants,University,Śląskie,Supermarkets,1
+099563,4,2 Persons,200.000 - 499.999 Inhabitants,University,Śląskie,Hypermarkets,1
+099563,5,2 Persons,200.000 - 499.999 Inhabitants,University,Śląskie,Hypermarkets,1
+099563,6,2 Persons,200.000 - 499.999 Inhabitants,University,Śląskie,Hypermarkets,1
+099563,6,2 Persons,200.000 - 499.999 Inhabitants,University,Śląskie,Sieci Detal,1
+099579,3,2 Persons,Village,University,Lubuskie,Hypermarkets,1
+099579,4,2 Persons,Village,University,Lubuskie,Hurt,1
+099579,4,2 Persons,Village,University,Lubuskie,inne,1
+099579,6,2 Persons,Village,University,Lubuskie,Hypermarkets,1
+099579,6,2 Persons,Village,University,Lubuskie,inne,1
+099579,7,2 Persons,Village,University,Lubuskie,Hypermarkets,1
+099579,8,2 Persons,Village,University,Lubuskie,Hypermarkets,2
+099579,8,2 Persons,Village,University,Lubuskie,Sieci Detal,1
+099587,2,3 Persons,100.000 - 199.999 Inhabitants,University,Śląskie,inne,1
+099587,3,3 Persons,100.000 - 199.999 Inhabitants,University,Śląskie,Hurt,2
+099587,3,3 Persons,100.000 - 199.999 Inhabitants,University,Śląskie,Hypermarkets,1
+099587,4,3 Persons,100.000 - 199.999 Inhabitants,University,Śląskie,inne,1
+099587,5,3 Persons,100.000 - 199.999 Inhabitants,University,Śląskie,Hurt,1
+099587,5,3 Persons,100.000 - 199.999 Inhabitants,University,Śląskie,inne,2
+099587,7,3 Persons,100.000 - 199.999 Inhabitants,University,Śląskie,inne,1
+099587,8,3 Persons,100.000 - 199.999 Inhabitants,University,Śląskie,inne,2
+099604,1,2 Persons,Village,Secondary School Finished,Lubuskie,Supermarkets,1
+099604,2,2 Persons,Village,Secondary School Finished,Lubuskie,Supermarkets,1
+099604,3,2 Persons,Village,Secondary School Finished,Lubuskie,Supermarkets,1
+099604,4,2 Persons,Village,Secondary School Finished,Lubuskie,Supermarkets,1
+099604,5,2 Persons,Village,Secondary School Finished,Lubuskie,Dyskont,1
+099604,5,2 Persons,Village,Secondary School Finished,Lubuskie,Supermarkets,2
+099604,6,2 Persons,Village,Secondary School Finished,Lubuskie,Supermarkets,1
+099604,7,2 Persons,Village,Secondary School Finished,Lubuskie,Supermarkets,2
+099685,1,4 Persons,Village,Secondary School Finished,Podkarpackie,Dyskont,5
+099685,2,4 Persons,Village,Secondary School Finished,Podkarpackie,Dyskont,4
+099685,3,4 Persons,Village,Secondary School Finished,Podkarpackie,Dyskont,4
+099685,3,4 Persons,Village,Secondary School Finished,Podkarpackie,Supermarkets,1
+099685,4,4 Persons,Village,Secondary School Finished,Podkarpackie,Dyskont,3
+099685,5,4 Persons,Village,Secondary School Finished,Podkarpackie,Dyskont,2
+099685,6,4 Persons,Village,Secondary School Finished,Podkarpackie,Dyskont,4
+099685,7,4 Persons,Village,Secondary School Finished,Podkarpackie,Dyskont,3
+099701,1,2 Persons,500.000 And More Inhabitants,University,Mazowieckie,Hypermarkets,2
+099701,2,2 Persons,500.000 And More Inhabitants,University,Mazowieckie,Dyskont,1
+099701,2,2 Persons,500.000 And More Inhabitants,University,Mazowieckie,Hypermarkets,2
+099701,2,2 Persons,500.000 And More Inhabitants,University,Mazowieckie,Supermarkets,1
+099701,3,2 Persons,500.000 And More Inhabitants,University,Mazowieckie,Hypermarkets,1
+099701,4,2 Persons,500.000 And More Inhabitants,University,Mazowieckie,Dyskont,1
+099701,4,2 Persons,500.000 And More Inhabitants,University,Mazowieckie,Hurt,1
+099701,4,2 Persons,500.000 And More Inhabitants,University,Mazowieckie,Hypermarkets,2
+099717,1,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Sieci Detal,1
+099717,2,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Sieci Detal,1
+099717,5,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Sklepy Spozywcze,1
+099717,5,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Supermarkets,1
+099717,6,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Supermarkets,1
+099717,7,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Dyskont,1
+099717,7,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Sieci Detal,1
+099717,7,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Supermarkets,1
+099747,1,6 Persons,Village,Secondary School Finished,Małopolskie,Sieci Detal,10
+099747,2,6 Persons,Village,Secondary School Finished,Małopolskie,Sieci Detal,5
+099747,3,6 Persons,Village,Secondary School Finished,Małopolskie,Sieci Detal,8
+099747,4,6 Persons,Village,Secondary School Finished,Małopolskie,Sieci Detal,8
+099747,5,6 Persons,Village,Secondary School Finished,Małopolskie,Sieci Detal,8
+099747,6,6 Persons,Village,Secondary School Finished,Małopolskie,Sieci Detal,4
+099747,7,6 Persons,Village,Secondary School Finished,Małopolskie,Sieci Detal,10
+099747,8,6 Persons,Village,Secondary School Finished,Małopolskie,Sieci Detal,9
+099773,1,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Hypermarkets,1
+099773,2,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Hypermarkets,1
+099773,3,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Hypermarkets,2
+099773,4,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Hypermarkets,2
+099773,5,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Hypermarkets,1
+099773,5,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Sieci Detal,1
+099773,7,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Sklepy Spozywcze,1
+099773,8,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Hypermarkets,1
+099828,1,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Pomorskie,Hurt,6
+099828,2,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Pomorskie,Hurt,12
+099828,3,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Pomorskie,Hurt,9
+099828,4,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Pomorskie,Hurt,6
+099828,5,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Pomorskie,Hurt,6
+099828,6,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Pomorskie,Hurt,4
+099828,7,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Pomorskie,Hurt,8
+099828,8,4 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Pomorskie,Hurt,4
+099833,1,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Sklepy Spozywcze,4
+099833,2,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Sklepy Spozywcze,4
+099833,3,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Sklepy Spozywcze,4
+099833,4,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Sklepy Spozywcze,5
+099833,5,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Sklepy Spozywcze,4
+099833,6,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Sklepy Spozywcze,4
+099833,7,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Sklepy Spozywcze,3
+099833,8,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Kujawsko-Pomorskie,Sklepy Spozywcze,4
+099852,1,4 Persons,200.000 - 499.999 Inhabitants,University,Śląskie,Hurt,2
+099852,2,4 Persons,200.000 - 499.999 Inhabitants,University,Śląskie,Hurt,1
+099852,3,4 Persons,200.000 - 499.999 Inhabitants,University,Śląskie,Hurt,1
+099852,4,4 Persons,200.000 - 499.999 Inhabitants,University,Śląskie,Hurt,2
+099852,6,4 Persons,200.000 - 499.999 Inhabitants,University,Śląskie,Hurt,2
+099852,7,4 Persons,200.000 - 499.999 Inhabitants,University,Śląskie,Hurt,1
+099852,8,4 Persons,200.000 - 499.999 Inhabitants,University,Śląskie,Dyskont,2
+099852,8,4 Persons,200.000 - 499.999 Inhabitants,University,Śląskie,Hurt,1
+099927,2,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Śląskie,Supermarkets,1
+099927,4,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Śląskie,Dyskont,1
+099927,5,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Śląskie,Sklepy Spozywcze,1
+099927,5,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Śląskie,Supermarkets,3
+099927,6,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Śląskie,Sklepy Spozywcze,1
+099927,6,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Śląskie,Supermarkets,1
+099927,7,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Śląskie,Sklepy Spozywcze,1
+099927,7,2 Persons,020.000 - 49.999 Inhabitants,Secondary School Finished,Śląskie,Supermarkets,1
+100026,1,4 Persons,020.000 - 49.999 Inhabitants,University,Świętokrzyskie,Dyskont,1
+100026,2,4 Persons,020.000 - 49.999 Inhabitants,University,Świętokrzyskie,Dyskont,1
+100026,2,4 Persons,020.000 - 49.999 Inhabitants,University,Świętokrzyskie,Supermarkets,1
+100026,4,4 Persons,020.000 - 49.999 Inhabitants,University,Świętokrzyskie,Dyskont,1
+100026,5,4 Persons,020.000 - 49.999 Inhabitants,University,Świętokrzyskie,Dyskont,1
+100026,6,4 Persons,020.000 - 49.999 Inhabitants,University,Świętokrzyskie,Dyskont,3
+100026,7,4 Persons,020.000 - 49.999 Inhabitants,University,Świętokrzyskie,Sklepy Spozywcze,1
+100026,8,4 Persons,020.000 - 49.999 Inhabitants,University,Świętokrzyskie,Supermarkets,1
+100047,1,4 Persons,500.000 And More Inhabitants,University,Mazowieckie,Sklepy Spozywcze,2
+100047,1,4 Persons,500.000 And More Inhabitants,University,Mazowieckie,Supermarkets,4
+100047,2,4 Persons,500.000 And More Inhabitants,University,Mazowieckie,Sieci Detal,1
+100047,2,4 Persons,500.000 And More Inhabitants,University,Mazowieckie,Sklepy Spozywcze,2
+100047,2,4 Persons,500.000 And More Inhabitants,University,Mazowieckie,Supermarkets,5
+100047,3,4 Persons,500.000 And More Inhabitants,University,Mazowieckie,Sklepy Spozywcze,1
+100047,3,4 Persons,500.000 And More Inhabitants,University,Mazowieckie,Supermarkets,1
+100047,4,4 Persons,500.000 And More Inhabitants,University,Mazowieckie,Supermarkets,3
+100116,2,6 Persons,Village,Profession Or Secondary,Świętokrzyskie,Dyskont,1
+100116,2,6 Persons,Village,Profession Or Secondary,Świętokrzyskie,Sieci Detal,3
+100116,4,6 Persons,Village,Profession Or Secondary,Świętokrzyskie,Dyskont,2
+100116,4,6 Persons,Village,Profession Or Secondary,Świętokrzyskie,Sieci Detal,1
+100116,5,6 Persons,Village,Profession Or Secondary,Świętokrzyskie,Dyskont,1
+100116,5,6 Persons,Village,Profession Or Secondary,Świętokrzyskie,Sieci Detal,1
+100116,7,6 Persons,Village,Profession Or Secondary,Świętokrzyskie,Dyskont,2
+100116,7,6 Persons,Village,Profession Or Secondary,Świętokrzyskie,Sieci Detal,4
+100201,1,5 Persons,Village,Primary,Małopolskie,Sklepy Spozywcze,1
+100201,2,5 Persons,Village,Primary,Małopolskie,Sieci Detal,1
+100201,3,5 Persons,Village,Primary,Małopolskie,Sieci Detal,1
+100201,4,5 Persons,Village,Primary,Małopolskie,Sklepy Spozywcze,1
+100201,6,5 Persons,Village,Primary,Małopolskie,Hypermarkets,1
+100201,6,5 Persons,Village,Primary,Małopolskie,Sklepy Spozywcze,1
+100201,7,5 Persons,Village,Primary,Małopolskie,Sieci Detal,2
+100201,7,5 Persons,Village,Primary,Małopolskie,Sklepy Spozywcze,1
+100286,1,1 Person,500.000 And More Inhabitants,University,Mazowieckie,Sieci Detal,5
+100286,1,1 Person,500.000 And More Inhabitants,University,Mazowieckie,Sklepy Spozywcze,1
+100286,1,1 Person,500.000 And More Inhabitants,University,Mazowieckie,Supermarkets,1
+100286,2,1 Person,500.000 And More Inhabitants,University,Mazowieckie,Sieci Detal,1
+100286,3,1 Person,500.000 And More Inhabitants,University,Mazowieckie,Dyskont,2
+100286,3,1 Person,500.000 And More Inhabitants,University,Mazowieckie,Sklepy Spozywcze,1
+100286,6,1 Person,500.000 And More Inhabitants,University,Mazowieckie,Sieci Detal,3
+100286,7,1 Person,500.000 And More Inhabitants,University,Mazowieckie,Sieci Detal,2
+100294,1,3 Persons,Village,Profession Or Secondary,Mazowieckie,Dyskont,2
+100294,1,3 Persons,Village,Profession Or Secondary,Mazowieckie,Sieci Detal,1
+100294,1,3 Persons,Village,Profession Or Secondary,Mazowieckie,Sklepy Spozywcze,3
+100294,2,3 Persons,Village,Profession Or Secondary,Mazowieckie,Dyskont,4
+100294,3,3 Persons,Village,Profession Or Secondary,Mazowieckie,Dyskont,2
+100294,3,3 Persons,Village,Profession Or Secondary,Mazowieckie,Sklepy Spozywcze,2
+100294,5,3 Persons,Village,Profession Or Secondary,Mazowieckie,Dyskont,1
+100294,7,3 Persons,Village,Profession Or Secondary,Mazowieckie,Dyskont,1
+100298,2,1 Person,200.000 - 499.999 Inhabitants,Secondary School Finished,Pomorskie,Sklepy Spozywcze,1
+100298,3,1 Person,200.000 - 499.999 Inhabitants,Secondary School Finished,Pomorskie,Sklepy Spozywcze,1
+100298,3,1 Person,200.000 - 499.999 Inhabitants,Secondary School Finished,Pomorskie,Supermarkets,1
+100298,4,1 Person,200.000 - 499.999 Inhabitants,Secondary School Finished,Pomorskie,Supermarkets,1
+100298,5,1 Person,200.000 - 499.999 Inhabitants,Secondary School Finished,Pomorskie,Supermarkets,2
+100298,6,1 Person,200.000 - 499.999 Inhabitants,Secondary School Finished,Pomorskie,Sklepy Spozywcze,2
+100298,7,1 Person,200.000 - 499.999 Inhabitants,Secondary School Finished,Pomorskie,Supermarkets,3
+100298,8,1 Person,200.000 - 499.999 Inhabitants,Secondary School Finished,Pomorskie,Supermarkets,1
+100301,1,5 Persons,Village,Primary,Opolskie,Hypermarkets,1
+100301,2,5 Persons,Village,Primary,Opolskie,Sklepy Spozywcze,1
+100301,3,5 Persons,Village,Primary,Opolskie,Dyskont,2
+100301,3,5 Persons,Village,Primary,Opolskie,Sklepy Spozywcze,1
+100301,4,5 Persons,Village,Primary,Opolskie,Dyskont,1
+100301,4,5 Persons,Village,Primary,Opolskie,Sieci Detal,1
+100301,4,5 Persons,Village,Primary,Opolskie,Sklepy Spozywcze,2
+100301,5,5 Persons,Village,Primary,Opolskie,Sklepy Spozywcze,1
+100364,1,4 Persons,500.000 And More Inhabitants,University,Mazowieckie,Sklepy Spozywcze,1
+100364,2,4 Persons,500.000 And More Inhabitants,University,Mazowieckie,Supermarkets,1
+100364,4,4 Persons,500.000 And More Inhabitants,University,Mazowieckie,Dyskont,1
+100364,4,4 Persons,500.000 And More Inhabitants,University,Mazowieckie,Hypermarkets,1
+100364,7,4 Persons,500.000 And More Inhabitants,University,Mazowieckie,Dyskont,1
+100364,7,4 Persons,500.000 And More Inhabitants,University,Mazowieckie,Sklepy Spozywcze,2
+100364,8,4 Persons,500.000 And More Inhabitants,University,Mazowieckie,Sieci Detal,1
+100364,8,4 Persons,500.000 And More Inhabitants,University,Mazowieckie,Sklepy Spozywcze,2
+100397,2,1 Person,Village,Secondary School Finished,Podlaskie,Dyskont,1
+100397,4,1 Person,Village,Secondary School Finished,Podlaskie,Sklepy Spozywcze,1
+100397,5,1 Person,Village,Secondary School Finished,Podlaskie,Dyskont,1
+100397,5,1 Person,Village,Secondary School Finished,Podlaskie,Sklepy Spozywcze,1
+100397,6,1 Person,Village,Secondary School Finished,Podlaskie,Sklepy Spozywcze,1
+100397,7,1 Person,Village,Secondary School Finished,Podlaskie,Sklepy Spozywcze,1
+100397,8,1 Person,Village,Secondary School Finished,Podlaskie,Dyskont,1
+100397,8,1 Person,Village,Secondary School Finished,Podlaskie,Sklepy Spozywcze,2
+100481,1,4 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Opolskie,Dyskont,2
+100481,3,4 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Opolskie,Dyskont,2
+100481,4,4 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Opolskie,Dyskont,1
+100481,4,4 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Opolskie,Hypermarkets,2
+100481,5,4 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Opolskie,Dyskont,1
+100481,5,4 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Opolskie,Supermarkets,1
+100481,7,4 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Opolskie,Dyskont,2
+100481,7,4 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Opolskie,Sieci Detal,1
+100519,1,7 and more,Village,Profession Or Secondary,Małopolskie,Dyskont,2
+100519,2,7 and more,Village,Profession Or Secondary,Małopolskie,Dyskont,1
+100519,2,7 and more,Village,Profession Or Secondary,Małopolskie,Sklepy Spozywcze,3
+100519,2,7 and more,Village,Profession Or Secondary,Małopolskie,Supermarkets,1
+100519,3,7 and more,Village,Profession Or Secondary,Małopolskie,Supermarkets,1
+100519,4,7 and more,Village,Profession Or Secondary,Małopolskie,Sklepy Spozywcze,2
+100519,4,7 and more,Village,Profession Or Secondary,Małopolskie,Supermarkets,1
+100519,6,7 and more,Village,Profession Or Secondary,Małopolskie,Sklepy Spozywcze,3
+100530,2,4 Persons,Village,Profession Or Secondary,Mazowieckie,Sklepy Spozywcze,3
+100530,3,4 Persons,Village,Profession Or Secondary,Mazowieckie,Sieci Detal,1
+100530,3,4 Persons,Village,Profession Or Secondary,Mazowieckie,Sklepy Spozywcze,1
+100530,5,4 Persons,Village,Profession Or Secondary,Mazowieckie,Dyskont,2
+100530,5,4 Persons,Village,Profession Or Secondary,Mazowieckie,Sieci Detal,2
+100530,5,4 Persons,Village,Profession Or Secondary,Mazowieckie,Sklepy Spozywcze,2
+100530,6,4 Persons,Village,Profession Or Secondary,Mazowieckie,Dyskont,1
+100530,6,4 Persons,Village,Profession Or Secondary,Mazowieckie,Sklepy Spozywcze,2
+100588,1,2 Persons,Village,University,Pomorskie,Sieci Detal,1
+100588,2,2 Persons,Village,University,Pomorskie,Hurt,1
+100588,2,2 Persons,Village,University,Pomorskie,Sieci Detal,1
+100588,5,2 Persons,Village,University,Pomorskie,Dyskont,1
+100588,7,2 Persons,Village,University,Pomorskie,Hypermarkets,1
+100588,7,2 Persons,Village,University,Pomorskie,Sieci Detal,1
+100588,8,2 Persons,Village,University,Pomorskie,Hypermarkets,1
+100588,8,2 Persons,Village,University,Pomorskie,Sieci Detal,3
+100616,1,5 Persons,Village,University,Podkarpackie,Sieci Detal,3
+100616,2,5 Persons,Village,University,Podkarpackie,Sieci Detal,1
+100616,4,5 Persons,Village,University,Podkarpackie,Sieci Detal,3
+100616,5,5 Persons,Village,University,Podkarpackie,Sieci Detal,2
+100616,5,5 Persons,Village,University,Podkarpackie,Sklepy Spozywcze,1
+100616,6,5 Persons,Village,University,Podkarpackie,Sieci Detal,3
+100616,7,5 Persons,Village,University,Podkarpackie,Sieci Detal,5
+100616,8,5 Persons,Village,University,Podkarpackie,Sieci Detal,5
+100765,1,7 and more,Village,Secondary School Finished,Opolskie,Hurt,2
+100765,1,7 and more,Village,Secondary School Finished,Opolskie,Hypermarkets,1
+100765,1,7 and more,Village,Secondary School Finished,Opolskie,Sklepy Spozywcze,1
+100765,5,7 and more,Village,Secondary School Finished,Opolskie,Hypermarkets,1
+100765,6,7 and more,Village,Secondary School Finished,Opolskie,Supermarkets,1
+100765,7,7 and more,Village,Secondary School Finished,Opolskie,Dyskont,1
+100765,8,7 and more,Village,Secondary School Finished,Opolskie,Hypermarkets,1
+100765,8,7 and more,Village,Secondary School Finished,Opolskie,Sklepy Spozywcze,1
+100812,1,2 Persons,500.000 And More Inhabitants,University,Mazowieckie,Hypermarkets,1
+100812,2,2 Persons,500.000 And More Inhabitants,University,Mazowieckie,Hypermarkets,1
+100812,4,2 Persons,500.000 And More Inhabitants,University,Mazowieckie,Hypermarkets,2
+100812,5,2 Persons,500.000 And More Inhabitants,University,Mazowieckie,Hurt,1
+100812,5,2 Persons,500.000 And More Inhabitants,University,Mazowieckie,Hypermarkets,1
+100812,6,2 Persons,500.000 And More Inhabitants,University,Mazowieckie,Hypermarkets,2
+100812,8,2 Persons,500.000 And More Inhabitants,University,Mazowieckie,Hurt,1
+100812,8,2 Persons,500.000 And More Inhabitants,University,Mazowieckie,Hypermarkets,1
+100887,1,4 Persons,Village,University,Dolnośląskie,Dyskont,1
+100887,3,4 Persons,Village,University,Dolnośląskie,Dyskont,5
+100887,4,4 Persons,Village,University,Dolnośląskie,Dyskont,1
+100887,4,4 Persons,Village,University,Dolnośląskie,Sklepy Spozywcze,1
+100887,5,4 Persons,Village,University,Dolnośląskie,Dyskont,3
+100887,6,4 Persons,Village,University,Dolnośląskie,Dyskont,3
+100887,7,4 Persons,Village,University,Dolnośląskie,Dyskont,2
+100887,8,4 Persons,Village,University,Dolnośląskie,Dyskont,4
+101017,1,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Łódzkie,Sklepy Spozywcze,4
+101017,2,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Łódzkie,Dyskont,1
+101017,2,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Łódzkie,Sklepy Spozywcze,1
+101017,3,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Łódzkie,Dyskont,1
+101017,3,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Łódzkie,Sklepy Spozywcze,3
+101017,4,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Łódzkie,Sklepy Spozywcze,2
+101017,7,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Łódzkie,Sklepy Spozywcze,1
+101017,8,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Łódzkie,Dyskont,2
+101063,2,3 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Małopolskie,Dyskont,1
+101063,2,3 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Małopolskie,Sklepy Spozywcze,1
+101063,2,3 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Małopolskie,Supermarkets,1
+101063,4,3 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Małopolskie,Supermarkets,1
+101063,5,3 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Małopolskie,Dyskont,2
+101063,5,3 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Małopolskie,Hypermarkets,1
+101063,5,3 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Małopolskie,Supermarkets,1
+101063,7,3 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Małopolskie,Hypermarkets,1
+590258,1,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Hypermarkets,1
+590258,3,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Hypermarkets,1
+590258,3,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Sklepy Spozywcze,1
+590258,4,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Hypermarkets,2
+590258,5,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Hypermarkets,2
+590258,6,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Hypermarkets,2
+590258,7,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Hypermarkets,3
+590258,8,2 Persons,500.000 And More Inhabitants,University,Łódzkie,Hypermarkets,3
+590328,1,5 Persons,500.000 And More Inhabitants,Profession Or Secondary,Dolnośląskie,Dyskont,3
+590328,2,5 Persons,500.000 And More Inhabitants,Profession Or Secondary,Dolnośląskie,Hypermarkets,1
+590328,3,5 Persons,500.000 And More Inhabitants,Profession Or Secondary,Dolnośląskie,Hypermarkets,1
+590328,5,5 Persons,500.000 And More Inhabitants,Profession Or Secondary,Dolnośląskie,Dyskont,1
+590328,5,5 Persons,500.000 And More Inhabitants,Profession Or Secondary,Dolnośląskie,Hypermarkets,1
+590328,6,5 Persons,500.000 And More Inhabitants,Profession Or Secondary,Dolnośląskie,Hypermarkets,1
+590328,7,5 Persons,500.000 And More Inhabitants,Profession Or Secondary,Dolnośląskie,Hypermarkets,1
+590328,8,5 Persons,500.000 And More Inhabitants,Profession Or Secondary,Dolnośląskie,Dyskont,2
+880513,1,3 Persons,100.000 - 199.999 Inhabitants,Profession Or Secondary,Śląskie,Dyskont,2
+880513,3,3 Persons,100.000 - 199.999 Inhabitants,Profession Or Secondary,Śląskie,Dyskont,1
+880513,4,3 Persons,100.000 - 199.999 Inhabitants,Profession Or Secondary,Śląskie,Dyskont,1
+880513,4,3 Persons,100.000 - 199.999 Inhabitants,Profession Or Secondary,Śląskie,Sklepy Spozywcze,1
+880513,5,3 Persons,100.000 - 199.999 Inhabitants,Profession Or Secondary,Śląskie,Dyskont,1
+880513,6,3 Persons,100.000 - 199.999 Inhabitants,Profession Or Secondary,Śląskie,Dyskont,1
+880513,7,3 Persons,100.000 - 199.999 Inhabitants,Profession Or Secondary,Śląskie,Dyskont,2
+880513,8,3 Persons,100.000 - 199.999 Inhabitants,Profession Or Secondary,Śląskie,Dyskont,1
+881071,1,2 Persons,050.000 - 99.999 Inhabitants,University,Kujawsko-Pomorskie,Dyskont,3
+881071,2,2 Persons,050.000 - 99.999 Inhabitants,University,Kujawsko-Pomorskie,Dyskont,2
+881071,3,2 Persons,050.000 - 99.999 Inhabitants,University,Kujawsko-Pomorskie,Dyskont,5
+881071,4,2 Persons,050.000 - 99.999 Inhabitants,University,Kujawsko-Pomorskie,Dyskont,4
+881071,5,2 Persons,050.000 - 99.999 Inhabitants,University,Kujawsko-Pomorskie,Dyskont,4
+881071,6,2 Persons,050.000 - 99.999 Inhabitants,University,Kujawsko-Pomorskie,Dyskont,3
+881071,7,2 Persons,050.000 - 99.999 Inhabitants,University,Kujawsko-Pomorskie,Dyskont,4
+881071,8,2 Persons,050.000 - 99.999 Inhabitants,University,Kujawsko-Pomorskie,Dyskont,5
+881803,1,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Dolnośląskie,Hypermarkets,2
+881803,1,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Dolnośląskie,inne,1
+881803,3,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Dolnośląskie,Hypermarkets,4
+881803,4,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Dolnośląskie,Hypermarkets,6
+881803,5,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Dolnośląskie,Hypermarkets,3
+881803,6,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Dolnośląskie,Hypermarkets,5
+881803,7,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Dolnośląskie,Hypermarkets,6
+881803,8,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Dolnośląskie,Hypermarkets,5
+881836,1,5 Persons,500.000 And More Inhabitants,Profession Or Secondary,Małopolskie,Sieci Detal,1
+881836,3,5 Persons,500.000 And More Inhabitants,Profession Or Secondary,Małopolskie,Sieci Detal,1
+881836,4,5 Persons,500.000 And More Inhabitants,Profession Or Secondary,Małopolskie,Hypermarkets,2
+881836,4,5 Persons,500.000 And More Inhabitants,Profession Or Secondary,Małopolskie,Sieci Detal,1
+881836,4,5 Persons,500.000 And More Inhabitants,Profession Or Secondary,Małopolskie,Sklepy Spozywcze,1
+881836,5,5 Persons,500.000 And More Inhabitants,Profession Or Secondary,Małopolskie,Hypermarkets,1
+881836,6,5 Persons,500.000 And More Inhabitants,Profession Or Secondary,Małopolskie,Hypermarkets,1
+881836,6,5 Persons,500.000 And More Inhabitants,Profession Or Secondary,Małopolskie,Sieci Detal,1
+881845,4,4 Persons,Village,University,Dolnośląskie,Dyskont,1
+881845,5,4 Persons,Village,University,Dolnośląskie,Dyskont,1
+881845,5,4 Persons,Village,University,Dolnośląskie,Hurt,1
+881845,6,4 Persons,Village,University,Dolnośląskie,Hypermarkets,2
+881845,7,4 Persons,Village,University,Dolnośląskie,Dyskont,1
+881845,7,4 Persons,Village,University,Dolnośląskie,Hurt,1
+881845,7,4 Persons,Village,University,Dolnośląskie,Hypermarkets,1
+881845,8,4 Persons,Village,University,Dolnośląskie,Hypermarkets,1
+882036,1,5 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Sieci Detal,4
+882036,2,5 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Sieci Detal,7
+882036,3,5 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Sieci Detal,5
+882036,4,5 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Sieci Detal,6
+882036,5,5 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Sieci Detal,4
+882036,6,5 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Sieci Detal,5
+882036,7,5 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Sieci Detal,4
+882036,8,5 Persons,500.000 And More Inhabitants,Secondary School Finished,Dolnośląskie,Sieci Detal,8
+882272,1,3 Persons,500.000 And More Inhabitants,Secondary School Finished,Wielkopolskie,Supermarkets,1
+882272,2,3 Persons,500.000 And More Inhabitants,Secondary School Finished,Wielkopolskie,Supermarkets,2
+882272,3,3 Persons,500.000 And More Inhabitants,Secondary School Finished,Wielkopolskie,Supermarkets,5
+882272,4,3 Persons,500.000 And More Inhabitants,Secondary School Finished,Wielkopolskie,Supermarkets,1
+882272,5,3 Persons,500.000 And More Inhabitants,Secondary School Finished,Wielkopolskie,Supermarkets,2
+882272,6,3 Persons,500.000 And More Inhabitants,Secondary School Finished,Wielkopolskie,Supermarkets,2
+882272,7,3 Persons,500.000 And More Inhabitants,Secondary School Finished,Wielkopolskie,Supermarkets,1
+882272,8,3 Persons,500.000 And More Inhabitants,Secondary School Finished,Wielkopolskie,Supermarkets,1
+882288,2,3 Persons,500.000 And More Inhabitants,University,Łódzkie,Hypermarkets,1
+882288,2,3 Persons,500.000 And More Inhabitants,University,Łódzkie,Sklepy Spozywcze,1
+882288,4,3 Persons,500.000 And More Inhabitants,University,Łódzkie,Dyskont,2
+882288,6,3 Persons,500.000 And More Inhabitants,University,Łódzkie,Dyskont,1
+882288,6,3 Persons,500.000 And More Inhabitants,University,Łódzkie,Supermarkets,1
+882288,7,3 Persons,500.000 And More Inhabitants,University,Łódzkie,Dyskont,2
+882288,7,3 Persons,500.000 And More Inhabitants,University,Łódzkie,Hypermarkets,1
+882288,8,3 Persons,500.000 And More Inhabitants,University,Łódzkie,Dyskont,1
+882583,1,5 Persons,Village,Profession Or Secondary,Mazowieckie,Dyskont,4
+882583,2,5 Persons,Village,Profession Or Secondary,Mazowieckie,Dyskont,4
+882583,3,5 Persons,Village,Profession Or Secondary,Mazowieckie,Dyskont,3
+882583,4,5 Persons,Village,Profession Or Secondary,Mazowieckie,Dyskont,4
+882583,5,5 Persons,Village,Profession Or Secondary,Mazowieckie,Dyskont,1
+882583,6,5 Persons,Village,Profession Or Secondary,Mazowieckie,Dyskont,4
+882583,7,5 Persons,Village,Profession Or Secondary,Mazowieckie,Dyskont,2
+882583,8,5 Persons,Village,Profession Or Secondary,Mazowieckie,Dyskont,1
+888303,1,3 Persons,City -19.999 Inhabitants,University,Opolskie,Dyskont,1
+888303,2,3 Persons,City -19.999 Inhabitants,University,Opolskie,Dyskont,1
+888303,2,3 Persons,City -19.999 Inhabitants,University,Opolskie,Sieci Detal,1
+888303,3,3 Persons,City -19.999 Inhabitants,University,Opolskie,Dyskont,1
+888303,4,3 Persons,City -19.999 Inhabitants,University,Opolskie,Sieci Detal,1
+888303,5,3 Persons,City -19.999 Inhabitants,University,Opolskie,Supermarkets,1
+888303,7,3 Persons,City -19.999 Inhabitants,University,Opolskie,Dyskont,1
+888303,8,3 Persons,City -19.999 Inhabitants,University,Opolskie,Sieci Detal,1
+930718,1,2 Persons,020.000 - 49.999 Inhabitants,University,Łódzkie,Sieci Detal,1
+930718,2,2 Persons,020.000 - 49.999 Inhabitants,University,Łódzkie,Sklepy Spozywcze,1
+930718,4,2 Persons,020.000 - 49.999 Inhabitants,University,Łódzkie,Sieci Detal,1
+930718,5,2 Persons,020.000 - 49.999 Inhabitants,University,Łódzkie,Hurt,1
+930718,5,2 Persons,020.000 - 49.999 Inhabitants,University,Łódzkie,Sieci Detal,2
+930718,5,2 Persons,020.000 - 49.999 Inhabitants,University,Łódzkie,Sklepy Spozywcze,3
+930718,8,2 Persons,020.000 - 49.999 Inhabitants,University,Łódzkie,inne,1
+930718,8,2 Persons,020.000 - 49.999 Inhabitants,University,Łódzkie,Sklepy Spozywcze,2
+952118,2,4 Persons,050.000 - 99.999 Inhabitants,University,Śląskie,Hypermarkets,1
+952118,2,4 Persons,050.000 - 99.999 Inhabitants,University,Śląskie,Sieci Detal,1
+952118,4,4 Persons,050.000 - 99.999 Inhabitants,University,Śląskie,Hypermarkets,1
+952118,5,4 Persons,050.000 - 99.999 Inhabitants,University,Śląskie,Dyskont,1
+952118,5,4 Persons,050.000 - 99.999 Inhabitants,University,Śląskie,Sieci Detal,1
+952118,5,4 Persons,050.000 - 99.999 Inhabitants,University,Śląskie,Sklepy Spozywcze,1
+952118,6,4 Persons,050.000 - 99.999 Inhabitants,University,Śląskie,Hypermarkets,2
+952118,8,4 Persons,050.000 - 99.999 Inhabitants,University,Śląskie,Sieci Detal,1
+952387,1,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Pomorskie,Hurt,2
+952387,2,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Pomorskie,Hurt,4
+952387,3,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Pomorskie,Hurt,2
+952387,4,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Pomorskie,Hurt,3
+952387,6,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Pomorskie,Hurt,1
+952387,7,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Pomorskie,Dyskont,1
+952387,8,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Pomorskie,Dyskont,1
+952387,8,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Pomorskie,Hurt,4
+961148,1,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Opolskie,Hurt,1
+961148,5,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Opolskie,Supermarkets,1
+961148,6,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Opolskie,Hurt,1
+961148,7,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Opolskie,Dyskont,1
+961148,7,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Opolskie,Hurt,1
+961148,7,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Opolskie,Sieci Detal,1
+961148,7,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Opolskie,Supermarkets,1
+961148,8,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Opolskie,Sieci Detal,1
+972111,4,3 Persons,Village,University,Podlaskie,Dyskont,1
+972111,5,3 Persons,Village,University,Podlaskie,Dyskont,1
+972111,5,3 Persons,Village,University,Podlaskie,Supermarkets,1
+972111,7,3 Persons,Village,University,Podlaskie,Hypermarkets,1
+972111,7,3 Persons,Village,University,Podlaskie,Sklepy Spozywcze,1
+972111,7,3 Persons,Village,University,Podlaskie,Supermarkets,1
+972111,8,3 Persons,Village,University,Podlaskie,Hypermarkets,1
+972111,8,3 Persons,Village,University,Podlaskie,Supermarkets,1
+972112,1,2 Persons,Village,University,Podlaskie,Sklepy Spozywcze,1
+972112,1,2 Persons,Village,University,Podlaskie,Supermarkets,1
+972112,3,2 Persons,Village,University,Podlaskie,Supermarkets,1
+972112,4,2 Persons,Village,University,Podlaskie,Dyskont,1
+972112,5,2 Persons,Village,University,Podlaskie,Dyskont,3
+972112,5,2 Persons,Village,University,Podlaskie,Supermarkets,2
+972112,6,2 Persons,Village,University,Podlaskie,Supermarkets,1
+972112,8,2 Persons,Village,University,Podlaskie,Dyskont,1
+973006,1,1 Person,500.000 And More Inhabitants,University,Mazowieckie,Sklepy Spozywcze,6
+973006,2,1 Person,500.000 And More Inhabitants,University,Mazowieckie,Sklepy Spozywcze,5
+973006,3,1 Person,500.000 And More Inhabitants,University,Mazowieckie,Sklepy Spozywcze,5
+973006,4,1 Person,500.000 And More Inhabitants,University,Mazowieckie,Sklepy Spozywcze,3
+973006,5,1 Person,500.000 And More Inhabitants,University,Mazowieckie,Sklepy Spozywcze,6
+973006,6,1 Person,500.000 And More Inhabitants,University,Mazowieckie,Sklepy Spozywcze,3
+973006,7,1 Person,500.000 And More Inhabitants,University,Mazowieckie,Sklepy Spozywcze,1
+973006,8,1 Person,500.000 And More Inhabitants,University,Mazowieckie,Sklepy Spozywcze,1
+982232,4,4 Persons,Village,Profession Or Secondary,Kujawsko-Pomorskie,Dyskont,1
+982232,4,4 Persons,Village,Profession Or Secondary,Kujawsko-Pomorskie,Hurt,1
+982232,5,4 Persons,Village,Profession Or Secondary,Kujawsko-Pomorskie,Dyskont,1
+982232,5,4 Persons,Village,Profession Or Secondary,Kujawsko-Pomorskie,Hypermarkets,1
+982232,5,4 Persons,Village,Profession Or Secondary,Kujawsko-Pomorskie,Sklepy Spozywcze,1
+982232,6,4 Persons,Village,Profession Or Secondary,Kujawsko-Pomorskie,Dyskont,1
+982232,6,4 Persons,Village,Profession Or Secondary,Kujawsko-Pomorskie,Hurt,1
+982232,8,4 Persons,Village,Profession Or Secondary,Kujawsko-Pomorskie,Hurt,2
+983067,1,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Hypermarkets,1
+983067,2,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Hypermarkets,1
+983067,3,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Hypermarkets,1
+983067,4,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Hypermarkets,1
+983067,7,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Hypermarkets,1
+983067,8,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Dyskont,1
+983067,8,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Hypermarkets,1
+983067,8,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Sklepy Spozywcze,1
+984334,1,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Dyskont,1
+984334,2,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Sklepy Spozywcze,1
+984334,3,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Dyskont,2
+984334,4,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Hypermarkets,1
+984334,5,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Sieci Detal,1
+984334,6,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Dyskont,3
+984334,8,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Dyskont,2
+984334,8,3 Persons,200.000 - 499.999 Inhabitants,Secondary School Finished,Śląskie,Sieci Detal,2
+984390,1,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Łódzkie,Dyskont,1
+984390,1,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Łódzkie,Supermarkets,2
+984390,3,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Łódzkie,Supermarkets,1
+984390,4,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Łódzkie,Supermarkets,1
+984390,5,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Łódzkie,Dyskont,1
+984390,6,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Łódzkie,Dyskont,1
+984390,6,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Łódzkie,Supermarkets,3
+984390,8,2 Persons,050.000 - 99.999 Inhabitants,Secondary School Finished,Łódzkie,Supermarkets,1
+984410,1,3 Persons,Village,Profession Or Secondary,Mazowieckie,Sieci Detal,2
+984410,2,3 Persons,Village,Profession Or Secondary,Mazowieckie,Sieci Detal,3
+984410,3,3 Persons,Village,Profession Or Secondary,Mazowieckie,Sieci Detal,4
+984410,4,3 Persons,Village,Profession Or Secondary,Mazowieckie,Sieci Detal,2
+984410,5,3 Persons,Village,Profession Or Secondary,Mazowieckie,Sieci Detal,3
+984410,6,3 Persons,Village,Profession Or Secondary,Mazowieckie,Sieci Detal,2
+984410,7,3 Persons,Village,Profession Or Secondary,Mazowieckie,Sieci Detal,5
+984410,8,3 Persons,Village,Profession Or Secondary,Mazowieckie,Sieci Detal,1
+985186,4,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Lubelskie,Dyskont,1
+985186,4,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Lubelskie,Sieci Detal,1
+985186,5,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Lubelskie,Sieci Detal,3
+985186,5,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Lubelskie,Supermarkets,4
+985186,6,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Lubelskie,Dyskont,1
+985186,7,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Lubelskie,Sieci Detal,2
+985186,8,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Lubelskie,Sieci Detal,3
+985186,8,4 Persons,020.000 - 49.999 Inhabitants,Profession Or Secondary,Lubelskie,Supermarkets,1
+985385,3,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Opolskie,Sklepy Spozywcze,1
+985385,4,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Opolskie,Sklepy Spozywcze,2
+985385,4,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Opolskie,Supermarkets,1
+985385,5,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Opolskie,Sklepy Spozywcze,1
+985385,5,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Opolskie,Supermarkets,2
+985385,7,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Opolskie,Sklepy Spozywcze,1
+985385,7,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Opolskie,Supermarkets,4
+985385,8,2 Persons,100.000 - 199.999 Inhabitants,Secondary School Finished,Opolskie,Sklepy Spozywcze,3
