@@ -1,0 +1,62 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(readxl)
+library(glue)
+```
+
+Wczytanie danych o studentach
+
+```{r}
+list.files(pattern = ".xlsx") %>%
+  set_names() %>%
+  map_df(~ read_excel(.x, range = cell_cols("A:E")), .id = "quiz") %>%
+  group_by(quiz, NIU) %>%
+  filter(Timestamp == max(Timestamp)) %>%
+  group_by(NIU) %>%
+  summarise(liczba_quizow = n(), liczba_punktow = sum(Score), 
+            ocena = case_when(liczba_punktow >= 30 ~ 1,
+                              liczba_punktow < 30 & liczba_punktow >= 15 ~ 0.5,
+                              TRUE ~ 0)) %>%
+  arrange(-liczba_punktow) -> quizy
+```
+
+
+to 20 pts - 2.0
+[20, 30) - 3.0
+[30, 40) - 3.5
+[40, 50) - 4.0
+
+```{r}
+read_excel("cda-wyniki-kol.xlsx") %>%
+  select(NIU:total) %>%
+  left_join(quizy)  %>%
+  rename(ocena_quiz = ocena) %>%
+  mutate(ocena_test = case_when(total < 20 ~ 2,
+                                total >= 20 & total < 30 ~ 3.0,
+                                total >= 30 & total < 40 ~ 3.5,
+                                total >= 40 ~ 4.0),
+         ocena_final = ocena_test + ocena_quiz) %>%
+  select(NIU, dane, ocena_final, everything()) %>%
+  mutate(komentarz = glue("Ocena ostateczna: {ocena_final}, na którą składa się ocena z kolokwium: {ocena_test} podwyższona o {ocena_quiz} stopień za wypełnianie quizów.
+                          Punkty z kolokwium: Zad1 - {zad1}/20, Zad2 - {zad2}/10, Zad3 - {zad3}/15, Zad4 - {zad4}/5, co dało razem {total}.
+                          Za rozwiązanie {liczba_quizow} quizów uzyskano {liczba_punktow}.")) -> oceny_komentarze
+```
+
+```{r}
+oceny_komentarze %>%
+  select(dane, komentarz) %>%
+  writexl::write_xlsx(., path = "../cda-wyniki.xlsx")
+```
+
+
+```{r}
+oceny_komentarze %>%
+  count(ocena_test, ocena_final) %>%
+  xtabs(n ~ ocena_test + ocena_final, data = .)
+```
+
